@@ -54,7 +54,7 @@ def importcharacter(filename): #reads an xlsx file and returns a dict object wit
 
 characters = []
 
-for root, dirs, files in os.walk(".", topdown=False):
+for root, dirs, files in os.walk(".", topdown=False): #Searches local file directory, adds every xlsx file as a character
    for name in files:
       if name.endswith('.xlsx'):
          try:
