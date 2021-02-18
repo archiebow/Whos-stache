@@ -50,6 +50,30 @@ body {
 	border: 3px solid grey;
 	border-radius: 15px;
 	cursor: pointer;
+	transition: 0.33s background-color;
+	position: relative;
+	animation: slide-in 0.5s ease-out;
+	animation-fill-mode: backwards;
+}
+
+.slide-out {
+	animation: slide-out 0.5s ease-in;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+	from { left: 120%; }
+	to { left: 0%; }
+}
+
+@keyframes slide-out {
+	from { left: 0%; }
+	to { left: 120%; }
+}
+
+.alternative:hover {
+	background-color: rgb(55, 40, 184);
+	transition: 0.33s background-color;
 }
 
 .right, right:hover {
@@ -62,4 +86,14 @@ body {
 #answertext {
 	margin: 10px;
 	text-align: center;
+}
+
+@keyframes fade-in {
+	from {color: rgb(50, 50, 50); }
+	to { color: white; }
+}
+
+@keyframes fade-out {
+	from { color: white; }
+	to {color: rgb(50, 50, 50); }
 }

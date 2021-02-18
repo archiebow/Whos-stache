@@ -36,9 +36,12 @@ function characterQuestion() {
 			answerList.push(element);
 		})(idx);
 	}
+	var animationDelay = 1;
 	while (answerList.length > 0) {
 		var index = randomRange(answerList.length);
 		var element = answerList.splice(index, 1)[0]
+		element.css("animation-delay", animationDelay + "s");
+		animationDelay += 0.25;
 		element.appendTo("#answers");
 	}
 }
@@ -53,10 +56,21 @@ function answerClick(event, answer) {
 			rightAnswer.addClass("right");
 		}
 		var answerElements = $(".answer");
+		for (i = 0; i < answerElements.length; i++) {
+			$(answerElements[i]).removeClass("alternative");
+			$(answerElements[i]).addClass("slide-out");
+		}
 		$("#answertext").text(answerText);
 		$("#answertext").css("animation", "fade-in 1s");
+
+		setTimeout(() => {
 		$("#answers").empty();
-		$("#answertext").text("");
-		characterQuestion();
+			$("#answertext").css("animation", "fade-out 1s");
+			$("#answertext").css("animation-fill-mode", "forwards");
+			setTimeout(() => {
+				$("#answertext").text("");
+				characterQuestion();
+			}, 1500);
+		}, 5000);
 	}
 }
