@@ -1,7 +1,17 @@
+
+@font-face {
+	font-family: "Raleway";
+	src: url("Raleway-VariableFont_wght.ttf");
+}
+
+
 body {
 	width: 100%;
 	height: 100%;
 	background-color: rgb(50, 50, 50);
+	color: white;
+	font-family: "Raleway";
+	font-size: 30px;
 	overflow: hidden;
 }
 
