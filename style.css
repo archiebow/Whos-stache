@@ -12,7 +12,8 @@ body {
 	color: white;
 	font-family: "Raleway";
 	font-size: 30px;
-	overflow: hidden;
+	overflow-x: hidden;
+	margin: 0px;
 }
 
 .page {
@@ -96,4 +97,25 @@ body {
 @keyframes fade-out {
 	from { color: white; }
 	to {color: rgb(50, 50, 50); }
+}
+
+#next {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#next > div {
+	border: solid grey;
+	border-width: 3px 0px 3px 3px;
+	border-radius: 15px 0px 0px 15px;
+	padding: 15px;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: backwards;
+	position: relative;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none !important;
 }

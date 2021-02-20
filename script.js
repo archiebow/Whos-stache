@@ -11,13 +11,12 @@ function getRandomCharacter() {
 
 $(document).ready(function(e) {
 	characterQuestion();
+	$("#next > div").click(nextClick);
 });
 
 function characterQuestion() {
 	hasAnswered = false;
 	character = getRandomCharacter();
-	console.log(character);
-	console.log(character.name, character.id);
 	$("#image").css("background-image", "url('stash.jpg')");
 	var question = randomRange(character.questions.length);
 	$("#question").text(character.questions[question].question);
@@ -55,22 +54,34 @@ function answerClick(event, answer) {
 			$(event.target).addClass("wrong");
 			rightAnswer.addClass("right");
 		}
-		var answerElements = $(".answer");
-		for (i = 0; i < answerElements.length; i++) {
-			$(answerElements[i]).removeClass("alternative");
-			$(answerElements[i]).addClass("slide-out");
-		}
 		$("#answertext").text(answerText);
 		$("#answertext").css("animation", "fade-in 1s");
-
-		setTimeout(() => {
-		$("#answers").empty();
-			$("#answertext").css("animation", "fade-out 1s");
-			$("#answertext").css("animation-fill-mode", "forwards");
-			setTimeout(() => {
-				$("#answertext").text("");
-				characterQuestion();
-			}, 1500);
-		}, 5000);
+		$("#next").removeClass("hidden");
+		$("#next > div").css("animation-name", "slide-in");
+		$("#next > div").css("animation-timing-function", "ease-out");
 	}
+}
+
+function nextClick() {
+	var answerElements = $(".answer");
+	var animationDelay = 0;
+	for (i = 0; i < answerElements.length; i++) {
+		$(answerElements[i]).removeClass("alternative");
+		$(answerElements[i]).addClass("slide-out");
+		$(answerElements[i]).css("animation-delay", animationDelay + "s");
+		animationDelay += 0.25;
+	}
+	$("#next > div").css("animation-name", "slide-out");
+	$("#next > div").css("animation-fill-mode", "forwards");
+	$("#next > div").css("animation-timing-function", "ease-in");
+	$("#answertext").css("animation", "fade-out 1s");
+	$("#answertext").css("animation-fill-mode", "forwards");
+	$("#question").css("animation", "fade-out 1s");
+	$("#question").css("animation-fill-mode", "forwards");
+	setTimeout(() => {
+		$("#answers").empty();
+		$("#answertext").text("");
+		$("#question").css("animation", "");
+		characterQuestion();
+	}, 1500);
 }
