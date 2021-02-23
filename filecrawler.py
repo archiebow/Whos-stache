@@ -1,13 +1,12 @@
-import os
+import os, json, shutil
 from openpyxl import load_workbook
-import json
 
-def importcharacter(filename): #reads an xlsx file and returns a dict object with the character data.
+def importcharacter(filename, photof, crophotof): #reads an xlsx file and returns a dict object with the character data.
    character = {
    'name': '',
    'bio': '',
-   'filename' : '',
-   'croppedfilename' : '',
+   'filename' : photof,
+   'croppedfilename' : crophotof,
    'questions' : [],
    'funfacts' : [],
    'tags' : [],
@@ -53,13 +52,36 @@ def importcharacter(filename): #reads an xlsx file and returns a dict object wit
    return character
 
 characters = []
+photodir = "photodir"
+if os.path.exists(photodir):
+   shutil.rmtree(photodir)
+os.mkdir(photodir)
+i = 0
 
-for root, dirs, files in os.walk(".", topdown=False): #Searches local file directory, adds every xlsx file as a character
+for root, dirs, files in os.walk(".", topdown=False):
+   photof = ""
+   crophotof = ""
+   dataf = ""
    for name in files:
-      if name.endswith('.xlsx'):
-         try:
-            characters.append(importcharacter(os.path.join(root, name)))
-         except:
-            print("Huää humanist-error!")
+      if name.endswith('.jpg'):
+         photof = os.path.join(photodir, str(i)+".jpg")
+         shutil.copy(os.path.join(root, name), photof)
+      elif name.endswith('.png'):
+         crophotof = os.path.join(photodir, str(i)+".png")
+         shutil.copy(os.path.join(root, name), crophotof)
+      elif name.endswith('.xlsx'):
+         dataf = name
+   try:
+      characters.append(importcharacter(os.path.join(root, dataf),photof,crophotof))
+      i = i+1
+   except Exception as e:
+      print(e)
 
 print(json.dumps(characters, indent=4))
+
+if os.path.exists("data.js"):
+   os.remove("data.js")
+f = open("data.js","x")
+f.write("var data = {\n\t\"characters\": ")
+f.write(json.dumps(characters, indent=5))
+f.write("\n}")
