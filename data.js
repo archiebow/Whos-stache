@@ -2,13 +2,13 @@ var data = {
 	"characters": [
      {
           "name": "Adolf Hiler",
-          "bio": "German leader during the second world war. Started the war\nby invading Poland in 1939 and commited war crimes\nduring the war such as the holocaust. Commited his own life in\n1945. \n",
+          "bio": "German leader during the second world war. Started the war by invading Poland in 1939 and commited war crimes during the war such as the holocaust. Commited his own life in 1945.  ",
           "filename": "photodir/0.jpg",
           "croppedfilename": "photodir/0.png",
           "questions": [
                {
                     "question": "When did the famous Beer Hall Push witch Hitler lead happen?",
-                    "answertext": "1923 in a Beer Hall in Munich witch lead to\na prison sentence to Hitler",
+                    "answertext": "1923 in a Beer Hall in Munich witch lead to a prison sentence to Hitler",
                     "answers": [
                          1923.0,
                          1921.0,
@@ -17,7 +17,7 @@ var data = {
                },
                {
                     "question": "What does hitler byname \"the Fuhrer\" mean?",
-                    "answertext": "Hitler became closley linked with the name \nDie Fuhrer during the war, he first used it in\n1934 when he became the sole ruler of Germany",
+                    "answertext": "Hitler became closley linked with the name  Die Fuhrer during the war, he first used it in 1934 when he became the sole ruler of Germany",
                     "answers": [
                          "The leader",
                          "The father",
@@ -124,13 +124,13 @@ var data = {
      },
      {
           "name": "Gustaf II Adolf",
-          "bio": "King over Sweden in the mid 17th century\nand lead the swedish army in the 30 years war \nestablishing Sweden as a great power in Europe",
+          "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war  establishing Sweden as a great power in Europe",
           "filename": "photodir/3.jpg",
           "croppedfilename": "photodir/3.png",
           "questions": [
                {
-                    "question": "At which famous battle did Gustaf II Adolf die aged \n37 ",
-                    "answertext": "He died at the battle while riding a \na horse straight in to the enemy in thick\nfog",
+                    "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
+                    "answertext": "He died at the battle while riding a  a horse straight in to the enemy in thick fog",
                     "answers": [
                          "Battle of Lutzen",
                          "Battle of Breitenfeld",
@@ -139,7 +139,7 @@ var data = {
                }
           ],
           "funfacts": [
-               "He is known as the Lion of the north and has \nbecome known under that name in songs and\nother pop culture/history"
+               "He is known as the Lion of the north and has  become known under that name in songs and other pop culture/history"
           ],
           "tags": [
                "Sweden",
@@ -150,13 +150,13 @@ var data = {
      },
      {
           "name": "Heinrich Himmler",
-          "bio": "Himmler was the leader of the Waffen SS\nand the maine architect behind the holocaust",
+          "bio": "Himmler was the leader of the Waffen SS and the maine architect behind the holocaust",
           "filename": "photodir/4.jpg",
           "croppedfilename": "photodir/4.png",
           "questions": [
                {
                     "question": "When did Himmler join the NSDAP?(nazi party)",
-                    "answertext": "Himmler joined at the very start in 1923 and\nbecame a leading figure in the party  ",
+                    "answertext": "Himmler joined at the very start in 1923 and became a leading figure in the party  ",
                     "answers": [
                          1923.0,
                          1933.0,

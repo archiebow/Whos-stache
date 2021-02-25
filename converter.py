@@ -18,9 +18,9 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
    print("Attempting to read "+ filename)
    for row in ws.values:
       if row[0] == 'Name':
-         character['name'] = row[1]
+         character['name'] = row[1].replace("\n"," ")
       elif row[0] == 'Bio':
-         character['bio'] = row[1]
+         character['bio'] = row[1].replace("\n"," ")
       elif row[0] == 'Q':
          i = 3
          ans = []
@@ -29,13 +29,13 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
                i = i+1
 
          character['questions'].append({
-               'question' : row[1],
-               'answertext' : row[2],
+               'question' : row[1].replace("\n"," "),
+               'answertext' : row[2].replace("\n"," "),
                'answers' : ans      
          }
          )
       elif row[0] == 'FF':
-         character['funfacts'].append(row[1])
+         character['funfacts'].append(row[1].replace("\n"," "))
       elif row[0] == 'Tags':
          i = 1
          tag = []
