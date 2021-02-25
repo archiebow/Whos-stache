@@ -5,8 +5,8 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
    character = {
    'name': '',
    'bio': '',
-   'filename' : photof,
-   'croppedfilename' : crophotof,
+   'filename' : "photodir/"+photof,
+   'croppedfilename' : "photodir/"+crophotof,
    'questions' : [],
    'funfacts' : [],
    'tags' : [],
@@ -64,11 +64,11 @@ for root, dirs, files in os.walk(".", topdown=False):
    dataf = ""
    for name in files:
       if name.endswith('.jpg'):
-         photof = os.path.join(photodir, str(i)+".jpg")
-         shutil.copy(os.path.join(root, name), photof)
+         photof = str(i)+".jpg"
+         shutil.copy(os.path.join(root, name), os.path.join(photodir, photof))
       elif name.endswith('.png'):
-         crophotof = os.path.join(photodir, str(i)+".png")
-         shutil.copy(os.path.join(root, name), crophotof)
+         crophotof = str(i)+".png"
+         shutil.copy(os.path.join(root, name), os.path.join(photodir, crophotof))
       elif name.endswith('.xlsx'):
          dataf = name
    try:

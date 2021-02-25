@@ -3,8 +3,8 @@ var data = {
      {
           "name": "Adolf Hiler",
           "bio": "German leader during the second world war. Started the war\nby invading Poland in 1939 and commited war crimes\nduring the war such as the holocaust. Commited his own life in\n1945. \n",
-          "filename": "photodir\\0.jpg",
-          "croppedfilename": "photodir\\0.png",
+          "filename": "photodir/0.jpg",
+          "croppedfilename": "photodir/0.png",
           "questions": [
                {
                     "question": "When did the famous Beer Hall Push witch Hitler lead happen?",
@@ -38,8 +38,8 @@ var data = {
      {
           "name": "Albert Edelfelt",
           "bio": "Albert Edelfelt, 1854-1905, is one of Finlands most known painters. (More to come)",
-          "filename": "photodir\\1.jpg",
-          "croppedfilename": "photodir\\1.png",
+          "filename": "photodir/1.jpg",
+          "croppedfilename": "photodir/1.png",
           "questions": [
                {
                     "question": "What was Albert Edelfelts whole name?",
@@ -81,8 +81,8 @@ var data = {
      {
           "name": "Hulk Hogan",
           "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
-          "filename": "photodir\\2.jpg",
-          "croppedfilename": "photodir\\2.png",
+          "filename": "photodir/2.jpg",
+          "croppedfilename": "photodir/2.png",
           "questions": [
                {
                     "question": "Besides wrestling, Hulk Hogan has an extensive acting career. Which of the following movies has Hulk been in?",
@@ -125,8 +125,8 @@ var data = {
      {
           "name": "Gustaf II Adolf",
           "bio": "King over Sweden in the mid 17th century\nand lead the swedish army in the 30 years war \nestablishing Sweden as a great power in Europe",
-          "filename": "photodir\\3.jpg",
-          "croppedfilename": "photodir\\3.png",
+          "filename": "photodir/3.jpg",
+          "croppedfilename": "photodir/3.png",
           "questions": [
                {
                     "question": "At which famous battle did Gustaf II Adolf die aged \n37 ",
@@ -151,8 +151,8 @@ var data = {
      {
           "name": "Heinrich Himmler",
           "bio": "Himmler was the leader of the Waffen SS\nand the maine architect behind the holocaust",
-          "filename": "photodir\\4.jpg",
-          "croppedfilename": "photodir\\4.png",
+          "filename": "photodir/4.jpg",
+          "croppedfilename": "photodir/4.png",
           "questions": [
                {
                     "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -177,8 +177,8 @@ var data = {
      {
           "name": "Henrik Meinander",
           "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-          "filename": "photodir\\5.jpg",
-          "croppedfilename": "photodir\\5.png",
+          "filename": "photodir/5.jpg",
+          "croppedfilename": "photodir/5.png",
           "questions": [
                {
                     "question": "Henrik Meinanders father was known as well, but for what?",
@@ -221,8 +221,8 @@ var data = {
      {
           "name": "Leo Mechelin",
           "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician. (More info to come..)",
-          "filename": "photodir\\6.jpg",
-          "croppedfilename": "photodir\\6.png",
+          "filename": "photodir/6.jpg",
+          "croppedfilename": "photodir/6.png",
           "questions": [
                {
                     "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. S\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -265,8 +265,8 @@ var data = {
      {
           "name": "Napoleon III",
           "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-          "filename": "photodir\\7.jpg",
-          "croppedfilename": "photodir\\7.png",
+          "filename": "photodir/7.jpg",
+          "croppedfilename": "photodir/7.png",
           "questions": [
                {
                     "question": "How was Napoleon III related to Napoleon Bonaparte?",
@@ -292,8 +292,8 @@ var data = {
      {
           "name": "Zacharias Topelius",
           "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author. (More to come)",
-          "filename": "photodir\\8.jpg",
-          "croppedfilename": "photodir\\8.png",
+          "filename": "photodir/8.jpg",
+          "croppedfilename": "photodir/8.png",
           "questions": [
                {
                     "question": "In 1833 Topelius began studying at the University. What did he plan to study?",
