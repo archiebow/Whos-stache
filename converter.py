@@ -25,7 +25,7 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
          i = 3
          ans = []
          while i < len(row) and row[i] != None:
-               ans.append(row[i])
+               ans.append(str(row[i]).replace("\n"," "))
                i = i+1
 
          character['questions'].append({
@@ -71,11 +71,14 @@ for root, dirs, files in os.walk(".", topdown=False):
          shutil.copy(os.path.join(root, name), os.path.join(photodir, crophotof))
       elif name.endswith('.xlsx'):
          dataf = name
-   try:
-      characters.append(importcharacter(os.path.join(root, dataf),photof,crophotof))
-      i = i+1
-   except Exception as e:
-      print(e)
+   if "" not in (photof, crophotof, dataf):
+      try:
+         characters.append(importcharacter(os.path.join(root, dataf),photof,crophotof))
+         i = i+1
+      except Exception as e:
+         print(e)
+   else:
+      print("Invalid character! " + dataf + photof + crophotof)
 
 print(json.dumps(characters, indent=4))
 
@@ -85,3 +88,4 @@ f = open("data.js","x")
 f.write("var data = {\n\t\"characters\": ")
 f.write(json.dumps(characters, indent=5))
 f.write("\n}")
+f.close()

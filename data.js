@@ -79,10 +79,51 @@ var data = {
           ]
      },
      {
-          "name": "Hulk Hogan",
-          "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
+          "name": "Blackbeard",
+          "bio": "Blackbeard, was an English pirate who operated around the West Indies and the eastern coast of Britain's North American colonies.",
           "filename": "photodir/2.jpg",
           "croppedfilename": "photodir/2.png",
+          "questions": [
+               {
+                    "question": "How did the the famous pirate die?",
+                    "answertext": "R\u00e4tt svar: Died by battle",
+                    "answers": [
+                         "Died to scurvy",
+                         "Died by drowning",
+                         "Died by battle"
+                    ]
+               },
+               {
+                    "question": "What is his real name?",
+                    "answertext": "R\u00e4tt svar: Edward Thatch",
+                    "answers": [
+                         "Edward Thatch",
+                         "Isac Hornigold",
+                         "Edward Kenway"
+                    ]
+               },
+               {
+                    "question": "What was the name of his flagship?",
+                    "answertext": "R\u00e4tt svar: Queen Anne's Revenge",
+                    "answers": [
+                         "Queen Anne's Revenge",
+                         "The Flying Dutchman",
+                         "The Black Pearl"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "He put lit fuses under his hat to make him appear even more terrifying.",
+               "He joined the crew of renowned pirate Captain Benjamin Hornigold.",
+               "The wreckage of Queen Anne's Revenge was rediscovered in 1996"
+          ],
+          "tags": []
+     },
+     {
+          "name": "Hulk Hogan",
+          "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
+          "filename": "photodir/3.jpg",
+          "croppedfilename": "photodir/3.png",
           "questions": [
                {
                     "question": "Besides wrestling, Hulk Hogan has an extensive acting career. Which of the following movies has Hulk been in?",
@@ -124,9 +165,9 @@ var data = {
      },
      {
           "name": "Gustaf II Adolf",
-          "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war  establishing Sweden as a great power in Europe",
-          "filename": "photodir/3.jpg",
-          "croppedfilename": "photodir/3.png",
+          "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
+          "filename": "photodir/4.jpg",
+          "croppedfilename": "photodir/4.png",
           "questions": [
                {
                     "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
@@ -139,7 +180,7 @@ var data = {
                }
           ],
           "funfacts": [
-               "He is known as the Lion of the north and has  become known under that name in songs and other pop culture/history"
+               "He is known as the Lion of the north and has become known under that name in songs and other pop culture/history"
           ],
           "tags": [
                "Sweden",
@@ -151,8 +192,8 @@ var data = {
      {
           "name": "Heinrich Himmler",
           "bio": "Himmler was the leader of the Waffen SS and the maine architect behind the holocaust",
-          "filename": "photodir/4.jpg",
-          "croppedfilename": "photodir/4.png",
+          "filename": "photodir/5.jpg",
+          "croppedfilename": "photodir/5.png",
           "questions": [
                {
                     "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -177,8 +218,8 @@ var data = {
      {
           "name": "Henrik Meinander",
           "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-          "filename": "photodir/5.jpg",
-          "croppedfilename": "photodir/5.png",
+          "filename": "photodir/6.jpg",
+          "croppedfilename": "photodir/6.png",
           "questions": [
                {
                     "question": "Henrik Meinanders father was known as well, but for what?",
@@ -219,10 +260,50 @@ var data = {
           ]
      },
      {
+          "name": "Ky\u00f6sti Kallio",
+          "bio": "Ky\u00f6sti Kallio Finlands fj\u00e4rde President",
+          "filename": "photodir/7.jpg",
+          "croppedfilename": "photodir/7.png",
+          "questions": [
+               {
+                    "question": "Hur m\u00e5nga barn fick Ky\u00f6sti med sin fru Kaisa?",
+                    "answertext": "R\u00e4tt svar: 6",
+                    "answers": [
+                         "3",
+                         "2",
+                         "6"
+                    ]
+               },
+               {
+                    "question": "Under vilka \u00e5r fungerade han som Finlands President?",
+                    "answertext": "R\u00e4tt svar: 1937-1940",
+                    "answers": [
+                         "1934-1938",
+                         "1932-1936",
+                         "1937-1940"
+                    ]
+               },
+               {
+                    "question": "Vad heter hans fru?",
+                    "answertext": "R\u00e4tt svar: Kaisa",
+                    "answers": [
+                         "Kaisa",
+                         "Katja",
+                         "Karin"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "Efter att han undertecknat fullmakten f\u00f6r fredsf\u00f6rhandlingarna efter vinterkriget, sa han \u201dM\u00e5 min hand som har blivit tvingad att underteckna ett s\u00e5dant papper f\u00f6rtvina.\u201d Ett halvt \u00e5r senare blev handen f\u00f6rlamad.",
+               "I beredningen av lantdagsreformen f\u00f6rsvarade Kallio bland annat kvinnornas r\u00f6rstr\u00e4tt och en r\u00f6str\u00e4tts\u00e5ldersgr\u00e4ns p\u00e5 21 \u00e5r samt motsatte sig en begr\u00e4nsning av r\u00f6str\u00e4tten p\u00e5 grund av fattigdom."
+          ],
+          "tags": []
+     },
+     {
           "name": "Leo Mechelin",
           "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician. (More info to come..)",
-          "filename": "photodir/6.jpg",
-          "croppedfilename": "photodir/6.png",
+          "filename": "photodir/8.jpg",
+          "croppedfilename": "photodir/8.png",
           "questions": [
                {
                     "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. S\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -263,18 +344,68 @@ var data = {
           ]
      },
      {
-          "name": "Napoleon III",
-          "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-          "filename": "photodir/7.jpg",
-          "croppedfilename": "photodir/7.png",
+          "name": "Gustaf Mannerheim",
+          "bio": "Finlandssvensk friherre, milit\u00e4rofficer och statsman. Enda som innehaft titeln marskalk av Finland. President av Finland mellan 1944-1946.",
+          "filename": "photodir/9.jpg",
+          "croppedfilename": "photodir/9.png",
           "questions": [
                {
-                    "question": "How was Napoleon III related to Napoleon Bonaparte?",
+                    "question": "Mannerheim gav namn till den finl\u00e4ndska f\u00f6rsvarslinjen som anv\u00e4ndes under kriget, vad hette den?",
+                    "answertext": "R\u00e4tt svar: Mannerheimlinjen",
+                    "answers": [
+                         "Mannerheimlinjen",
+                         "Finskalinjen",
+                         "Gustafslinjen"
+                    ]
+               },
+               {
+                    "question": "Under vilka \u00e5r fungerade Mannerheim som Finlands President?",
+                    "answertext": "R\u00e4tt svar: 1944-1946",
+                    "answers": [
+                         "1944-1948",
+                         "1940-1944",
+                         "1944-1946"
+                    ]
+               },
+               {
+                    "question": "Vad \u00e4r Mannerheims fullst\u00e4ndiga namn?",
+                    "answertext": "R\u00e4tt svar: Carl Gustaf Emil Mannerheim",
+                    "answers": [
+                         "Viktor Gustaf Erik Mannerheim",
+                         "Jonathan John Gustaf Mannerheim",
+                         "Carl Gustaf Emil Mannerheim"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "F\u00f6r att avancera i karri\u00e4ren anm\u00e4lde Mannerheim sig som frivillig till rysk-japanska kriget 1904. Han r\u00f6nte uppskattning hos sina \u00f6verordnade och befordrades till \u00f6verste f\u00f6r tapperhet p\u00e5 slagf\u00e4ltet.",
+               "Mannerheim tillbringade tv\u00e5 \u00e5r p\u00e5 en Asienexpedition. Han visade prov p\u00e5 ansenlig vetenskaplig beg\u00e5vning genom det etnografiska material han samlade in.",
+               "Marskalk Mannerheims ryttarstaty utanf\u00f6r Kiasma i Helsingfors \u00e4r gjord av Aimo Tukiainen"
+          ],
+          "tags": []
+     },
+     {
+          "name": "Napoleon III",
+          "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
+          "filename": "photodir/10.jpg",
+          "croppedfilename": "photodir/10.png",
+          "questions": [
+               {
+                    "question": "What was Napoleon III's relation to Napoleon Bonaparte?",
                     "answertext": "Napoleon III was child to Napoleon I's brother, and to his wife's daughter from a previous marriage.",
                     "answers": [
                          "Nephew",
                          "Son",
                          "Brother"
+                    ]
+               },
+               {
+                    "question": "What huge constuction project was undertaken on the order of Napoleon III?",
+                    "answertext": "During many decades time from the 1850s to the 1870s, the entire center of Paris was transformed from cramped medieval streets to open, modern avenues, giving birth to the Parisienne style.",
+                    "answers": [
+                         "The reconstruction of Paris",
+                         "The Eiffel Tower",
+                         "The Suez canal"
                     ]
                }
           ],
@@ -290,10 +421,50 @@ var data = {
           ]
      },
      {
+          "name": "Stan Lee",
+          "bio": "He is an American comic book writer, known for the Marvel Comics.",
+          "filename": "photodir/11.jpg",
+          "croppedfilename": "photodir/11.png",
+          "questions": [
+               {
+                    "question": "Has Stan Lee ever made any cameos in the Marvel movies?",
+                    "answertext": "R\u00e4tt svar: Yes",
+                    "answers": [
+                         "Yes",
+                         "No"
+                    ]
+               },
+               {
+                    "question": "What superhero league did Stan Lee create?",
+                    "answertext": "R\u00e4tt svar: The Avengers",
+                    "answers": [
+                         "The Avengers",
+                         "Justice League",
+                         "Teen Titans"
+                    ]
+               },
+               {
+                    "question": "What character did he not create?",
+                    "answertext": "R\u00e4tt svar: Superman",
+                    "answers": [
+                         "Iron man",
+                         "Superman",
+                         "Ant man"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "Stan\u2019s trademark catchphrase \u2013 \u201cExcelsior!\u201d \u2013 means \u201cEver upward.\u201d It is also the New York state motto.",
+               "Stan is the recipient of the 2,428th star on the Hollywood Walk of Fame. It is located at 7072 Hollywood Blvd, in front of the Live Nation Building.",
+               "Stan Lee is a playable character in downloadable content for the 2012 video game The Amazing Spider-Man."
+          ],
+          "tags": []
+     },
+     {
           "name": "Zacharias Topelius",
           "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author. (More to come)",
-          "filename": "photodir/8.jpg",
-          "croppedfilename": "photodir/8.png",
+          "filename": "photodir/12.jpg",
+          "croppedfilename": "photodir/12.png",
           "questions": [
                {
                     "question": "In 1833 Topelius began studying at the University. What did he plan to study?",
