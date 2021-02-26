@@ -10,9 +10,9 @@ var data = {
                     "question": "When did the famous Beer Hall Push witch Hitler lead happen?",
                     "answertext": "1923 in a Beer Hall in Munich witch lead to a prison sentence to Hitler",
                     "answers": [
-                         1923.0,
-                         1921.0,
-                         1930.0
+                         "1923.0",
+                         "1921.0",
+                         "1930.0"
                     ]
                },
                {
@@ -63,9 +63,9 @@ var data = {
                     "question": "It is believed that Edelefelts painting, Dopf\u00e4rd (Risti\u00e4issaatto), that was sold on auction in Finland in 2017, is the most expensive Edelfet painting ever. What was it sold for?",
                     "answertext": "The painting was bought by Anders Wikl\u00f6f, an art collector from the \u00c5land Islands.",
                     "answers": [
-                         637000.0,
-                         512000.0,
-                         898000.0
+                         "637000.0",
+                         "512000.0",
+                         "898000.0"
                     ]
                }
           ],
@@ -106,8 +106,8 @@ var data = {
                     "question": "True or False? Hulk Hogan's employer, WWE was previously known as WWF.",
                     "answertext": "WWE was forced to switch to it's current name after a lawsuit by the World Wildlife Fund",
                     "answers": [
-                         true,
-                         false
+                         "True",
+                         "False"
                     ]
                }
           ],
@@ -158,9 +158,9 @@ var data = {
                     "question": "When did Himmler join the NSDAP?(nazi party)",
                     "answertext": "Himmler joined at the very start in 1923 and became a leading figure in the party  ",
                     "answers": [
-                         1923.0,
-                         1933.0,
-                         1930.0
+                         "1923.0",
+                         "1933.0",
+                         "1930.0"
                     ]
                }
           ],
@@ -202,9 +202,9 @@ var data = {
                     "question": "In 2009 Meinander published a book about a year in Finnish history. What year?",
                     "answertext": "The book, published in Swedish and translated to Finnish, was called Finland 1944: Krig, samh\u00e4lle, k\u00e4nslolandskap/Suomi 1944: Sota, yhteiskunta, tunnemaisema.",
                     "answers": [
-                         1944,
-                         1939,
-                         1918
+                         "1944",
+                         "1939",
+                         "1918"
                     ]
                }
           ],
@@ -228,9 +228,9 @@ var data = {
                     "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. S\u00e5hlberg, Kasten Antell and Otto Donner among others?",
                     "answertext": "The Mechelin-Senate was in power between December 1905 to March 1908.",
                     "answers": [
-                         1905,
-                         1901,
-                         1909
+                         "1905",
+                         "1901",
+                         "1909"
                     ]
                },
                {
@@ -308,9 +308,9 @@ var data = {
                     "question": "What year was Boken om v\u00e5rt land/Maamme-kirja/Book of Our Land published?",
                     "answertext": "L\u00e4sning f\u00f6r barn/Lukemista lapsille was published in 1881 and F\u00e4ltsk\u00e4rn ber\u00e4ttelser/V\u00e4lsk\u00e4rin kertomukset in 1884.",
                     "answers": [
-                         1875.0,
-                         1884.0,
-                         1881.0
+                         "1875.0",
+                         "1884.0",
+                         "1881.0"
                     ]
                },
                {

@@ -17,7 +17,8 @@ $(document).ready(function(e) {
 function characterQuestion() {
 	hasAnswered = false;
 	character = getRandomCharacter();
-	$("#image").css("background-image", "url('stash.jpg')");
+	charimg = character.filename;
+	$("#image").css("background-image", "url("+charimg+")");
 	var question = randomRange(character.questions.length);
 	$("#question").text(character.questions[question].question);
 	var answers = character.questions[question].answers;
