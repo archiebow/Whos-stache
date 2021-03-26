@@ -10,18 +10,18 @@ var data = {
                     "question": "When did the famous Beer Hall Push witch Hitler lead happen?",
                     "answertext": "1923 in a Beer Hall in Munich witch lead to a prison sentence to Hitler",
                     "answers": [
-                         "1923.0",
-                         "1921.0",
-                         "1930.0"
+                         "In the year 1923",
+                         "In the year 1921",
+                         "In the year 1930"
                     ]
                },
                {
-                    "question": "What does hitler byname \"the Fuhrer\" mean?",
+                    "question": "What does hitler byname \"The Fuhrer\" mean?",
                     "answertext": "Hitler became closley linked with the name  Die Fuhrer during the war, he first used it in 1934 when he became the sole ruler of Germany",
                     "answers": [
                          "The leader",
                          "The father",
-                         "The lruler"
+                         "The ruler"
                     ]
                }
           ],
@@ -86,16 +86,16 @@ var data = {
           "questions": [
                {
                     "question": "How did the the famous pirate die?",
-                    "answertext": "R\u00e4tt svar: Died by battle",
+                    "answertext": "At the request of Carolina planters, the lieutenant governor of Virginia, Alexander Spotswood, dispatched a British naval force under Lieutenant Robert Maynard, who, after a hard fight, succeeded in killing Blackbeard. The pirate\u2019s body was decapitated, and his head was affixed to the end of the bowsprit of his ship.",
                     "answers": [
-                         "Died to scurvy",
+                         "Died by battle",
                          "Died by drowning",
-                         "Died by battle"
+                         "Died to scurvy"
                     ]
                },
                {
                     "question": "What is his real name?",
-                    "answertext": "R\u00e4tt svar: Edward Thatch",
+                    "answertext": "His real name is Edward Thatch or also spelled Teach.",
                     "answers": [
                          "Edward Thatch",
                          "Isac Hornigold",
@@ -104,7 +104,7 @@ var data = {
                },
                {
                     "question": "What was the name of his flagship?",
-                    "answertext": "R\u00e4tt svar: Queen Anne's Revenge",
+                    "answertext": "Queen Anne's Revenge was an early-18th-century ship, most famously used as a flagship by Edward Thatch, better known by his nickname Blackbeard. Although the date and place of the ship's construction are uncertain, it was originally believed she was built for merchant service in Bristol, England in 1710 and named Concord.",
                     "answers": [
                          "Queen Anne's Revenge",
                          "The Flying Dutchman",
@@ -113,9 +113,9 @@ var data = {
                }
           ],
           "funfacts": [
-               "He put lit fuses under his hat to make him appear even more terrifying.",
-               "He joined the crew of renowned pirate Captain Benjamin Hornigold.",
-               "The wreckage of Queen Anne's Revenge was rediscovered in 1996"
+               "He put lit fuses under his hat to make him appear even more terrifying. Creating a feared image of himself.",
+               "He joined the crew of renowned pirate Captain Benjamin Hornigold. Hornigold placed him in command of a sloop that he had captured, and the two engaged in numerous acts of piracy. Their numbers were boosted by the addition to their fleet of two more ships, one of which was commanded by Stede Bonnet; but Hornigold retired from piracy toward the end of 1717, taking two vessels with him.",
+               "The wreckage of Queen Anne's Revenge was rediscovered in 1996. Hundreds of artifacts were recovered from the site in the following decades, including navigational devices, cannons, and a sword hilt."
           ],
           "tags": []
      },
@@ -164,10 +164,44 @@ var data = {
           ]
      },
      {
-          "name": "Gustaf II Adolf",
-          "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
+          "name": "Galileo Galilei",
+          "bio": "Galileo born 1564  was an Italien scientist, astronomer and philosopher. He discovered many of Jupters moons and the rings of Saturn. His support of the heliocentric universe earned him many powerful enemies within the church.",
           "filename": "photodir/4.jpg",
           "croppedfilename": "photodir/4.png",
+          "questions": [
+               {
+                    "question": "Galieo invented the telescpe. True of false? ",
+                    "answertext": "The dutch eyeglass maker Hans Lippershay invented the telescope. Howewer Galileo improved the design significantely and was the first person to study the stars with it.",
+                    "answers": [
+                         "False",
+                         "True"
+                    ]
+               },
+               {
+                    "question": "When did the Catholic church admid that they wrongly convicted Galileo?",
+                    "answertext": "In 1979 pope John Paul II launched an investigation into the catholic churchs conviction of Galileo. In 1992 they found him not guilty. The church issued a formal apology 359 years after his trial.",
+                    "answers": [
+                         "1992.0",
+                         "1699.0",
+                         "1878.0"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "Galileo had to stand trial before the church after beeing accused of heresy . There he was forced to admit that the earth was the stationary center of the universe. After this he allegedly muttered \"Eppur si muove\" (\"Yet it moves\")",
+               "His work was very influential and he played a major role in the scientific revolution. Therefore he earned the title \"The father of modern science\" after his death. "
+          ],
+          "tags": [
+               "Pre 1800-s",
+               "Scientist ",
+               "Italian"
+          ]
+     },
+     {
+          "name": "Gustaf II Adolf",
+          "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
+          "filename": "photodir/5.jpg",
+          "croppedfilename": "photodir/5.png",
           "questions": [
                {
                     "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
@@ -192,8 +226,8 @@ var data = {
      {
           "name": "Heinrich Himmler",
           "bio": "Himmler was the leader of the Waffen SS and the maine architect behind the holocaust",
-          "filename": "photodir/5.jpg",
-          "croppedfilename": "photodir/5.png",
+          "filename": "photodir/6.jpg",
+          "croppedfilename": "photodir/6.png",
           "questions": [
                {
                     "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -218,8 +252,8 @@ var data = {
      {
           "name": "Henrik Meinander",
           "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-          "filename": "photodir/6.jpg",
-          "croppedfilename": "photodir/6.png",
+          "filename": "photodir/7.jpg",
+          "croppedfilename": "photodir/7.png",
           "questions": [
                {
                     "question": "Henrik Meinanders father was known as well, but for what?",
@@ -261,31 +295,31 @@ var data = {
      },
      {
           "name": "Ky\u00f6sti Kallio",
-          "bio": "Ky\u00f6sti Kallio Finlands fj\u00e4rde President",
-          "filename": "photodir/7.jpg",
-          "croppedfilename": "photodir/7.png",
+          "bio": "Ky\u00f6sti Kallio was Finlands fourth President",
+          "filename": "photodir/8.jpg",
+          "croppedfilename": "photodir/8.png",
           "questions": [
                {
-                    "question": "Hur m\u00e5nga barn fick Ky\u00f6sti med sin fru Kaisa?",
-                    "answertext": "R\u00e4tt svar: 6",
+                    "question": "How many children did Ky\u00f6sti have with his wife Kaisa? ",
+                    "answertext": "With Kaisa they had six children.",
                     "answers": [
-                         "3",
+                         "6",
                          "2",
-                         "6"
+                         "3"
                     ]
                },
                {
-                    "question": "Under vilka \u00e5r fungerade han som Finlands President?",
-                    "answertext": "R\u00e4tt svar: 1937-1940",
+                    "question": "During which years did he serve as President of Finland? ",
+                    "answertext": "He worked as Finlands President during 1937-1940. Kallio left a notice of resignation on 27 November 1940. He was planning to leave the capital and retire to his farm at Nivala after the farewell ceremonies on the evening of 19 December 1940; but he collapsed and died that night at the Helsinki Central Railway Station in the arms of his adjutant before a guard of honour while a band played the patriotic Finnish march Porilaisten marssi.",
                     "answers": [
-                         "1934-1938",
+                         "1937-1940",
                          "1932-1936",
-                         "1937-1940"
+                         "1934-1938"
                     ]
                },
                {
-                    "question": "Vad heter hans fru?",
-                    "answertext": "R\u00e4tt svar: Kaisa",
+                    "question": "What is the name of his wife?",
+                    "answertext": "Ky\u00f6sti married Kaisa. When Kaisa Kallio turned 60 in 1938, a civic gift collection was organized, which generated 375,000 FIM. With this amount, Kaisa Kallio founded Kaisankodi in Kauniainen in 1950 for women who \"depressed or mentally tired of life's difficulties and physical illnesses needed healing and peace of mind.\"",
                     "answers": [
                          "Kaisa",
                          "Katja",
@@ -294,16 +328,16 @@ var data = {
                }
           ],
           "funfacts": [
-               "Efter att han undertecknat fullmakten f\u00f6r fredsf\u00f6rhandlingarna efter vinterkriget, sa han \u201dM\u00e5 min hand som har blivit tvingad att underteckna ett s\u00e5dant papper f\u00f6rtvina.\u201d Ett halvt \u00e5r senare blev handen f\u00f6rlamad.",
-               "I beredningen av lantdagsreformen f\u00f6rsvarade Kallio bland annat kvinnornas r\u00f6rstr\u00e4tt och en r\u00f6str\u00e4tts\u00e5ldersgr\u00e4ns p\u00e5 21 \u00e5r samt motsatte sig en begr\u00e4nsning av r\u00f6str\u00e4tten p\u00e5 grund av fattigdom."
+               "After signing the power of attorney for the post-Winter War peace negotiation, he said, \"May my hand that has been forced to sign such a paper fade.\" Half a year later, the hand became paralyzed.",
+               "In the preparation of the parliamentary reform, Kallio defended, among other things, women's right to vote and a voting age limit of 21 years and opposed a restriction of the right to vote due to poverty."
           ],
           "tags": []
      },
      {
           "name": "Leo Mechelin",
           "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician. (More info to come..)",
-          "filename": "photodir/8.jpg",
-          "croppedfilename": "photodir/8.png",
+          "filename": "photodir/9.jpg",
+          "croppedfilename": "photodir/9.png",
           "questions": [
                {
                     "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. S\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -344,51 +378,134 @@ var data = {
           ]
      },
      {
-          "name": "Gustaf Mannerheim",
-          "bio": "Finlandssvensk friherre, milit\u00e4rofficer och statsman. Enda som innehaft titeln marskalk av Finland. President av Finland mellan 1944-1946.",
-          "filename": "photodir/9.jpg",
-          "croppedfilename": "photodir/9.png",
+          "name": "",
+          "bio": "Da Vinci, born 1452, was a reneissace engineer, sculptor, inventor and artist. He is most famous for the paintings Mona Lisa and The last supper",
+          "filename": "photodir/10.jpg",
+          "croppedfilename": "photodir/10.png",
           "questions": [
                {
-                    "question": "Mannerheim gav namn till den finl\u00e4ndska f\u00f6rsvarslinjen som anv\u00e4ndes under kriget, vad hette den?",
-                    "answertext": "R\u00e4tt svar: Mannerheimlinjen",
+                    "question": "How long did it take Da Vinci to paint his famous work, The last supper?",
+                    "answertext": "The masterpiece took 3 years to complete. The painting was commissioned by Ludovico Sforza, the duke of Milan. The painting has been subjected to a lot of wear and tear and underwent an extensive 20 year long restoration 1979-1999.",
                     "answers": [
-                         "Mannerheimlinjen",
-                         "Finskalinjen",
-                         "Gustafslinjen"
+                         "3 years",
+                         "6 months",
+                         "10 years"
                     ]
                },
                {
-                    "question": "Under vilka \u00e5r fungerade Mannerheim som Finlands President?",
-                    "answertext": "R\u00e4tt svar: 1944-1946",
+                    "question": "Which one of these things didn't Da Vinci design? An armored car, a schytched chariot, a telescope, a flying machine or a revolving crane. ",
+                    "answertext": "The telescope was invented by Dutch spectacle maker Hans Lippershay. Da Vinci\u2019s most famous invention is the flying machine which shares resemblances to todays airplanes and helicopters. His designs were inspired by the anatomy of a bat.  ",
                     "answers": [
-                         "1944-1948",
-                         "1940-1944",
-                         "1944-1946"
-                    ]
-               },
-               {
-                    "question": "Vad \u00e4r Mannerheims fullst\u00e4ndiga namn?",
-                    "answertext": "R\u00e4tt svar: Carl Gustaf Emil Mannerheim",
-                    "answers": [
-                         "Viktor Gustaf Erik Mannerheim",
-                         "Jonathan John Gustaf Mannerheim",
-                         "Carl Gustaf Emil Mannerheim"
+                         "A telescope ",
+                         "An armored car",
+                         "a flying machine"
                     ]
                }
           ],
           "funfacts": [
-               "F\u00f6r att avancera i karri\u00e4ren anm\u00e4lde Mannerheim sig som frivillig till rysk-japanska kriget 1904. Han r\u00f6nte uppskattning hos sina \u00f6verordnade och befordrades till \u00f6verste f\u00f6r tapperhet p\u00e5 slagf\u00e4ltet.",
-               "Mannerheim tillbringade tv\u00e5 \u00e5r p\u00e5 en Asienexpedition. Han visade prov p\u00e5 ansenlig vetenskaplig beg\u00e5vning genom det etnografiska material han samlade in.",
-               "Marskalk Mannerheims ryttarstaty utanf\u00f6r Kiasma i Helsingfors \u00e4r gjord av Aimo Tukiainen"
+               "When Da Vinci was 24 he and four other men were charged with sodomy, in this case that ment homosexual intercourse. This crime was punishable by death.  hankfully for Da Vinci the case was dropper as no witnesses showed up to testify. ",
+               "Bill Gates bought Codex Leicester, one of Da Vincis notebooks, for 30 million dollars in 1994 "
+          ],
+          "tags": [
+               "Pre 1800-s",
+               "Reneissance",
+               "Scientist",
+               "Italian",
+               "Painter"
+          ]
+     },
+     {
+          "name": "Gustaf Mannerheim",
+          "bio": "Finnish-Swedish baron, military officer and statesman. The only one who has held the title of Marshal of Finland. President of Finland between 1944-1946.",
+          "filename": "photodir/11.jpg",
+          "croppedfilename": "photodir/11.png",
+          "questions": [
+               {
+                    "question": "Mannerheim gave name to the Finnish line of defense used during the winterwar, what was it called?",
+                    "answertext": "The Mannerheim Line was a defensive fortification line on the Karelian Isthmus built by Finland against the Soviet Union. During the Winter War it became known as the Mannerheim Line, after Field Marshal Baron Carl Gustaf Emil Mannerheim. ",
+                    "answers": [
+                         "Mannerheim Line",
+                         "Finnish line of defence",
+                         "Gustafs Line "
+                    ]
+               },
+               {
+                    "question": "During which years did Mannerheim serve as President of Finland?",
+                    "answertext": "He worked as the President of Finland during 1944-1946.",
+                    "answers": [
+                         "1944-1946",
+                         "1940-1944",
+                         "1944-1948"
+                    ]
+               },
+               {
+                    "question": "What is Mannerheims full name?",
+                    "answertext": "His full name is Carl Gustaf Emil Mannerheim.",
+                    "answers": [
+                         "Carl Gustaf Emil Mannerheim",
+                         "Jonathan John Gustaf Mannerheim",
+                         "Viktor Gustaf Emil Mannerheim"
+                    ]
+               }
+          ],
+          "funfacts": [
+               "To advance in his career, Mannerheim applied as a volunteer to the  russo - japanese war 1904. He proved himself a good soldier and got promoted to colonel.",
+               "Mannerheim spent two years on an expedition in Asia. He showed evidence of considerable scientific talent through the ethnographic material he collected.",
+               "Marshal Mannerheim's equestrian statue outside Kiasma in Helsinki is made by Aimo Tukiainen."
           ],
           "tags": []
      },
      {
+          "name": "Marco Polo ",
+          "bio": "Marco Polo born 1254 was a venetian merchant and adventurer who travelled from Europe to Asia.",
+          "filename": "photodir/12.jpg",
+          "croppedfilename": "photodir/12.png",
+          "questions": [
+               {
+                    "question": "What is the famous book depicting Marco Polos travels called? ",
+                    "answertext": "The travels of Marco Polo or Il Milione . Marco Polo dictated his tale to the writer Rustichello when they both were imprisoned in Genoa. ",
+                    "answers": [
+                         "Il Milione/The travels of Marco Polo",
+                         "Decamerone",
+                         "The tales of China"
+                    ]
+               },
+               {
+                    "question": "How long did Marco Polo stay in China?",
+                    "answertext": "Marco Polo stayed 17 years in China. In total it would take 23 years before he returned to Venice.",
+                    "answers": [
+                         "17 Years",
+                         "26 Years",
+                         "7 years"
+                    ]
+               },
+               {
+                    "question": "What did Marco Polo do in China?",
+                    "answertext": "He earned an important position at Kublai Khans court. The emperor employed Polo as a special envoy he sent to areas in Asia no European had explored before. He later served as governor of an unnamed Chinese city and as a tax inspector for the city of Yanzhou.",
+                    "answers": [
+                         "He was an important person at Kublai Khans court.",
+                         "He went to war against local tribes on behalf of Kublai Khan.",
+                         "He used Kublai Khans wealth to live an easy and extravagant life."
+                    ]
+               }
+          ],
+          "funfacts": [
+               "Marco wasn\u00b4t the only Polo that travelled to Asia. His father Niccolo and uncle Maffeo accompanied him on the journey.",
+               "His descriptions of the places and cultures his visited has proved to be remarkably correct. His book Il milione has therefore become an invaluable historical source.",
+               "Polos friends and family didn\u00b4t believe his tales depicted in Il Milione. On his deathbed they urged him to admit that he had made up the stories. He refused and said he had only told half of what he saw. While this is hard to prove for historians we know that a lot of the thing he described were accurate. "
+          ],
+          "tags": [
+               "Pre 1800-s",
+               "Businessman",
+               "Adventurer",
+               "Italian"
+          ]
+     },
+     {
           "name": "Napoleon III",
           "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-          "filename": "photodir/10.jpg",
-          "croppedfilename": "photodir/10.png",
+          "filename": "photodir/13.jpg",
+          "croppedfilename": "photodir/13.png",
           "questions": [
                {
                     "question": "What was Napoleon III's relation to Napoleon Bonaparte?",
@@ -400,7 +517,7 @@ var data = {
                     ]
                },
                {
-                    "question": "What huge constuction project was undertaken on the order of Napoleon III?",
+                    "question": "What huge construction project was undertaken on the order of Napoleon III?",
                     "answertext": "During many decades time from the 1850s to the 1870s, the entire center of Paris was transformed from cramped medieval streets to open, modern avenues, giving birth to the Parisienne style.",
                     "answers": [
                          "The reconstruction of Paris",
@@ -423,12 +540,12 @@ var data = {
      {
           "name": "Stan Lee",
           "bio": "He is an American comic book writer, known for the Marvel Comics.",
-          "filename": "photodir/11.jpg",
-          "croppedfilename": "photodir/11.png",
+          "filename": "photodir/14.jpg",
+          "croppedfilename": "photodir/14.png",
           "questions": [
                {
                     "question": "Has Stan Lee ever made any cameos in the Marvel movies?",
-                    "answertext": "R\u00e4tt svar: Yes",
+                    "answertext": "He can be found in most Marvel movies as small qucik cameos.",
                     "answers": [
                          "Yes",
                          "No"
@@ -436,7 +553,7 @@ var data = {
                },
                {
                     "question": "What superhero league did Stan Lee create?",
-                    "answertext": "R\u00e4tt svar: The Avengers",
+                    "answertext": "He created the Avengers, a group of superheroes that protect earth.",
                     "answers": [
                          "The Avengers",
                          "Justice League",
@@ -445,7 +562,7 @@ var data = {
                },
                {
                     "question": "What character did he not create?",
-                    "answertext": "R\u00e4tt svar: Superman",
+                    "answertext": "He did not create Superman.",
                     "answers": [
                          "Iron man",
                          "Superman",
@@ -463,8 +580,8 @@ var data = {
      {
           "name": "Zacharias Topelius",
           "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author. (More to come)",
-          "filename": "photodir/12.jpg",
-          "croppedfilename": "photodir/12.png",
+          "filename": "photodir/15.jpg",
+          "croppedfilename": "photodir/15.png",
           "questions": [
                {
                     "question": "In 1833 Topelius began studying at the University. What did he plan to study?",
