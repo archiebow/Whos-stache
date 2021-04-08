@@ -3,26 +3,89 @@ function randomRange(excludedMax) {
 }
 
 function getRandomCharacter() {
-	id = randomRange(data.characters.length);
-	character = data.characters[id];
+	var id = randomRange(data.characters.length);
+	var character = data.characters[id];
 	character.id = id;
 	return character;
 }
 
 $(document).ready(function(e) {
-	characterQuestion();
 	$("#next > div").click(nextClick);
+	gameStep = game();
+	gameStep.next();
 });
 
-function characterQuestion() {
+function* game() {
+	var characters = selectCharacters(10);
+	for (idx in characters) {
+		var character = characters[idx];
+		stacheQuestion(character);
+		yield;
+		characterQuestion(character);
+		yield;
+	}
+}
+
+function selectCharacters(count=10) {
+	var characters = [];
+	while (characters.length < count) {
+		var character = getRandomCharacter();
+		if (data.characters.length > count) {
+			if (characters.indexOf(character) == -1) {
+				characters.push(character);
+			}
+		} else {
+			characters.push(character);
+		}
+	}
+	return characters;
+}
+
+function stacheQuestion(answerCharacter) {
 	hasAnswered = false;
-	character = getRandomCharacter();
-	charimg = character.filename;
+	var characters = [answerCharacter];
+	while (characters.length < 3) {
+		var character = getRandomCharacter();
+		if (characters.indexOf(character) == -1) {
+			characters.push(character);
+		}
+	}
+	var charimg = answerCharacter.croppedfilename;
+	uncroppedimg = answerCharacter.filename;
 	$("#image").css("background-image", "url("+charimg+")");
-	var question = randomRange(character.questions.length);
-	$("#question").text(character.questions[question].question);
-	var answers = character.questions[question].answers;
-	answerText = character.questions[question].answertext;
+
+	answerText = answerCharacter.funfacts[randomRange(answerCharacter.funfacts.length)];
+	var answerList = [];
+	for (idx in characters) {
+		var element = $(`<div class="answer alternative">${characters[idx].name}</div>`);
+		if (idx == 0) {
+			rightAnswer = element;
+		}
+		(function(index) {
+			element.click(function(event) {
+				answerClick(event, index);
+			});
+			answerList.push(element);
+		})(idx);
+	}
+	var animationDelay = 1;
+	while (answerList.length > 0) {
+		var index = randomRange(answerList.length);
+		var element = answerList.splice(index, 1)[0]
+		element.css("animation-delay", animationDelay + "s");
+		animationDelay += 0.25;
+		element.appendTo("#answers");
+	}
+}
+
+function characterQuestion(answerCharacter) {
+	hasAnswered = false;
+	var charimg = answerCharacter.filename;
+	$("#image").css("background-image", "url("+charimg+")");
+	var question = randomRange(answerCharacter.questions.length);
+	$("#question").text(answerCharacter.questions[question].question);
+	var answers = answerCharacter.questions[question].answers;
+	answerText = answerCharacter.questions[question].answertext;
 	var answerList = [];
 	for (idx in answers) {
 		var element = $(`<div class="answer alternative">${answers[idx]}</div>`);
@@ -60,6 +123,7 @@ function answerClick(event, answer) {
 		$("#next").removeClass("hidden");
 		$("#next > div").css("animation-name", "slide-in");
 		$("#next > div").css("animation-timing-function", "ease-out");
+		$("#image").css("background-image", "url("+uncroppedimg+")");
 	}
 }
 
@@ -83,6 +147,7 @@ function nextClick() {
 		$("#answers").empty();
 		$("#answertext").text("");
 		$("#question").css("animation", "");
-		characterQuestion();
+		$("#question").text("");
+		gameStep.next();
 	}, 1500);
 }
