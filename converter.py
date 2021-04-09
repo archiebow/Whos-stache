@@ -80,12 +80,11 @@ for root, dirs, files in os.walk(".", topdown=False):
    else:
       print("Invalid character! " + dataf + photof + crophotof)
 
-print(json.dumps(characters, indent=4))
 
 if os.path.exists("data.js"):
    os.remove("data.js")
 f = open("data.js","x")
 f.write("var data = {\n\t\"characters\": ")
-f.write(json.dumps(characters, indent=5))
+f.write(json.dumps(characters, indent=4))
 f.write("\n}")
 f.close()
