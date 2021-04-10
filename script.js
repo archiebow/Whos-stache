@@ -97,8 +97,9 @@ function stacheQuestion(answerCharacter) {
 	var charimg = answerCharacter.croppedfilename;
 	uncroppedimg = answerCharacter.filename;
 	$("#image").css("background-image", "url("+charimg+")");
-
-	answerText = getRandomElement(answerCharacter.funfacts);
+	
+	bioText = answerCharacter.bio
+	answerText = "Fun Fact: " + getRandomElement(answerCharacter.funfacts)
 	generateAnswerButtons(names);
 }
 
@@ -110,6 +111,7 @@ function characterQuestion(answerCharacter) {
 	$("#question").text(question.question);
 	var answers = question.answers;
 	answerText = question.answertext;
+	bioText = ""
 	generateAnswerButtons(answers);
 }
 
@@ -122,6 +124,8 @@ function answerClick(event, answer) {
 			$(event.target).addClass("wrong");
 			rightAnswer.addClass("right");
 		}
+		$("#biotext").text(bioText);
+		$("#biotext").css("animation", "fade-in 1s");
 		$("#answertext").text(answerText);
 		$("#answertext").css("animation", "fade-in 1s");
 		$("#next").removeClass("hidden");
@@ -145,11 +149,14 @@ function nextClick() {
 	$("#next > div").css("animation-timing-function", "ease-in");
 	$("#answertext").css("animation", "fade-out 1s");
 	$("#answertext").css("animation-fill-mode", "forwards");
+	$("#biotext").css("animation", "fade-out 1s");
+	$("#biotext").css("animation-fill-mode", "forwards");
 	$("#question").css("animation", "fade-out 1s");
 	$("#question").css("animation-fill-mode", "forwards");
 	setTimeout(() => {
 		$("#answers").empty();
 		$("#answertext").text("");
+		$("#biotext").text("");
 		$("#question").css("animation", "");
 		$("#question").text("");
 		gameStep.next();
