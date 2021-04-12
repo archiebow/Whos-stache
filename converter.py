@@ -47,6 +47,7 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
          break
       else:
          print("Jävla Humanister!\n" + str(row))
+         return Null
       
    print("Sucessfully added "+ character['name'])
    return character
