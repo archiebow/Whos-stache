@@ -3,8 +3,8 @@ var data = {
     {
         "name": "Adolf Hitler",
         "bio": "German leader during the second world war. Started the war by invading Poland in 1939 and commited war crimes during the war such as the holocaust. Commited his own life in 1945.  ",
-        "filename": "photodir/0.jpg",
-        "croppedfilename": "photodir/0.png",
+        "filename": "photodir/2.jpg",
+        "croppedfilename": "photodir/2.png",
         "questions": [
             {
                 "question": "When did the famous Beer Hall Push witch Hitler lead happen?",
@@ -38,8 +38,8 @@ var data = {
     {
         "name": "Albert Edelfelt",
         "bio": "Albert Edelfelt, 1854-1905, is one of Finlands most known painters. (More to come)",
-        "filename": "photodir/1.jpg",
-        "croppedfilename": "photodir/1.png",
+        "filename": "photodir/5.jpg",
+        "croppedfilename": "photodir/5.png",
         "questions": [
             {
                 "question": "What was Albert Edelfelts whole name?",
@@ -79,10 +79,81 @@ var data = {
         ]
     },
     {
+        "name": "Albert Einstein",
+        "bio": "Nobel prize winning scientist who is  most known for the theory of relativity and the E=m2 formula",
+        "filename": "photodir/8.jpg",
+        "croppedfilename": "photodir/8.png",
+        "questions": [
+            {
+                "question": "For witch paper did Einstein win the nobel prize",
+                "answertext": "For what work did he recive the nobel pirze in physics?",
+                "answers": [
+                    "The law of the photoelectric effect",
+                    "Theory of relativity",
+                    "Quantum mechanics"
+                ]
+            }
+        ],
+        "funfacts": [
+            "He was a life long pacifist most well know for the letter urging Rosevelt to reaserch a Atom Bomb"
+        ],
+        "tags": [
+            1900.0,
+            "Scientist",
+            "German",
+            "..."
+        ]
+    },
+    {
+        "name": "Alfred von Tirpitz",
+        "bio": "Alfred Peter Friedrich von Tirpitz (1849-1930) was a german Grand Admiral. Under his command, the german navy grew to be world's second most powerful fleet by the start of WW1",
+        "filename": "photodir/11.jpg",
+        "croppedfilename": "photodir/11.png",
+        "questions": [
+            {
+                "question": "Why did Tirpitz resign from the navy in 1915?",
+                "answertext": "Tirpitz recognized that his navy was ill prepared to challenge the royal navy, and instead advocated unrestricted U-boat warfare. After civilian casualties such as the sinking of the cruise liner Lusitania and despite his vocal opposition, restrictions were placed on the u-boats in 1915 not to provoke neutral nations. Unrestricted warfare was eventually resumed in 1917 when the war situation grew more desperate.",
+                "answers": [
+                    "He disagreed on restricting submarine warfare",
+                    "Old age",
+                    "A disagreement between Tirpitz and Hindenburg"
+                ]
+            },
+            {
+                "question": "The largest German battleship in WW2 was named after Tirpitz. What was the fate of this ship?",
+                "answertext": "KMS Tirpitz was stationed in Norway for most of the war, and the British made multiple attempts at sinking her, including attacks by bombers, combat divers and midget submarines. In the end, the ship was sunk by 3 direct hits from 5400kg Tallboy bombs",
+                "answers": [
+                    "Sunk by air attack",
+                    "Sunk in a post-war atomic bomb test",
+                    "Scrapped after the war"
+                ]
+            },
+            {
+                "question": "Before WW1 Britain and Germany were racing to build battleships of a new type with a uniform main battery. What were these ships called?",
+                "answertext": "HMS Dreadnought was launched in 1906, and later ships of similiar build came to be known as Dreadnoughts. The ship had a main battery of 10 12-inch guns, making previous battleships with only 4 effectively obsolete.",
+                "answers": [
+                    "Dreadnoughts",
+                    "Battlecruisers",
+                    "Torpedo boats"
+                ]
+            }
+        ],
+        "funfacts": [
+            "After the war, Tirpitz joined politics and sat in the reichstag betweeen 1924 and 1928",
+            "Tirpitz spoke fluent English, and his daughters attended school in the UK",
+            "Tirpitz hoped that even a numerically smaller german navy could match the british, since Britain would have to spread its navy around it's massive empire. Instead, the german threat prompted the british to make arrangements with other powers, allowing them to concentrate their power towards Germany."
+        ],
+        "tags": [
+            "WW1",
+            "German",
+            "Military"
+        ]
+    },
+    {
         "name": "Blackbeard",
         "bio": "Blackbeard, was an English pirate who operated around the West Indies and the eastern coast of Britain's North American colonies.",
-        "filename": "photodir/2.jpg",
-        "croppedfilename": "photodir/2.png",
+        "filename": "photodir/14.jpg",
+        "croppedfilename": "photodir/14.png",
         "questions": [
             {
                 "question": "How did the the famous pirate die?",
@@ -120,10 +191,53 @@ var data = {
         "tags": []
     },
     {
+        "name": "Emiliano Zapata",
+        "bio": "Emiliano Zapata, 1879-1919, was a Mexican revolutionary leader. He was one of the main figures in the Mexican revolution that took place between the years 1910-1920.",
+        "filename": "photodir/17.jpg",
+        "croppedfilename": "photodir/17.png",
+        "questions": [
+            {
+                "question": "Where was Zapata born?",
+                "answertext": "He was born in Anenecuildo, about 50 km south of Mexico City.",
+                "answers": [
+                    "Mexico",
+                    "Spain",
+                    "Honduras"
+                ]
+            },
+            {
+                "question": "How did Zapata die?",
+                "answertext": "He was on his way to a meeting, but instead of the meeting, he was assassinated.",
+                "answers": [
+                    "He was shot",
+                    "He was hanged",
+                    "His house was blown up"
+                ]
+            },
+            {
+                "question": "What was Zapatas full name?",
+                "answertext": "Zapata was his paternal family name and Salazar maternal family name.",
+                "answers": [
+                    "Emiliano Zapata Salazar",
+                    "Emiliano  John Zapata",
+                    "Ernesto Enrique Zapata"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Zapata had nine siblings. He was the second youngest."
+        ],
+        "tags": [
+            "Early 1900s",
+            "revolutionary",
+            "mexican"
+        ]
+    },
+    {
         "name": "Hulk Hogan",
         "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
-        "filename": "photodir/3.jpg",
-        "croppedfilename": "photodir/3.png",
+        "filename": "photodir/20.jpg",
+        "croppedfilename": "photodir/20.png",
         "questions": [
             {
                 "question": "Besides wrestling, Hulk Hogan has an extensive acting career. Which of the following movies has Hulk been in?",
@@ -166,8 +280,8 @@ var data = {
     {
         "name": "Galileo Galilei",
         "bio": "Galileo born 1564  was an Italien scientist, astronomer and philosopher. He discovered many of Jupters moons and the rings of Saturn. His support of the heliocentric universe earned him many powerful enemies within the church.",
-        "filename": "photodir/4.jpg",
-        "croppedfilename": "photodir/4.png",
+        "filename": "photodir/23.jpg",
+        "croppedfilename": "photodir/23.png",
         "questions": [
             {
                 "question": "Galieo invented the telescpe. True of false? ",
@@ -210,8 +324,8 @@ var data = {
     {
         "name": "Genghis Khan",
         "bio": "Genghis Khan was the first Great Khan and founder of the Mongol Empire.",
-        "filename": "photodir/5.jpg",
-        "croppedfilename": "photodir/5.png",
+        "filename": "photodir/26.jpg",
+        "croppedfilename": "photodir/26.png",
         "questions": [
             {
                 "question": "What was Genghis Khans birthname?",
@@ -251,8 +365,8 @@ var data = {
     {
         "name": "Gustaf II Adolf",
         "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
-        "filename": "photodir/6.jpg",
-        "croppedfilename": "photodir/6.png",
+        "filename": "photodir/29.jpg",
+        "croppedfilename": "photodir/29.png",
         "questions": [
             {
                 "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
@@ -271,14 +385,14 @@ var data = {
             "Sweden",
             "King",
             "Religion",
-            "17'th century"
+            "Pre 1800s"
         ]
     },
     {
         "name": "Heinrich Himmler",
         "bio": "Himmler was the leader of the Waffen SS and the maine architect behind the holocaust",
-        "filename": "photodir/7.jpg",
-        "croppedfilename": "photodir/7.png",
+        "filename": "photodir/32.jpg",
+        "croppedfilename": "photodir/32.png",
         "questions": [
             {
                 "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -301,10 +415,53 @@ var data = {
         ]
     },
     {
+        "name": "Henrik Adolf Mechelin",
+        "bio": "Henrik Adolf Mechelin, 1813-1899, was a Finnish official, member of the Diet and a Senator.",
+        "filename": "photodir/35.jpg",
+        "croppedfilename": "photodir/35.png",
+        "questions": [
+            {
+                "question": "How was Henrik Adolf related to Leo Mechelin?",
+                "answertext": "Both were Finnish senators",
+                "answers": [
+                    "He was his uncle",
+                    "He was his father",
+                    "They weren't"
+                ]
+            },
+            {
+                "question": "In what year was Henrik Adolf knighted?",
+                "answertext": "His nephew Leo Mechelin was also knighted, but a few years earlier in 1876.",
+                "answers": [
+                    "1886",
+                    "1866",
+                    "1899"
+                ]
+            },
+            {
+                "question": "He was born in Kes\u00e4lahti, but what is Kes\u00e4lahti called in Swedish?",
+                "answertext": "Kes\u00e4lax is very rarely used today.",
+                "answers": [
+                    "Kes\u00e4lax",
+                    "Keslaht",
+                    "Wiik"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Henrik Adolf Mechelin got many honorary titles, among others hovr\u00e5d/hovineuvos in 1847, kollegier\u00e5d/kollegineuvos 1850, statsr\u00e5d/valtioneuvos 1854 and verkligt statsr\u00e5d/todellinen valtioneuvos in 1868."
+        ],
+        "tags": [
+            "1800s",
+            "finnish",
+            "official"
+        ]
+    },
+    {
         "name": "Henrik Meinander",
         "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-        "filename": "photodir/8.jpg",
-        "croppedfilename": "photodir/8.png",
+        "filename": "photodir/38.jpg",
+        "croppedfilename": "photodir/38.png",
         "questions": [
             {
                 "question": "Henrik Meinanders father was known as well, but for what?",
@@ -347,8 +504,8 @@ var data = {
     {
         "name": "Ky\u00f6sti Kallio",
         "bio": "Ky\u00f6sti Kallio was Finlands fourth President",
-        "filename": "photodir/9.jpg",
-        "croppedfilename": "photodir/9.png",
+        "filename": "photodir/41.jpg",
+        "croppedfilename": "photodir/41.png",
         "questions": [
             {
                 "question": "How many children did Ky\u00f6sti have with his wife Kaisa? ",
@@ -387,8 +544,8 @@ var data = {
     {
         "name": "Leo Mechelin",
         "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician. (More info to come..)",
-        "filename": "photodir/10.jpg",
-        "croppedfilename": "photodir/10.png",
+        "filename": "photodir/44.jpg",
+        "croppedfilename": "photodir/44.png",
         "questions": [
             {
                 "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. S\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -431,8 +588,8 @@ var data = {
     {
         "name": "Leonardo Da Vinci",
         "bio": "Da Vinci, born 1452, was a reneissace engineer, sculptor, inventor and artist. He is most famous for the paintings Mona Lisa and The last supper",
-        "filename": "photodir/11.jpg",
-        "croppedfilename": "photodir/11.png",
+        "filename": "photodir/47.jpg",
+        "croppedfilename": "photodir/47.png",
         "questions": [
             {
                 "question": "How long did it take Da Vinci to paint his famous work, The last supper?",
@@ -478,8 +635,8 @@ var data = {
     {
         "name": "Gustaf Mannerheim",
         "bio": "Finnish-Swedish baron, military officer and statesman. The only one who has held the title of Marshal of Finland. President of Finland between 1944-1946.",
-        "filename": "photodir/12.jpg",
-        "croppedfilename": "photodir/12.png",
+        "filename": "photodir/50.jpg",
+        "croppedfilename": "photodir/50.png",
         "questions": [
             {
                 "question": "Mannerheim gave name to the Finnish line of defense used during the winterwar, what was it called?",
@@ -519,8 +676,8 @@ var data = {
     {
         "name": "Marco Polo ",
         "bio": "Marco Polo born 1254 was a venetian merchant and adventurer who travelled from Europe to Asia.",
-        "filename": "photodir/13.jpg",
-        "croppedfilename": "photodir/13.png",
+        "filename": "photodir/53.jpg",
+        "croppedfilename": "photodir/53.png",
         "questions": [
             {
                 "question": "What is the famous book depicting Marco Polos travels called? ",
@@ -565,8 +722,8 @@ var data = {
     {
         "name": "Michelangelo Buonarroti",
         "bio": "Michelangelo was a sublimely talented renaissance artist. The statute of David and his artwork on the ceiling of Sistine chapel are considered to be some of the most beautiful pieces of art ever created. ",
-        "filename": "photodir/14.jpg",
-        "croppedfilename": "photodir/14.png",
+        "filename": "photodir/56.jpg",
+        "croppedfilename": "photodir/56.png",
         "questions": [
             {
                 "question": "Where\u2019s Michelangelo from? ",
@@ -612,8 +769,8 @@ var data = {
     {
         "name": "Napoleon III",
         "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-        "filename": "photodir/15.jpg",
-        "croppedfilename": "photodir/15.png",
+        "filename": "photodir/59.jpg",
+        "croppedfilename": "photodir/59.png",
         "questions": [
             {
                 "question": "What was Napoleon III's relation to Napoleon Bonaparte?",
@@ -646,10 +803,34 @@ var data = {
         ]
     },
     {
+        "name": "Panayot Hitov",
+        "bio": "Panayot Hitov (1830-1918) was a bulgarian soldier, revolutionary and warlord",
+        "filename": "photodir/62.jpg",
+        "croppedfilename": "photodir/62.png",
+        "questions": [
+            {
+                "question": "Fr\u00e5gtext",
+                "answertext": "Svartext",
+                "answers": [
+                    "R\u00e4ttAlt",
+                    "Alt2",
+                    "alt3"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Outside Bulgaria, Panayot Hitov is mostly remembered for his moustasche"
+        ],
+        "tags": [
+            "1800s",
+            "Tag2"
+        ]
+    },
+    {
         "name": "Rene Descartes 1596-1650",
         "bio": "Descartes was a French philosopher. He is seen as the founder of modern philosophy and his work has been very influential. He is probably most famed for his saying \u201ccogito ergo sum\u201d. ",
-        "filename": "photodir/16.jpg",
-        "croppedfilename": "photodir/16.png",
+        "filename": "photodir/107.jpg",
+        "croppedfilename": "photodir/107.png",
         "questions": [
             {
                 "question": "What does Rene Descartes famous saying \u201ccogito ergo sum\u201d mean? ",
@@ -691,10 +872,53 @@ var data = {
         ]
     },
     {
+        "name": "Salvador Dali",
+        "bio": "Salvador Dali, 1904-1989, was a surrealist artist.",
+        "filename": "photodir/110.jpg",
+        "croppedfilename": "photodir/110.png",
+        "questions": [
+            {
+                "question": "Where was Dali born?",
+                "answertext": "He was born in Figueres in Catalonia in Spain.",
+                "answers": [
+                    "Spain",
+                    "Portugal",
+                    "France"
+                ]
+            },
+            {
+                "question": "When did he paint one of his most known paintings, The Persistence of Memory (The \"melting\" watches).",
+                "answertext": "The painting, that's only 24 x 33 cm large, can be viewed in New York at the Museum of Modern Art.",
+                "answers": [
+                    "1931",
+                    "1919",
+                    "1939"
+                ]
+            },
+            {
+                "question": "Dali worked with a musician in the beginning of the 70's and made a 3D Hologram of him. Which artist?",
+                "answertext": "The piece is called First Cylindric Chromo-Hologram. Portrait of Alice Cooper's Brain. Alice Cooper later used a part of a Dali painting for the cover for his DaDa album.",
+                "answers": [
+                    "Alice Cooper",
+                    "Jim Morrison",
+                    "Ozzy Osbourne"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Salvador Dali had an Ocelot (Leopardus pardalis) as a pet. This medium size wild cat animal is native to Central and South America."
+        ],
+        "tags": [
+            "1900s",
+            "artist",
+            "painter"
+        ]
+    },
+    {
         "name": "Stan Lee",
         "bio": "He is an American comic book writer, known for the Marvel Comics.",
-        "filename": "photodir/17.jpg",
-        "croppedfilename": "photodir/17.png",
+        "filename": "photodir/113.jpg",
+        "croppedfilename": "photodir/113.png",
         "questions": [
             {
                 "question": "Has Stan Lee ever made any cameos in the Marvel movies?",
@@ -731,10 +955,64 @@ var data = {
         "tags": []
     },
     {
+        "name": "Kaiser Wilhelm II",
+        "bio": "Friedrich Wilhelm Viktor Albert (1859-1941) was the last german emperor, and king of Prussia.",
+        "filename": "photodir/116.jpg",
+        "croppedfilename": "photodir/116.png",
+        "questions": [
+            {
+                "question": "How long did WiIhelm reign as emperor?",
+                "answertext": "From his accession at the age of 29, Wilhelm reigned for 30 years, before beign forced to abdicate due to Germany's defeat in WW1.  The german empire only existed for 47 years in total.",
+                "answers": [
+                    "30 years",
+                    "15 years",
+                    "50 years",
+                    "..."
+                ]
+            },
+            {
+                "question": "What health issue did Wilhelm have?",
+                "answertext": "Birth complications left Wilhelm with a withered and paralyzed left arm, about 15cm shorter than his right. Wilhelm used various ways of hiding his disfigurement in photos.",
+                "answers": [
+                    "He had a disfigured left arm",
+                    "He was blind in one eye",
+                    "He suffered from bleeding sickness"
+                ]
+            },
+            {
+                "question": "Who were Germany's allies in WW1?",
+                "answertext": "Keeping frendly ties to the other large continental powers, France and Russia was an utmost priority for Bismarck. However, Wilhelm instituted a much more agressive foreing policy, resulting in many former allies being enemies in WW1.",
+                "answers": [
+                    "Austria Hungary and the Ottoman Empire",
+                    "France and Russia",
+                    "The United Kingdom and the United States"
+                ]
+            },
+            {
+                "question": "Wilhelm was a big fan of the German Navy. What was the fleet he built called?",
+                "answertext": "Wilhelm started a huge shipbuilding program, with the intent of challenging the royal navy, and triggering a naval arms race between Germany and Great Britain. In the end, his high seas fleet could never match the british naval strength and mostly stayed on the defensive during the war.",
+                "answers": [
+                    "The high seas fleet",
+                    "The grand fleet",
+                    "The kriegsmarine"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Wilhelm and german chancellor Otto von Bismarck did not get along. In fact, Wilhelm forced Bismarck to retire only two years after his ascension to power.",
+            "Wilhelm was grandchild to queen Victoria, and first cousin to both Czar Nicholas of Russia and King George of the United Kingdom"
+        ],
+        "tags": [
+            "WW1",
+            "German",
+            "Kings"
+        ]
+    },
+    {
         "name": "Zacharias Topelius",
         "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author. (More to come)",
-        "filename": "photodir/18.jpg",
-        "croppedfilename": "photodir/18.png",
+        "filename": "photodir/119.jpg",
+        "croppedfilename": "photodir/119.png",
         "questions": [
             {
                 "question": "In 1833 Topelius began studying at the University. What did he plan to study?",

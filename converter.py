@@ -64,22 +64,25 @@ for root, dirs, files in os.walk(".", topdown=False):
    crophotof = ""
    dataf = ""
    for name in files:
-      if name.endswith('.jpg'):
-         photof = str(i)+".jpg"
-         shutil.copy(os.path.join(root, name), os.path.join(photodir, photof))
+      photodest = str(i)+".jpg"
+      cropdest = str(i)+".png"
+      i = i+1
+      if name.endswith('.jpg') or name.endswith('.jpeg'):
+         photof = name
       elif name.endswith('.png'):
-         crophotof = str(i)+".png"
-         shutil.copy(os.path.join(root, name), os.path.join(photodir, crophotof))
+         crophotof = name
       elif name.endswith('.xlsx'):
          dataf = name
    if "" not in (photof, crophotof, dataf):
       try:
-         characters.append(importcharacter(os.path.join(root, dataf),photof,crophotof))
-         i = i+1
+         shutil.copy(os.path.join(root, photof), os.path.join(photodir, photodest))
+         shutil.copy(os.path.join(root, crophotof), os.path.join(photodir, cropdest))
+         characters.append(importcharacter(os.path.join(root, dataf),photodest,cropdest))
+         
       except Exception as e:
          print(e)
    else:
-      print("Invalid character! " + dataf + photof + crophotof)
+      print("Invalid character! Name:" +  dataf +", File: " + photof + ", Croppedfile:" + crophotof)
 
 
 if os.path.exists("data.js"):
