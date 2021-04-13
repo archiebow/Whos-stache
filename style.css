@@ -94,6 +94,12 @@ body {
 	text-align: center;
 }
 
+#points {
+	margin: 10px;
+	color: rgb(41, 233, 48);
+	text-align: left;
+}
+
 @keyframes fade-in {
 	from {color: rgb(50, 50, 50); }
 	to { color: white; }

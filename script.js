@@ -45,7 +45,7 @@ function addButtonsToPage(buttonElements) {
 
 
 // Initialization
-
+var points = 0;
 $(document).ready(function(e) {
 	$("#next > div").click(nextClick);
 	gameStep = game();
@@ -56,6 +56,7 @@ $(document).ready(function(e) {
 // Game functions
 
 function* game() {
+	$("#points").text("Score: " + points);
 	var characters = selectCharacters(10);
 	for (idx in characters) {
 		var character = characters[idx];
@@ -64,6 +65,8 @@ function* game() {
 		characterQuestion(character);
 		yield;
 	}
+	$("#image").css("background-image", "url("+charimg+")");
+
 }
 
 function selectCharacters(count=10) {
@@ -120,9 +123,13 @@ function answerClick(event, answer) {
 		hasAnswered = true;
 		if (answer == 0) {
 			$(event.target).addClass("right");
+			points += 10;
+			$("#points").text("Score: " + points);
 		} else {
 			$(event.target).addClass("wrong");
 			rightAnswer.addClass("right");
+			points -= 5;
+			$("#points").text("Score: " + points);
 		}
 		$("#biotext").text(bioText);
 		$("#biotext").css("animation", "fade-in 1s");
