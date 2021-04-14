@@ -15,6 +15,35 @@
 		<div class="logo">
 			<img src="logo.png" class="logo" />
 		</div>
+		<div id="menu">
+			<div class="button" onclick="newgame();">New game</div>
+			<div class="button" onclick="credits();">Credits</div>
+		</div>
+		<div id="credits">
+			<h2>Game design</h2>
+			<p>
+				Arthur Tollet<br />
+				Lea Ekbald<br />
+				...<br />
+			</p>
+			<h2>Research on characters</h2>
+			<p>
+				Arthur Tollet<br />
+				Lea Ekbald<br />
+				...<br />
+			</p>
+			<h2>Programming</h2>
+			<p>
+				Anders Forsman<br />
+				Arthur Tollet<br />
+			</p>
+		</div>
+		<div id="gamemenu">
+			<div>Total number of characters in selection: <span id="charCount"></span></div>
+			<div id="characters"></div>
+			<div class="button" onclick="start();">Start</div>
+		</div>
+		<div class="button" onclick="back();" id="back">Back</div>
 		<div id="points"></div>
 		<div class="content">
 			<div id="image"></div>
@@ -26,7 +55,7 @@
 		<div id="biotext"></div>
 		<div id="answertext"></div>
 		<div id="next" class="hidden">
-			<div>Next</div>
+			<div onclick="nextClick();">Next</div>
 		</div>
 	</div>
 </body>

@@ -9,8 +9,8 @@ function getRandomElement(array) {
 	return array[randomRange(array.length)];
 }
 
-function getRandomCharacter() {
-	return getRandomElement(data.characters);
+function getRandomCharacter(characterSelection) {
+	return characterSelection ? getRandomElement(characterSelection) : getRandomElement(data.characters);
 }
 
 function generateAnswerButtons(answers) {
@@ -43,24 +43,38 @@ function addButtonsToPage(buttonElements) {
 	}
 }
 
+function addTag(tag) {
+	if (tags[tag] == null) {
+		tags[tag] = 0;
+	}
+	tags[tag]++;
+}
+
+function scanTags(data) {
+	data.characters.forEach(character => character.tags.forEach(tag => addTag(tag)));
+}
+
+function filterCharacters(tagList) {
+	return data.characters.filter(character => character.tags.some(tag => tagList.indexOf(tag) != -1));
+}
+
 
 // Initialization
 var points = 0;
 $(document).ready(function(e) {
-	$("#next > div").click(nextClick);
-	gameStep = game();
-	gameStep.next();
+	tags = {};
+	scanTags(data);
 });
 
 
 // Game functions
 
-function* game() {
+function* game(characterSelection) {
 	$("#points").text("Score: " + points);
-	var characters = selectCharacters(10);
+	var characters = selectCharacters(10, characterSelection);
 	for (idx in characters) {
 		var character = characters[idx];
-		stacheQuestion(character);
+		stacheQuestion(character, characterSelection);
 		yield;
 		characterQuestion(character);
 		yield;
@@ -69,11 +83,19 @@ function* game() {
 
 }
 
-function selectCharacters(count=10) {
+function selectCharacters(count=10, characterSelection) {
 	var characters = [];
 	while (characters.length < count) {
-		var character = getRandomCharacter();
-		if (data.characters.length > count) {
+		var character = getRandomCharacter(characterSelection);
+		if (characterSelection) {
+			if (characterSelection.length > count) {
+				if (characters.indexOf(character) == -1) {
+					characters.push(character);
+				}
+			} else {
+				characters.push(character);
+			}
+		} else if (data.characters.length > count) {
 			// Check if character already in selection
 			if (characters.indexOf(character) == -1) {
 				characters.push(character);
@@ -86,12 +108,12 @@ function selectCharacters(count=10) {
 	return characters;
 }
 
-function stacheQuestion(answerCharacter) {
+function stacheQuestion(answerCharacter, characterSelection) {
 	hasAnswered = false;
 	// Add the right character to the list of options
 	var names = [answerCharacter.name];
 	while (names.length < 3) {
-		var name = getRandomCharacter().name;
+		var name = getRandomCharacter(characterSelection).name;
 		// Check if name already in selection
 		if (names.indexOf(name) == -1) {
 			names.push(name);
@@ -100,7 +122,7 @@ function stacheQuestion(answerCharacter) {
 	var charimg = answerCharacter.croppedfilename;
 	uncroppedimg = answerCharacter.filename;
 	$("#image").css("background-image", "url("+charimg+")");
-	
+
 	bioText = answerCharacter.bio
 	answerText = "Fun Fact: " + getRandomElement(answerCharacter.funfacts)
 	generateAnswerButtons(names);
@@ -117,6 +139,9 @@ function characterQuestion(answerCharacter) {
 	bioText = ""
 	generateAnswerButtons(answers);
 }
+
+
+// UI functions
 
 function answerClick(event, answer) {
 	if (!hasAnswered) {
@@ -168,4 +193,58 @@ function nextClick() {
 		$("#question").text("");
 		gameStep.next();
 	}, 1500);
+}
+
+function newgame() {
+	$("#menu").css("display", "none");
+	$("#gamemenu").css("display", "block");
+	$("#back").css("display", "block");
+	$("#characters").empty();
+	$("#charCount").text(0)
+	for (tag in tags) {
+		var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
+		(function(tag) {
+			// Bind onClick event to our function
+			element.click(function(event) {
+				tagClick(event, tag);
+			});
+		})(tag);
+		element.appendTo("#characters");
+	}
+	selection = [];
+}
+
+function credits() {
+	$("#menu").css("display", "none");
+	$("#credits").css("display", "block");
+	$("#back").css("display", "block");
+}
+
+function back() {
+	$("#gamemenu").css("display", "none");
+	$("#credits").css("display", "none");
+	$("#back").css("display", "none");
+	$("#menu").css("display", "block");
+}
+
+function tagClick(event, tag) {
+	if (selection.indexOf(tag) != -1) {
+		$(event.target).find("> span").html("");
+		selection.splice(selection.indexOf(tag), 1);
+	} else {
+		selection.push(tag);
+		$(event.target).find("> span").append($(`<img src="stache.png" />`));
+	}
+	$("#charCount").text(filterCharacters(selection).length);
+}
+
+function start() {
+	if (filterCharacters(selection).length >= 5) {
+		$("#gamemenu").css("display", "none");
+		$("#back").css("display", "none");
+		gameStep = game(filterCharacters(selection));
+		gameStep.next();
+	} else {
+		alert("Please select more categories.")
+	}
 }

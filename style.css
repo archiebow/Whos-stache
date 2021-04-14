@@ -57,6 +57,63 @@ body {
 	animation-fill-mode: backwards;
 }
 
+.button {
+	width: 60%;
+	min-width: 300px;
+	margin: 10px auto;
+	text-align: center;
+	border: 3px solid grey;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 0.33s background-color;
+}
+.button:hover {
+	background-color: rgb(55, 40, 184);
+	transition: 0.33s background-color;
+}
+
+.tag {
+	width: 20%;
+	min-width: 240px;
+	margin: 2px auto;
+	border-width: 2px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#back {
+	display: none;
+}
+
+#credits {
+	display: none;
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+
+.checkmark {
+	float: right;
+}
+
+.checkbox {
+	float: left;
+	border: 2px none silver;
+	width: 43px;
+	height: 20px;
+	margin-left: 15px;
+}
+
+#gamemenu {
+	display: none;
+}
+#characters {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+}
+
 .slide-out {
 	animation: slide-out 0.5s ease-in;
 	animation-fill-mode: forwards;
