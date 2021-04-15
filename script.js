@@ -71,7 +71,7 @@ $(document).ready(function(e) {
 
 function* game(characterSelection) {
 	$("#points").text("Score: " + points);
-	var characters = selectCharacters(5, characterSelection);
+	var characters = selectCharacters(10, characterSelection);
 	for (idx in characters) {
 		var character = characters[idx];
 		stacheQuestion(character, characterSelection);
@@ -79,11 +79,10 @@ function* game(characterSelection) {
 		characterQuestion(character);
 		yield;
 	}
-	$("#answertext").text("Game Over!");
 
 }
 
-function selectCharacters(count=5, characterSelection) {
+function selectCharacters(count=10, characterSelection) {
 	var characters = [];
 	while (characters.length < count) {
 		var character = getRandomCharacter(characterSelection);
@@ -246,7 +245,7 @@ function tagClick(event, tag) {
 }
 
 function start() {
-	if (filterCharacters(selection).length >= 5) {
+	if (filterCharacters(selection).length >= 10) {
 		$("#gamemenu").css("display", "none");
 		$("#back").css("display", "none");
 		gameStep = game(filterCharacters(selection));
