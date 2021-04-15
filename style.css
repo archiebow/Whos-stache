@@ -99,6 +99,12 @@ body {
 	text-align: left;
 }
 
+#endscreen {
+	margin: auto;
+	width: 60%;
+	display: none;
+}
+
 .checkmark {
 	float: right;
 }

@@ -79,7 +79,7 @@ function* game(characterSelection) {
 		characterQuestion(character);
 		yield;
 	}
-
+	showEndScreen();
 }
 
 function selectCharacters(count=10, characterSelection) {
@@ -231,6 +231,8 @@ function back() {
 	$("#instructions").css("display", "none");
 	$("#back").css("display", "none");
 	$("#menu").css("display", "block");
+	$("#endscreen").css("display", "none");
+	$("#points").text("");
 }
 
 function tagClick(event, tag) {
@@ -253,4 +255,10 @@ function start() {
 	} else {
 		alert("Please select more categories.")
 	}
+}
+
+function showEndScreen() {
+	$("#endscreen").css("display", "block");
+	$("#back").css("display", "block");
+	$("#image").css("background-image", "");
 }
