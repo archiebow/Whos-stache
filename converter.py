@@ -42,7 +42,7 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
          i = 1
          tag = []
          while i < len(row) and row[i] != None:
-               tag.append(row[i])
+               tag.append(row[i].strip().lower().capitalize())
                i = i+1
          character['tags'] = tag
       else:
