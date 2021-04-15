@@ -92,6 +92,13 @@ body {
 	text-align: center;
 }
 
+#instructions {
+	display: none;
+	margin: auto;
+	width: 60%;
+	text-align: left;
+}
+
 .checkmark {
 	float: right;
 }

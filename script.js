@@ -71,7 +71,7 @@ $(document).ready(function(e) {
 
 function* game(characterSelection) {
 	$("#points").text("Score: " + points);
-	var characters = selectCharacters(10, characterSelection);
+	var characters = selectCharacters(5, characterSelection);
 	for (idx in characters) {
 		var character = characters[idx];
 		stacheQuestion(character, characterSelection);
@@ -79,11 +79,11 @@ function* game(characterSelection) {
 		characterQuestion(character);
 		yield;
 	}
-	$("#image").css("background-image", "url("+charimg+")");
+	$("#answertext").text("Game Over!");
 
 }
 
-function selectCharacters(count=10, characterSelection) {
+function selectCharacters(count=5, characterSelection) {
 	var characters = [];
 	while (characters.length < count) {
 		var character = getRandomCharacter(characterSelection);
@@ -95,7 +95,7 @@ function selectCharacters(count=10, characterSelection) {
 			} else {
 				characters.push(character);
 			}
-		} else if (data.characters.length > count) {
+		} else if (data.characters.length >= count) {
 			// Check if character already in selection
 			if (characters.indexOf(character) == -1) {
 				characters.push(character);
@@ -220,9 +220,16 @@ function credits() {
 	$("#back").css("display", "block");
 }
 
+function instructions() {
+	$("#menu").css("display", "none");
+	$("#instructions").css("display", "block");
+	$("#back").css("display", "block");
+}
+
 function back() {
 	$("#gamemenu").css("display", "none");
 	$("#credits").css("display", "none");
+	$("#instructions").css("display", "none");
 	$("#back").css("display", "none");
 	$("#menu").css("display", "block");
 }

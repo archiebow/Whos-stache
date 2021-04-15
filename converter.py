@@ -17,11 +17,13 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
    ws = wb.active
    print("Attempting to read "+ filename)
    for row in ws.values:
-      if row[0] == 'Name':
+      if not isinstance(row[0], str):
+         break
+      elif row[0].strip() == 'Name':
          character['name'] = row[1].replace("\n"," ")
-      elif row[0] == 'Bio':
+      elif row[0].strip() == 'Bio':
          character['bio'] = row[1].replace("\n"," ")
-      elif row[0] == 'Q':
+      elif row[0].strip() == 'Q':
          i = 3
          ans = []
          while i < len(row) and row[i] != None:
@@ -34,17 +36,15 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
                'answers' : ans      
          }
          )
-      elif row[0] == 'FF':
+      elif row[0].strip() == 'FF':
          character['funfacts'].append(row[1].replace("\n"," "))
-      elif row[0] == 'Tags':
+      elif row[0].strip() == 'Tags':
          i = 1
          tag = []
          while i < len(row) and row[i] != None:
                tag.append(row[i])
                i = i+1
          character['tags'] = tag
-      elif row[0] == None:
-         break
       else:
          print("Jävla Humanister!\n" + str(row))
          return Null
@@ -58,6 +58,7 @@ if os.path.exists(photodir):
    shutil.rmtree(photodir)
 os.mkdir(photodir)
 i = 0
+q = 0
 
 for root, dirs, files in os.walk(".", topdown=False):
    photof = ""
@@ -81,10 +82,11 @@ for root, dirs, files in os.walk(".", topdown=False):
          
       except Exception as e:
          print(e)
+      q = q+1
    else:
       print("Invalid character! Name:" +  dataf +", File: " + photof + ", Croppedfile:" + crophotof)
 
-
+print("Read " + str(q) + " characters\nWriting JSON")
 if os.path.exists("data.js"):
    os.remove("data.js")
 f = open("data.js","x")
@@ -92,3 +94,4 @@ f.write("var data = {\n\t\"characters\": ")
 f.write(json.dumps(characters, indent=4))
 f.write("\n}")
 f.close()
+print("Write succesful, have a nice day!")
