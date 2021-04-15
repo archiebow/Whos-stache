@@ -47,7 +47,7 @@ def importcharacter(filename, photof, crophotof): #reads an xlsx file and return
          character['tags'] = tag
       else:
          print("Jävla Humanister!\n" + str(row))
-         return Null
+         return 
       
    print("Sucessfully added "+ character['name'])
    return character
