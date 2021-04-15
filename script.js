@@ -200,19 +200,18 @@ function newgame() {
 	$("#back").css("display", "block");
 	$("#characters").empty();
 	$("#charCount").text(0)
-	for (tag in tags) {
-		if (tags[tag] <= 2) {
-			continue;
+	Object.keys(tags).sort().forEach((tag) => {
+		if (tags[tag] > 2) {
+			var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
+			(function(tag) {
+				// Bind onClick event to our function
+				element.click(function(event) {
+					tagClick(event, tag);
+				});
+			})(tag);
+			element.appendTo("#characters");
 		}
-		var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
-		(function(tag) {
-			// Bind onClick event to our function
-			element.click(function(event) {
-				tagClick(event, tag);
-			});
-		})(tag);
-		element.appendTo("#characters");
-	}
+	});
 	selection = [];
 }
 
