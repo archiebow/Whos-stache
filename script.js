@@ -201,6 +201,9 @@ function newgame() {
 	$("#characters").empty();
 	$("#charCount").text(0)
 	for (tag in tags) {
+		if (tags[tag] <= 2) {
+			continue;
+		}
 		var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
 		(function(tag) {
 			// Bind onClick event to our function
