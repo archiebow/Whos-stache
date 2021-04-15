@@ -120,6 +120,8 @@ function stacheQuestion(answerCharacter, characterSelection) {
 	}
 	var charimg = answerCharacter.croppedfilename;
 	uncroppedimg = answerCharacter.filename;
+	$("#imagefull").css("background-image", "");
+	$("#imagefull").removeClass("opaque");
 	$("#image").css("background-image", "url("+charimg+")");
 
 	bioText = answerCharacter.bio
@@ -131,6 +133,8 @@ function characterQuestion(answerCharacter) {
 	hasAnswered = false;
 	var charimg = answerCharacter.filename;
 	$("#image").css("background-image", "url("+charimg+")");
+	$("#imagefull").css("background-image", "");
+	$("#imagefull").removeClass("opaque");
 	var question = getRandomElement(answerCharacter.questions);
 	$("#question").text(question.question);
 	var answers = question.answers;
@@ -162,7 +166,8 @@ function answerClick(event, answer) {
 		$("#next").removeClass("hidden");
 		$("#next > div").css("animation-name", "slide-in");
 		$("#next > div").css("animation-timing-function", "ease-out");
-		$("#image").css("background-image", "url("+uncroppedimg+")");
+		$("#imagefull").css("background-image", "url("+uncroppedimg+")");
+		$("#imagefull").addClass("opaque");
 	}
 }
 
@@ -263,4 +268,6 @@ function showEndScreen() {
 	$("#endscreen").css("display", "block");
 	$("#back").css("display", "block");
 	$("#image").css("background-image", "");
+	$("#imagefull").css("background-image", "");
+	$("#imagefull").removeClass("opaque");
 }
