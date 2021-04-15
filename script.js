@@ -60,6 +60,7 @@ function filterCharacters(tagList) {
 
 
 // Initialization
+var audio = new Audio("Macho Man.mp3");
 var points = 0;
 $(document).ready(function(e) {
 	tags = {};
@@ -151,11 +152,13 @@ function answerClick(event, answer) {
 		hasAnswered = true;
 		if (answer == 0) {
 			$(event.target).addClass("right");
+			rightAnsSound()
 			points += 10;
 			$("#points").text("Score: " + points);
 		} else {
 			$(event.target).addClass("wrong");
 			rightAnswer.addClass("right");
+			wrongAnsSound()
 			points -= 5;
 			$("#points").text("Score: " + points);
 		}
@@ -205,6 +208,7 @@ function newgame() {
 	$("#back").css("display", "block");
 	$("#characters").empty();
 	$("#charCount").text(0)
+	myPlay()
 	Object.keys(tags).sort().forEach((tag) => {
 		if (tags[tag] > 2) {
 			var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
@@ -240,6 +244,8 @@ function back() {
 	$("#menu").css("display", "block");
 	$("#endscreen").css("display", "none");
 	$("#points").text("");
+	audio.pause();
+	audio.currentTime = 0
 }
 
 function tagClick(event, tag) {
@@ -266,8 +272,31 @@ function start() {
 
 function showEndScreen() {
 	$("#endscreen").css("display", "block");
+	$("#points").text("");
+	$("#endscreen").text("Game Over! You got: " + points + " Points. Thanks for playing Who's Stache!");
 	$("#back").css("display", "block");
 	$("#image").css("background-image", "");
 	$("#imagefull").css("background-image", "");
 	$("#imagefull").removeClass("opaque");
+	winSound()
+}
+
+function myPlay(){
+    audio.play();
+}
+function rightAnsSound(){
+	var rightsound = new Audio("rightans.wav");
+    rightsound.play();
+}
+
+function wrongAnsSound(){
+	var wrongsound = new Audio("wrongans.wav");
+    wrongsound.play();
+}
+
+function winSound(){
+	var winsound = new Audio("Tada-sound.mp3");
+	audio.pause();
+	audio.currentTime = 0
+    winsound.play();
 }
