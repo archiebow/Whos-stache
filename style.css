@@ -148,10 +148,17 @@ body {
 }
 
 .right, right:hover {
-	background-color: rgb(23, 154, 28);
+	background-color: rgb(27, 179, 32);
 }
 .wrong, .wrong:hover {
-	background-color: rgb(184, 40, 40);
+	background-color: rgb(153, 33, 33);
+	background: repeating-linear-gradient(
+		-45deg,
+		rgb(153, 33, 33),
+		rgb(153, 33, 33) 10px,
+		rgb(102, 22, 22) 10px,
+		rgb(102, 22, 22) 20px
+	  );
 }
 
 #answertext {
