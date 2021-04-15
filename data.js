@@ -157,22 +157,23 @@ var data = {
     },
     {
         "name": "Aragorn",
-        "bio": "Isildur's heir and rightful king of Gondor and a powerful warrior in Lord of the rings",
+        "bio": "Isildur's heir and rightful king of Gondor and a powerful warrior in Lord of the rings.",
         "filename": "photodir/14.jpg",
         "croppedfilename": "photodir/14.png",
         "questions": [
             {
-                "question": "Fr\u00e5getext",
-                "answertext": "What was the name of Aragorn's sword?",
+                "question": "What was the name of Aragorn's sword?",
+                "answertext": "He bore the shards of Narsil, that later was reforged and renamed And\u00faril, Flame of the West. ",
                 "answers": [
-                    "Narsil",
+                    "And\u00faril ",
                     "Durandal",
                     "Excalibur"
                 ]
             }
         ],
         "funfacts": [
-            "Married an elf and so she became mortal and could die"
+            "Married an elf and so she became mortal and could die.",
+            "Aragorn was also known as Elessar and Strider."
         ],
         "tags": [
             "Lotr",
@@ -198,7 +199,7 @@ var data = {
             }
         ],
         "funfacts": [
-            "Fun Fact text"
+            "Aristotle learned from the best. When he was 17, Aristotle enrolled in Plato\u2019s Academy and spent 20 years of his life acquiring knowledge from the best teacher. Aristotle too was a gifted student for Plato."
         ],
         "tags": [
             "Greek",
@@ -300,13 +301,13 @@ var data = {
     },
     {
         "name": "Boromir",
-        "bio": "Boromir was part of the fellowship of the ring and played an important role in the trilogy. He was the son of Danethor king of Gondor. ",
+        "bio": "Boromir was part of the fellowship of the ring and played an important role in the trilogy. He was the son of Denethor the last ruling Steward of Gondor. ",
         "filename": "photodir/26.jpg",
         "croppedfilename": "photodir/26.png",
         "questions": [
             {
                 "question": "Who was Boromir portayed by? ",
-                "answertext": "Boromir and Ned Stark are the British actors most famous roles. ",
+                "answertext": "Boromir and Ned Stark are Sean Beans most famous roles. ",
                 "answers": [
                     "Sean Bean",
                     "Viggo Mortensen",
@@ -317,7 +318,7 @@ var data = {
                 "question": "How did Boromir die? ",
                 "answertext": "Boromir heroically continued to fight with three arrows in his chest but was unable to save the hobbits from getting kidnapped. ",
                 "answers": [
-                    "He gave his life to try and save Merry and Pippin from orcs. ",
+                    "He gave his life in a heroic try to save Merry and Pippin from orcs. ",
                     "He died defending Gondor.",
                     "He died due to an unknown sickness. "
                 ]
@@ -335,7 +336,7 @@ var data = {
         "funfacts": [
             "Boromir\u00b4s famous quote \u201cone does not simply walk into Mordor\u201d has become an internet meme.",
             " The running joke that Sean Bean is killed off in every movie he stars in got big after Boromir\u00b4s death in Lord of the rings. ",
-            "Boromir\u00b4s death is by many considered the most emotional part of the trilogy "
+            "Boromir\u00b4s death is by many considered the most emotional part of the trilogy."
         ],
         "tags": [
             "Fictional",
@@ -379,7 +380,7 @@ var data = {
         "funfacts": [
             "Charles Darwin did not coin the phrase survival of the fittest. It was first used by Herbert Spencer in 1864. Darwin adopted it five years later and acknowledged that Spencer had used it before him.",
             "Darwin not only examined unusual animals, he also enjoyed eating and tasting different animals.",
-            "As a 25th birtday present, captain Robert FitzRoy namned a mountain efter Darwin."
+            "As a 25th birthday present, Captain Robert FitzRoy named a mountain efter Darwin."
         ],
         "tags": [
             "1800s",
@@ -449,10 +450,54 @@ var data = {
         ]
     },
     {
-        "name": "Confucius ",
-        "bio": "Confucius (551-479 BC) was a Chinese philosopher, politician, and teacher whose message of knowledge, benevolence, loyalty, and virtue were the main guiding philosophy of China for thousands of years",
+        "name": "Conchita Wurst",
+        "bio": "Conchita Wurst, 1988-, is an Austrian former winner of the Eurovision Song Contest.",
         "filename": "photodir/38.jpg",
         "croppedfilename": "photodir/38.png",
+        "questions": [
+            {
+                "question": "Who is the person behind Conchita Wurst?",
+                "answertext": "Thomas Neuwirth created the Conchita Wurst character in 2011.",
+                "answers": [
+                    "Thomas Neuwirth",
+                    "Hugo Altman",
+                    "Ingo Mittel"
+                ]
+            },
+            {
+                "question": "How many albums has Conchita Wurst released? ",
+                "answertext": "The albums are Conchita (2015), From Vienna With Love (2018) and Truth Over Magnitude (2019).",
+                "answers": [
+                    "3",
+                    "0",
+                    "6"
+                ]
+            },
+            {
+                "question": "What year did Conchita Wurst win the Eurovision Song Contest?",
+                "answertext": "Conchita won with 290 points. The Netherlands finished second with 238 points.",
+                "answers": [
+                    "2014",
+                    "2013",
+                    "2016"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Conchita Wurst finished second in the Austrian Eurovision Song Contest qualification in 2012.",
+            "When Conchita Wurst won the Eurovision Song Contest the beard was real, although it was highlighted with make-up.",
+            "Conchita Wurst has got a wax figure at Madame Tussauds museum in Vienna."
+        ],
+        "tags": [
+            "Modern",
+            "Artist"
+        ]
+    },
+    {
+        "name": "Confucius ",
+        "bio": "Confucius (551-479 BC) was a Chinese philosopher, politician, and teacher whose message of knowledge, benevolence, loyalty, and virtue were the main guiding philosophy of China for thousands of years",
+        "filename": "photodir/41.jpg",
+        "croppedfilename": "photodir/41.png",
         "questions": [
             {
                 "question": "What is the Analetcs?  ",
@@ -496,13 +541,13 @@ var data = {
     },
     {
         "name": "Count Dooku ",
-        "bio": "Count Dooku was a jedi master that turned to the dark side and became the apprentice of Darth Sidious ",
-        "filename": "photodir/41.jpg",
-        "croppedfilename": "photodir/41.png",
+        "bio": "Count Dooku was a jedi master that turned to the dark side and became the apprentice of Darth Sidious.",
+        "filename": "photodir/44.jpg",
+        "croppedfilename": "photodir/44.png",
         "questions": [
             {
                 "question": "Who portrayed Count Dooku? ",
-                "answertext": "Sir Christopher Lee portrayed Count Dooku. He was 83 years old when acting in Revenge of the Sith ",
+                "answertext": "Sir Christopher Lee portrayed Count Dooku. He was 83 years old when acting in Revenge of the Sith.",
                 "answers": [
                     "Sir Christopher Lee ",
                     "Sir Ian McKellen ",
@@ -510,8 +555,8 @@ var data = {
                 ]
             },
             {
-                "question": "Who was Count Dooku\u00b4s master? ",
-                "answertext": "Yoda was Dooku\u00b4s master and Qui-Gon Jinn was his apprentice ",
+                "question": "Who was Count Dooku's master? ",
+                "answertext": "Yoda was Dooku's master and Qui-Gon Jinn was his apprentice.",
                 "answers": [
                     "Yoda ",
                     "Qui-Gon Jinn",
@@ -520,7 +565,7 @@ var data = {
             },
             {
                 "question": "Who killed Count Dooku? ",
-                "answertext": "Count Dooku was betrayed by Darth Sidious when the latter urged Anakin Skywalker to take Dooku\u00b4s life. Anakin would later become Dooku\u00b4s replacement ",
+                "answertext": "Count Dooku was betrayed by Darth Sidious when he urged Anakin Skywalker to take Dooku's life. Anakin would later become Dooku's replacement.",
                 "answers": [
                     "Anakin Skywalker ",
                     "Darth Sidious ",
@@ -529,19 +574,20 @@ var data = {
             }
         ],
         "funfacts": [
-            "Sir Christopher Lee lived who portrayed Count Dooku volunteered to fight for the Finnish army in the Winter War against the Soviet Union although he never saw battle during his time in Finland. ",
-            "Count Dooku left the Jedi Council because he felt that the republic had become corrupt and more interested in enriching themselves then helping others.",
-            "Dooku was given the name Darth Tyranus when he joined the dark side but he would always be more known as Count Dooku. "
+            "Sir Christopher Lee who portrayed Count Dooku volunteered to fight for the Finnish army in the Winter War against the Soviet Union although he never saw battle during his time in Finland. ",
+            "Count Dooku left the Jedi Order after becoming frustrated with the Senate's corruption and the Order's decisions, but it was Qui-Gon's death that sold Dooku on leaving the Jedi. ",
+            "Dooku was given the name Darth Tyranus when he joined the dark side but he would always be known as Count Dooku. "
         ],
         "tags": [
-            "Fictional"
+            "Fictional",
+            "Star wars"
         ]
     },
     {
         "name": "Cyrus the Great",
         "bio": "Cyrus the Great (ca. 585-530) was the ruler of Persia. Known as the \"King of Kings\" Cyrus conquerd a lot of land and soon created a vast empire.",
-        "filename": "photodir/44.jpg",
-        "croppedfilename": "photodir/44.png",
+        "filename": "photodir/47.jpg",
+        "croppedfilename": "photodir/47.png",
         "questions": [
             {
                 "question": "What other great leader was inspired by Cyrus?",
@@ -584,8 +630,8 @@ var data = {
     {
         "name": "Danny Trejo",
         "bio": "Danny Trejo, 1944-, is an American actor.",
-        "filename": "photodir/47.jpg",
-        "croppedfilename": "photodir/47.png",
+        "filename": "photodir/50.jpg",
+        "croppedfilename": "photodir/50.png",
         "questions": [
             {
                 "question": "Where was Danny Trejo born?",
@@ -631,8 +677,8 @@ var data = {
     {
         "name": "Davy Jones",
         "bio": "The captain of the flying dutchman and and nefarius pirate attacking everyone",
-        "filename": "photodir/50.jpg",
-        "croppedfilename": "photodir/50.png",
+        "filename": "photodir/53.jpg",
+        "croppedfilename": "photodir/53.png",
         "questions": [
             {
                 "question": "How many years of service does Jack owe Davy Jones?",
@@ -657,8 +703,8 @@ var data = {
     {
         "name": "Emiliano Zapata",
         "bio": "Emiliano Zapata, 1879-1919, was a Mexican revolutionary leader. He was one of the main figures in the Mexican revolution that took place between the years 1910-1920.",
-        "filename": "photodir/53.jpg",
-        "croppedfilename": "photodir/53.png",
+        "filename": "photodir/56.jpg",
+        "croppedfilename": "photodir/56.png",
         "questions": [
             {
                 "question": "Where was Zapata born?",
@@ -704,8 +750,8 @@ var data = {
     {
         "name": "Hulk Hogan",
         "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
-        "filename": "photodir/56.jpg",
-        "croppedfilename": "photodir/56.png",
+        "filename": "photodir/59.jpg",
+        "croppedfilename": "photodir/59.png",
         "questions": [
             {
                 "question": "Besides wrestling, Hulk Hogan has an extensive acting career. Which of the following movies has Hulk been in?",
@@ -749,8 +795,8 @@ var data = {
     {
         "name": "Fidel Castro",
         "bio": "Fidel Castro, 1926-2016, was a Cuban revolutionist and the Prime Minister and President of Cuba.",
-        "filename": "photodir/59.jpg",
-        "croppedfilename": "photodir/59.png",
+        "filename": "photodir/62.jpg",
+        "croppedfilename": "photodir/62.png",
         "questions": [
             {
                 "question": "What did Castro study at the University of Cuba?",
@@ -795,8 +841,8 @@ var data = {
     {
         "name": "Frank Zappa",
         "bio": "Frank Zappa, 1940-1993, was an American musician and satirist.",
-        "filename": "photodir/62.jpg",
-        "croppedfilename": "photodir/62.png",
+        "filename": "photodir/65.jpg",
+        "croppedfilename": "photodir/65.png",
         "questions": [
             {
                 "question": "What is Frank Zappas oldest daughter's name?",
@@ -841,8 +887,8 @@ var data = {
     {
         "name": "Galileo Galilei",
         "bio": "Galileo born 1564  was an Italien scientist, astronomer and philosopher. He discovered many of Jupters moons and the rings of Saturn. His support of the heliocentric universe earned him many powerful enemies within the church.",
-        "filename": "photodir/65.jpg",
-        "croppedfilename": "photodir/65.png",
+        "filename": "photodir/68.jpg",
+        "croppedfilename": "photodir/68.png",
         "questions": [
             {
                 "question": "Galieo invented the telescpe. True of false? ",
@@ -886,8 +932,8 @@ var data = {
     {
         "name": "Gandalf",
         "bio": "Gandalf the Grey later known as Gandalf the White, was one of the five wizards that arrived to Middle-earth in J. R. R. Tolkiens novels The Hobbit and The Lord of the Rings.",
-        "filename": "photodir/68.jpg",
-        "croppedfilename": "photodir/68.png",
+        "filename": "photodir/71.jpg",
+        "croppedfilename": "photodir/71.png",
         "questions": [
             {
                 "question": "What was Gandalf originally called before he arrived to Middle-earth?",
@@ -929,12 +975,12 @@ var data = {
     {
         "name": "Genghis Khan",
         "bio": "Genghis Khan was the first Great Khan and founder of the Mongol Empire.",
-        "filename": "photodir/71.jpg",
-        "croppedfilename": "photodir/71.png",
+        "filename": "photodir/74.jpg",
+        "croppedfilename": "photodir/74.png",
         "questions": [
             {
-                "question": "What was Genghis Khans birthname?",
-                "answertext": "His birthname was Tem\u00fcjin.",
+                "question": "What was Genghis Khan's birth name?",
+                "answertext": "His birth name was Tem\u00fcjin.",
                 "answers": [
                     "Tem\u00fcjin",
                     "Djingis",
@@ -951,7 +997,7 @@ var data = {
                 ]
             },
             {
-                "question": "What was a reason to the Mongols strong military?",
+                "question": "What was the reason for the Mongols' strong military?",
                 "answertext": "Cavalry. Each Mongol soldier typically maintained 3 - 4 horses.",
                 "answers": [
                     "Cavalry",
@@ -974,8 +1020,8 @@ var data = {
     {
         "name": "Gimli",
         "bio": "A dwarf in Lord of the rings and close friend of legolas. Was part of the Fellowship of the Ring",
-        "filename": "photodir/74.jpg",
-        "croppedfilename": "photodir/74.png",
+        "filename": "photodir/77.jpg",
+        "croppedfilename": "photodir/77.png",
         "questions": [
             {
                 "question": "How many Orcs did Gimli kill during the battle at Helms Deep?",
@@ -999,8 +1045,8 @@ var data = {
     {
         "name": "Grigori Rasputin",
         "bio": "Grigori Rasputin, 1869-1916, was a Russian mystic and close to the tsar family.",
-        "filename": "photodir/77.jpg",
-        "croppedfilename": "photodir/77.png",
+        "filename": "photodir/80.jpg",
+        "croppedfilename": "photodir/80.png",
         "questions": [
             {
                 "question": "Who in the Russian royal family did he help?",
@@ -1045,8 +1091,8 @@ var data = {
     {
         "name": "Gustaf II Adolf",
         "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
-        "filename": "photodir/80.jpg",
-        "croppedfilename": "photodir/80.png",
+        "filename": "photodir/83.jpg",
+        "croppedfilename": "photodir/83.png",
         "questions": [
             {
                 "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
@@ -1071,8 +1117,8 @@ var data = {
     {
         "name": "Gustav Vasa",
         "bio": "Gustav Vasa, 1496-1560, was the King of Sweden",
-        "filename": "photodir/83.jpg",
-        "croppedfilename": "photodir/83.png",
+        "filename": "photodir/86.jpg",
+        "croppedfilename": "photodir/86.png",
         "questions": [
             {
                 "question": "How did Gustav Vasas father, Erik, die?",
@@ -1103,8 +1149,8 @@ var data = {
             }
         ],
         "funfacts": [
-            "Of all Swedish kings, Gustav Vasa stayed in Finland the longest time. Between the years 1555-1557 he stayed in Finland altogether almost a year.",
-            "Sweden celebrates it's National Day on June 6th, the date when Gustav Vasa was elected king of Sweden (1523).",
+            "Of all Swedish kings, Gustav Vasa stayed in Finland the longest. Between the years 1555-1557 he stayed in Finland altogether almost a year.",
+            "Sweden celebrates its National Day on June 6th, the date when Gustav Vasa was elected king of Sweden (1523).",
             "Studies show that he was 173 cm tall, which was also about the average height at that time"
         ],
         "tags": [
@@ -1117,8 +1163,8 @@ var data = {
     {
         "name": "Heinrich Himmler",
         "bio": "Himmler was leader of the Waffen SS and one of the main perpetrastors of the holocaust.",
-        "filename": "photodir/86.jpg",
-        "croppedfilename": "photodir/86.png",
+        "filename": "photodir/89.jpg",
+        "croppedfilename": "photodir/89.png",
         "questions": [
             {
                 "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -1144,8 +1190,8 @@ var data = {
     {
         "name": "Henrik Adolf Mechelin",
         "bio": "Henrik Adolf Mechelin, 1813-1899, was a Finnish official, member of the Diet and a Senator.",
-        "filename": "photodir/89.jpg",
-        "croppedfilename": "photodir/89.png",
+        "filename": "photodir/92.jpg",
+        "croppedfilename": "photodir/92.png",
         "questions": [
             {
                 "question": "How was Henrik Adolf related to Leo Mechelin?",
@@ -1188,8 +1234,8 @@ var data = {
     {
         "name": "Henrik Meinander",
         "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-        "filename": "photodir/92.jpg",
-        "croppedfilename": "photodir/92.png",
+        "filename": "photodir/95.jpg",
+        "croppedfilename": "photodir/95.png",
         "questions": [
             {
                 "question": "Henrik Meinanders father was known as well, but for what?",
@@ -1233,8 +1279,8 @@ var data = {
     {
         "name": "Hide the pain Harold",
         "bio": "Hide the pain Harold, real name Andr\u00e1s Arat\u00f3 , is an internet meme, and a nickname given to a senior stock photo model whose expressions seem to convey inner suffering and discomfort.",
-        "filename": "photodir/95.jpg",
-        "croppedfilename": "photodir/95.png",
+        "filename": "photodir/98.jpg",
+        "croppedfilename": "photodir/98.png",
         "questions": [
             {
                 "question": "Where is the Harold really from?",
@@ -1275,8 +1321,8 @@ var data = {
     {
         "name": "Ho Chi Minh",
         "bio": "Ho Chi Minh, 1890-1969, was a Vietnamese revolutionary and the president of the Democratic Republic of Vietnam (North Vietnam)",
-        "filename": "photodir/98.jpg",
-        "croppedfilename": "photodir/98.png",
+        "filename": "photodir/101.jpg",
+        "croppedfilename": "photodir/101.png",
         "questions": [
             {
                 "question": "Which city's name was changed to Ho Chi Minh City?",
@@ -1321,8 +1367,8 @@ var data = {
     {
         "name": "Jean Sibelius",
         "bio": "Jean Sibelius, 1865-1957, was a Finnish composer.",
-        "filename": "photodir/101.jpg",
-        "croppedfilename": "photodir/101.png",
+        "filename": "photodir/104.jpg",
+        "croppedfilename": "photodir/104.png",
         "questions": [
             {
                 "question": "What was Jean Sibelius real name?",
@@ -1366,8 +1412,8 @@ var data = {
     {
         "name": "Joseph Stalin",
         "bio": "Joseph Stalin, 1878-1953, was the ruler and dictator of the Soviet Union.",
-        "filename": "photodir/104.jpg",
-        "croppedfilename": "photodir/104.png",
+        "filename": "photodir/107.jpg",
+        "croppedfilename": "photodir/107.png",
         "questions": [
             {
                 "question": "What was Josephs real surname?",
@@ -1412,8 +1458,8 @@ var data = {
     {
         "name": "King Theoden",
         "bio": "Theoden was the king of Rohan in Lord of the rings and died at the battle of Minas tirith",
-        "filename": "photodir/107.jpg",
-        "croppedfilename": "photodir/107.png",
+        "filename": "photodir/110.jpg",
+        "croppedfilename": "photodir/110.png",
         "questions": [
             {
                 "question": "Which hobbit did Theoden particularly like, and make his Esquire?",
@@ -1437,9 +1483,9 @@ var data = {
     },
     {
         "name": "Ky\u00f6sti Kallio",
-        "bio": "Ky\u00f6sti Kallio was Finlands fourth President",
-        "filename": "photodir/110.jpg",
-        "croppedfilename": "photodir/110.png",
+        "bio": "Ky\u00f6sti Kallio was Finland's fourth President",
+        "filename": "photodir/113.jpg",
+        "croppedfilename": "photodir/113.png",
         "questions": [
             {
                 "question": "How many children did Ky\u00f6sti have with his wife Kaisa? ",
@@ -1452,7 +1498,7 @@ var data = {
             },
             {
                 "question": "During which years did he serve as President of Finland? ",
-                "answertext": "He worked as Finlands President during 1937-1940. Kallio left a notice of resignation on 27 November 1940. He was planning to leave the capital and retire to his farm at Nivala after the farewell ceremonies on the evening of 19 December 1940; but he collapsed and died that night at the Helsinki Central Railway Station in the arms of his adjutant before a guard of honour while a band played the patriotic Finnish march Porilaisten marssi.",
+                "answertext": "He worked as Finland's President during 1937-1940. Kallio left a notice of resignation on 27 November 1940. He was planning to leave the capital and retire to his farm at Nivala after the farewell ceremonies on the evening of 19 December 1940; but he collapsed and died that night at the Helsinki Central Railway Station in the arms of his adjutant before a guard of honour while a band played the patriotic Finnish march Porilaisten marssi.",
                 "answers": [
                     "1937-1940",
                     "1932-1936",
@@ -1483,8 +1529,8 @@ var data = {
     {
         "name": "Leo Mechelin",
         "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician.",
-        "filename": "photodir/113.jpg",
-        "croppedfilename": "photodir/113.png",
+        "filename": "photodir/116.jpg",
+        "croppedfilename": "photodir/116.png",
         "questions": [
             {
                 "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. St\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -1529,8 +1575,8 @@ var data = {
     {
         "name": "Leonardo Da Vinci",
         "bio": "Da Vinci, born 1452, was a reneissace engineer, sculptor, inventor and artist. He is most famous for the paintings Mona Lisa and The last supper",
-        "filename": "photodir/116.jpg",
-        "croppedfilename": "photodir/116.png",
+        "filename": "photodir/119.jpg",
+        "croppedfilename": "photodir/119.png",
         "questions": [
             {
                 "question": "How long did it take Da Vinci to paint his famous work, The last supper?",
@@ -1576,8 +1622,8 @@ var data = {
     {
         "name": "Madame Truska / Salma Hayek",
         "bio": "Madame Truska is a character from The Saga of Darren Shan. She can grow an indestructible beard at will. She was played by Salma Hayek in the movie Cirque du Freak: The Vampire's Assistant.",
-        "filename": "photodir/119.jpg",
-        "croppedfilename": "photodir/119.png",
+        "filename": "photodir/122.jpg",
+        "croppedfilename": "photodir/122.png",
         "questions": [
             {
                 "question": "The Saga of Darren Shan is a book series. How many books are there?",
@@ -1620,8 +1666,8 @@ var data = {
     {
         "name": "Gustaf Mannerheim",
         "bio": "Finnish-Swedish baron, military officer and statesman. The only one who has held the title of Marshal of Finland. President of Finland between 1944-1946.",
-        "filename": "photodir/122.jpg",
-        "croppedfilename": "photodir/122.png",
+        "filename": "photodir/125.jpg",
+        "croppedfilename": "photodir/125.png",
         "questions": [
             {
                 "question": "Mannerheim gave name to the Finnish line of defense used during the winterwar, what was it called?",
@@ -1666,8 +1712,8 @@ var data = {
     {
         "name": "Marco Polo ",
         "bio": "Marco Polo born 1254 was a venetian merchant and adventurer who travelled from Europe to Asia.",
-        "filename": "photodir/125.jpg",
-        "croppedfilename": "photodir/125.png",
+        "filename": "photodir/128.jpg",
+        "croppedfilename": "photodir/128.png",
         "questions": [
             {
                 "question": "What is the famous book depicting Marco Polos travels called? ",
@@ -1710,9 +1756,9 @@ var data = {
     },
     {
         "name": "Michelangelo Buonarroti",
-        "bio": "Michelangelo was a sublimely talented renaissance artist. The statute of David and his artwork on the ceiling of Sistine chapel are considered to be some of the most beautiful pieces of art ever created. ",
-        "filename": "photodir/128.jpg",
-        "croppedfilename": "photodir/128.png",
+        "bio": "Michelangelo\u2019s David statue is a great artwork in both brilliance and size. But how big is the statue really? ",
+        "filename": "photodir/131.jpg",
+        "croppedfilename": "photodir/131.png",
         "questions": [
             {
                 "question": "Where\u2019s Michelangelo from? ",
@@ -1729,12 +1775,12 @@ var data = {
                 "answers": [
                     "The fountain of Neptune",
                     "The David statue",
-                    "The Piet\u00e1 staute"
+                    "The Piet\u00e1 statue"
                 ]
             },
             {
                 "question": "Michelangelo\u2019s David statue is a great artwork in both brilliance and size. But how big it the statue really? ",
-                "answertext": "The David statue stands at an impressive 5.17 meters. It was a huge project that two sculptors already had given up on before Michelangelo decided to accept the challenge. He started carving out David in 1501 and finished 3 years later. The statue has since become a symbol for both the renaissance and the city of Florence. ",
+                "answertext": "The David statue stands at an impressive 5.17 meters. It was a huge project that two sculptors had already given up on before Michelangelo decided to accept the challenge. He started carving out David in 1501 and finished 3 years later. The statue has since become a symbol for both the renaissance and the city of Florence. ",
                 "answers": [
                     "5.17 m high ",
                     "2.12 m high ",
@@ -1743,7 +1789,7 @@ var data = {
             }
         ],
         "funfacts": [
-            "In the beginning of his career Michelangelo carved a now lost statue in Greek style. He then made it seem like it had been buried and proceeded to sell it as an antique. The cardinal Raffaele Riario fell for the scam and bought that statue for a substantial amount of money. When he discovered the bluff, he was so impressed by Michelangelo\u2019s craftmanship that he invited the sculptor to Rome instead of taking him to court. ",
+            "In the beginning of his career Michelangelo carved a now lost statue in Greek style. He then made it seem like it had been buried and proceeded to sell it as an antique. The cardinal Raffaele Riario fell for the scam and bought that statue for a substantial amount of money. When he discovered the bluff, he was so impressed by Michelangelo\u2019s craftsmanship that he invited the sculptor to Rome instead of taking him to court. ",
             "Michelangelo was in classic renaissance spirit not only a sculptor and a painter but also an accomplished poet. He wrote several hundred sonnets and madrigals over his career, but he didn\u2019t publish any of his poetry works during his lifetime. ",
             "Michelangelo served as many as nine different Popes during his illustrious career. The first Pope to take interest in Michelangelo was Julius II and the last was Pius IV before Michelangelo died at age 88. "
         ],
@@ -1757,8 +1803,8 @@ var data = {
     {
         "name": "Napoleon III",
         "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-        "filename": "photodir/131.jpg",
-        "croppedfilename": "photodir/131.png",
+        "filename": "photodir/134.jpg",
+        "croppedfilename": "photodir/134.png",
         "questions": [
             {
                 "question": "What was Napoleon III's relation to Napoleon Bonaparte?",
@@ -1793,8 +1839,8 @@ var data = {
     {
         "name": "Nikola Tesla",
         "bio": "Nikola Tesla (1856-1943) was a Serbian born inventor who later moved to the USA.",
-        "filename": "photodir/134.jpg",
-        "croppedfilename": "photodir/134.png",
+        "filename": "photodir/137.jpg",
+        "croppedfilename": "photodir/137.png",
         "questions": [
             {
                 "question": "What form of electrical transfer did Tesla endorse?",
@@ -1838,9 +1884,9 @@ var data = {
     },
     {
         "name": "Obi-Wan Kenobi ",
-        "bio": "Bio Obi-Wan Kenobi was a jedi knight in a galaxy far far away. He was the master of Anakin Skywalker later Darth Vader. ",
-        "filename": "photodir/137.jpg",
-        "croppedfilename": "photodir/137.png",
+        "bio": "Obi-Wan Kenobi was a jedi knight in a galaxy far far away. He was the master of Anakin Skywalker, later Darth Vader. ",
+        "filename": "photodir/140.jpg",
+        "croppedfilename": "photodir/140.png",
         "questions": [
             {
                 "question": "Who is Obi-Wan Kenobi portrayed by in the prequels? ",
@@ -1853,7 +1899,7 @@ var data = {
             },
             {
                 "question": "Who was Obi-Wan Kenobi\u2019s master? ",
-                "answertext": "Qui-Gon Jinn and Obi-Wan was very close but their relationship came to an unfortunate end when Qui-Gon was killed by Darth Maul. ",
+                "answertext": "Qui-Gon Jinn and Obi-Wan were very close but their relationship came to an unfortunate end when Qui-Gon was killed by Darth Maul. ",
                 "answers": [
                     "Qui-Gon Jinn ",
                     "Luke Skywalker ",
@@ -1872,7 +1918,7 @@ var data = {
         ],
         "funfacts": [
             "Obi-Wan appears in all prequels and in all the original films. He is also featured a lot in the tv series the clone war and star war rebels. ",
-            "Don\u00b4t ever fight Obi-One if you do not have the high ground.",
+            "Don't ever fight Obi-One if you do not have the high ground.",
             "Alec Guinness portrayed Obi-Wan in the original trilogy "
         ],
         "tags": [
@@ -1883,8 +1929,8 @@ var data = {
     {
         "name": "P. E. Svinhufvud",
         "bio": "Finnish statesman serving as the first head of state, president of Finland and the prime minister during his career",
-        "filename": "photodir/140.jpg",
-        "croppedfilename": "photodir/140.png",
+        "filename": "photodir/143.jpg",
+        "croppedfilename": "photodir/143.png",
         "questions": [
             {
                 "question": "What political party was he presenting?",
@@ -1910,8 +1956,8 @@ var data = {
     {
         "name": "Panayot Hitov",
         "bio": "Panayot Hitov (1830-1918) was a bulgarian soldier, revolutionary and warlord. He fought for Bulgarian independence.",
-        "filename": "photodir/143.jpg",
-        "croppedfilename": "photodir/143.png",
+        "filename": "photodir/146.jpg",
+        "croppedfilename": "photodir/146.png",
         "questions": [
             {
                 "question": "From which empire did Bulgaria gain its independence in 1878",
@@ -1945,8 +1991,8 @@ var data = {
     {
         "name": "Per Brahe",
         "bio": "Per Brahe (1602-1680) was a Swedish statesman that served as governor of Finland twice. He became an immensely popular governor as a result of many new reforms. He also had a long and prestigious career at the Swedish royal court. ",
-        "filename": "photodir/146.jpg",
-        "croppedfilename": "photodir/146.png",
+        "filename": "photodir/149.jpg",
+        "croppedfilename": "photodir/149.png",
         "questions": [
             {
                 "question": "Why is Per Brahe an important person in the history of Helsinki University?",
@@ -1991,8 +2037,8 @@ var data = {
     {
         "name": "Rene Descartes 1596-1650",
         "bio": "Descartes was a French philosopher. He is seen as the founder of modern philosophy and his work has been very influential. He is probably most famed for his saying \u201ccogito ergo sum\u201d. ",
-        "filename": "photodir/247.jpg",
-        "croppedfilename": "photodir/247.png",
+        "filename": "photodir/252.jpg",
+        "croppedfilename": "photodir/252.png",
         "questions": [
             {
                 "question": "What does Rene Descartes famous saying \u201ccogito ergo sum\u201d mean? ",
@@ -2036,8 +2082,8 @@ var data = {
     {
         "name": "Salvador Dali",
         "bio": "Salvador Dali, 1904-1989, was a surrealist artist.",
-        "filename": "photodir/250.jpg",
-        "croppedfilename": "photodir/250.png",
+        "filename": "photodir/255.jpg",
+        "croppedfilename": "photodir/255.png",
         "questions": [
             {
                 "question": "Where was Dali born?",
@@ -2080,8 +2126,8 @@ var data = {
     {
         "name": "Stan Lee",
         "bio": "Stan Lee (1922-2018) was an American comic book writer, famous for his role in Marvel Comics",
-        "filename": "photodir/253.jpg",
-        "croppedfilename": "photodir/253.png",
+        "filename": "photodir/258.jpg",
+        "croppedfilename": "photodir/258.png",
         "questions": [
             {
                 "question": "Has Stan Lee ever made any cameos in the Marvel movies?",
@@ -2093,7 +2139,7 @@ var data = {
             },
             {
                 "question": "What superhero league did Stan Lee create?",
-                "answertext": "The Avengers, are a group of superheroes that protect earth.",
+                "answertext": "The Avengers are a group of superheroes that protect earth.",
                 "answers": [
                     "The Avengers",
                     "Justice League",
@@ -2124,8 +2170,8 @@ var data = {
     {
         "name": "Theodore Roosevelt",
         "bio": "USA:s 25'th president and and nobel peace prize repissient",
-        "filename": "photodir/256.jpg",
-        "croppedfilename": "photodir/256.png",
+        "filename": "photodir/261.jpg",
+        "croppedfilename": "photodir/261.png",
         "questions": [
             {
                 "question": "Why did Roosevlt get the Nobel prize?",
@@ -2148,17 +2194,16 @@ var data = {
     {
         "name": "Kaiser Wilhelm II",
         "bio": "Friedrich Wilhelm Viktor Albert (1859-1941) was the last german emperor, and king of Prussia.",
-        "filename": "photodir/259.jpg",
-        "croppedfilename": "photodir/259.png",
+        "filename": "photodir/264.jpg",
+        "croppedfilename": "photodir/264.png",
         "questions": [
             {
                 "question": "How long did WiIhelm reign as emperor?",
-                "answertext": "From his accession at the age of 29, Wilhelm reigned for 30 years, before beign forced to abdicate due to Germany's defeat in WW1.  The german empire only existed for 47 years in total.",
+                "answertext": "From his accession at the age of 29, Wilhelm reigned for 30 years, before being forced to abdicate due to Germany's defeat in WW1.  The german empire only existed for 47 years in total.",
                 "answers": [
                     "30 years",
                     "15 years",
-                    "50 years",
-                    "..."
+                    "50 years"
                 ]
             },
             {
@@ -2205,8 +2250,8 @@ var data = {
     {
         "name": "William Shakespeare ",
         "bio": "Shakespeare (1564-1616) was an English poet, playwright and actor. His works are famous all around the world and he is by many considered the greatest dramatist of all time. ",
-        "filename": "photodir/262.jpg",
-        "croppedfilename": "photodir/262.png",
+        "filename": "photodir/267.jpg",
+        "croppedfilename": "photodir/267.png",
         "questions": [
             {
                 "question": "What\u00b4s Shakespeare\u00b4s lost years? ",
@@ -2251,8 +2296,8 @@ var data = {
     {
         "name": "Zacharias Topelius",
         "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author.",
-        "filename": "photodir/265.jpg",
-        "croppedfilename": "photodir/265.png",
+        "filename": "photodir/270.jpg",
+        "croppedfilename": "photodir/270.png",
         "questions": [
             {
                 "question": "In 1833 Topelius began studying at the University. What did he plan to study?",
