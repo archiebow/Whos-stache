@@ -224,6 +224,27 @@ function newgame() {
 	selection = [];
 }
 
+function newgameNoSound() {
+	$("#menu").css("display", "none");
+	$("#gamemenu").css("display", "block");
+	$("#back").css("display", "block");
+	$("#characters").empty();
+	$("#charCount").text(0)
+	Object.keys(tags).sort().forEach((tag) => {
+		if (tags[tag] > 2) {
+			var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
+			(function(tag) {
+				// Bind onClick event to our function
+				element.click(function(event) {
+					tagClick(event, tag);
+				});
+			})(tag);
+			element.appendTo("#characters");
+		}
+	});
+	selection = [];
+}
+
 function credits() {
 	$("#menu").css("display", "none");
 	$("#credits").css("display", "block");
