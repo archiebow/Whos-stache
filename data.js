@@ -1,10 +1,45 @@
 var data = {
 	"characters": [
     {
-        "name": "Adolf Hitler",
-        "bio": "German leader during the second world war. Started the war by invading Poland in 1939 and was responsible for crimes against humanity, such as the holocaust. Commited suicide in 1945.  ",
+        "name": "Aberforth Dumbledore",
+        "bio": "Albus Dumbledore's younger brother who had a hard time in the shadow of his great brother. He was also the owner of the Hog's Head Inn.",
         "filename": "photodir/2.jpg",
         "croppedfilename": "photodir/2.png",
+        "questions": [
+            {
+                "question": "What animal did Aberforth have an obsession with?",
+                "answertext": "Aberforth lived at the inn at which he was barkeeper and it smelled of goats and was very filthy.",
+                "answers": [
+                    "Goats",
+                    "Cows",
+                    "Owls"
+                ]
+            },
+            {
+                "question": "Which person did Aberforth blame for his sister's death",
+                "answertext": "He blamed Albus for bringing Grindelwald into their lives and not seeing him for who he was, although it is unclear who in the end killed Ariana both Albus and Aberforth blame Albus",
+                "answers": [
+                    "Albus",
+                    "Himself",
+                    "Grindelwald"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Aberforth Dumbledore and Albus Dumbledore had a younger sister named Ariana Dumbledore. ",
+            "\"I\u2019ve told the others to meet us in the Hog\u2019s Head, that other pub, you know the one, it\u2019s not on the main road. I think it\u2019s a bit... you know... dodgy... but students don\u2019t normally go in there, so I don\u2019t think we\u2019ll be overheard.\" \u2014 Hermione Granger regarding the inn's reputation."
+        ],
+        "tags": [
+            "All",
+            "Fictional",
+            "Harry potter"
+        ]
+    },
+    {
+        "name": "Adolf Hitler",
+        "bio": "German leader during the second world war. Started the war by invading Poland in 1939 and was responsible for crimes against humanity, such as the holocaust. Commited suicide in 1945.  ",
+        "filename": "photodir/5.jpg",
+        "croppedfilename": "photodir/5.png",
         "questions": [
             {
                 "question": "When did Hitler's famous Beer Hall Putsch happen?",
@@ -27,9 +62,10 @@ var data = {
         ],
         "funfacts": [
             "Hitler applied to the Vienna art academy but failed the entrance exam",
-            "It is a longstanding rumour, that Hitler had only one testicle. Indeed, modern evidence points towards this being a fact."
+            "It is a longstanding rumour that Hitler had only one testicle. Indeed, modern evidence points towards this being a fact."
         ],
         "tags": [
+            "All",
             "Ww2",
             "German",
             "Historical",
@@ -39,9 +75,9 @@ var data = {
     },
     {
         "name": "Albert Edelfelt",
-        "bio": "Albert Edelfelt, 1854-1905, is one of Finlands most known painters.",
-        "filename": "photodir/5.jpg",
-        "croppedfilename": "photodir/5.png",
+        "bio": "Albert Edelfelt, 1854-1905, is one of Finland's most known painters.",
+        "filename": "photodir/8.jpg",
+        "croppedfilename": "photodir/8.png",
         "questions": [
             {
                 "question": "What was Albert Edelfelts whole name?",
@@ -54,7 +90,7 @@ var data = {
             },
             {
                 "question": "Albert Edelfelt died only 51 years old. What was the reason?",
-                "answertext": "Edelfelts friend, Ville Vallgren, tought that one reason for the heart attack was that he had relasionships with many different women.",
+                "answertext": "Edelfelts friend, Ville Vallgren, thought that one reason for the heart attack was that he had relationships with many different women.",
                 "answers": [
                     "Heart attack",
                     "Typhus",
@@ -62,7 +98,7 @@ var data = {
                 ]
             },
             {
-                "question": "It is believed that Edelefelts painting, Dopf\u00e4rd (Risti\u00e4issaatto), that was sold on auction in Finland in 2017, is the most expensive Edelfet painting ever. What was it sold for?",
+                "question": "It is believed that Edelefelts painting, Dopf\u00e4rd (Risti\u00e4issaatto), that was sold on auction in Finland in 2017, is the most expensive Edelfelt painting ever. What was it sold for?",
                 "answertext": "The painting was bought by Anders Wikl\u00f6f, an art collector from the \u00c5land Islands.",
                 "answers": [
                     "637000.0",
@@ -72,11 +108,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "Edelfelts last grand work was the Inauguration of the Academy of \u00c5bo, finnished in 1905. It was destroyd during the Soviet bombardement of Helsinki in 1944.",
+            "Edelfelts last grand work was the Inauguration of the Academy of \u00c5bo, finished in 1905. It was destroyed during the Soviet bombardement of Helsinki in 1944.",
             "Edelfelt was born and died near Borg\u00e5/Porvoo even though he traveled a lot.",
             "Edelfelt was well known in St Petersburg and painted portraits of many members of the royal family."
         ],
         "tags": [
+            "All",
             "1800s",
             "Artist",
             "Finnish",
@@ -85,24 +122,54 @@ var data = {
     },
     {
         "name": "Albert Einstein",
-        "bio": "Nobel prize winning scientist who is most known for the theory of relativity and the E=m2 formula",
-        "filename": "photodir/8.jpg",
-        "croppedfilename": "photodir/8.png",
+        "bio": "Albert Einstein (1879-1955) was a theoretical phycicist and nobel laureate. He is perhaps most known for his theories of general and special relativity, and the formula E=mc^2.",
+        "filename": "photodir/11.jpg",
+        "croppedfilename": "photodir/11.png",
         "questions": [
             {
-                "question": "For what work did he receive the nobel prize in physics?",
-                "answertext": "Einstein could have been awarded for many of them but it was the photoelectric effect that got him the award",
+                "question": "For what discovery did Albert Einstein receive the nobel prize in physics?",
+                "answertext": "Einstein was awarded the nobel prize in 1922. Arguably, relativity was a much bigger discovery, worthy of another nobel, but the first experimental proof came only after Einstein's death.",
                 "answers": [
-                    "The law of the photoelectric effect",
-                    "Theory of relativity",
+                    "The photoelectric effect",
+                    "General relativity",
                     "Quantum mechanics"
+                ]
+            },
+            {
+                "question": "What was Einsteins religion?",
+                "answertext": "Einstein came from a jewish family, but early on he wasn't very involved in the religion. He became more active in the 30s as a show of defiance against the Nazi opression of jews. Einstein was a spiritual person, but he rejected many traditional religious views, calling himself a \"deeply religious nonbeliever\"",
+                "answers": [
+                    "Judaism/spirituality",
+                    "Christianity",
+                    "He was an atheist"
+                ]
+            },
+            {
+                "question": "Why did Einstein emigrate to the US?",
+                "answertext": "Einstein was in the US in 1933, when the Nazis took power, and realized he couldn't return. He became a refugee, and was eventually granted citizenship. Not returning was a wise move. His apartment was raided by the Gestapo, his property was confiscated and his books were burned as \"jewish science\".",
+                "answers": [
+                    "To escape Nazi persecution",
+                    "To work on the Manhattan project",
+                    "Because of a romantic affair"
+                ]
+            },
+            {
+                "question": "What does E=mc^2 signify?",
+                "answertext": "For Einstein, E=mc^2 was a mere footnote in a larger paper, but it's simplicity as an equation has made it widely known. Matter energy equivalence states that matter and energy are different forms of the same fundamental thing, and they can be interchanged, in the ratio E=mc^2. c^2 is the speed of light squared, an extremely large number, which means that even small amounts of matter contain huge amounts of energy.",
+                "answers": [
+                    "The equivalence of matter and energy",
+                    "The formula for time dilation",
+                    "That one unit of energy can be interpreted as a square centimeter of four dimensional spacetime"
                 ]
             }
         ],
         "funfacts": [
-            "He was a lifelong pacifist most well known for the letter urging Rosevelt to research the atomic bomb"
+            "Albert Einstein was married to his first cousin.",
+            "Albert Einstein was a lifelong pacifist. However, he famously co-wrote a letter to president Franklin Rosevelt in 1939, urging him to fund research for nuclear weapons. Einstein supported the letter, since he was afraid of Nazi-germany developing the atomic bomb before the allies. After the war, Einstein considered signing the letter his one great mistake.",
+            "In 1952 Einstein was offered the position of president of Israel. Due to his old age, he refused."
         ],
         "tags": [
+            "All",
             "1900s",
             "Scientist",
             "German",
@@ -110,10 +177,46 @@ var data = {
         ]
     },
     {
+        "name": "Albus Dumbledore",
+        "bio": "The headmaster at the wizarding school of Hogwarts and one if not the most powerful wizards of al time",
+        "filename": "photodir/14.jpg",
+        "croppedfilename": "photodir/14.png",
+        "questions": [
+            {
+                "question": "What was the name of Dumbledore's sister",
+                "answertext": "His sister died by accident at the battle between Albus, Grindelwald and Aberforth",
+                "answers": [
+                    "Ariana",
+                    "Alexandra",
+                    "Aurora"
+                ]
+            },
+            {
+                "question": "Out of the three deathly hallows did Albus particularly want?",
+                "answertext": "The wand was of course interesting and he ended up having it but the stone would have brought back his parents so he would not have to take care of the family which felt like a huge burden to him. The invisible cape would be useful to shield Ariana from unwanted attention.",
+                "answers": [
+                    "Resurrection stone",
+                    "Invisibility cloak",
+                    "Elder Wand"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Albus was the only headmaster of Hogwarts to be buried at the school.",
+            "He was born in 1881 and died at the age of 115.",
+            "He's the only wizard, besides Harry, to possess all 3 Hallows."
+        ],
+        "tags": [
+            "All",
+            "Fictional",
+            "Harry potter"
+        ]
+    },
+    {
         "name": "Alfred von Tirpitz",
         "bio": "Alfred Peter Friedrich von Tirpitz (1849-1930) was a german Grand Admiral. Under his command, the german navy grew to be the world's second most powerful fleet by the start of WW1",
-        "filename": "photodir/11.jpg",
-        "croppedfilename": "photodir/11.png",
+        "filename": "photodir/17.jpg",
+        "croppedfilename": "photodir/17.png",
         "questions": [
             {
                 "question": "Why did Tirpitz resign from the navy in 1915?",
@@ -135,7 +238,7 @@ var data = {
             },
             {
                 "question": "Before WW1 Britain and Germany were racing to build battleships of a new type with a uniform main battery. What were these ships called?",
-                "answertext": "HMS Dreadnought was launched in 1906, and later ships of similiar build came to be known as Dreadnoughts. The ship had a main battery of 10 12-inch guns, making previous battleships with only 4 effectively obsolete.",
+                "answertext": "HMS Dreadnought was launched in 1906, and later ships of similar build came to be known as Dreadnoughts. The ship had a main battery of 10 12-inch guns, making previous battleships with only 4 effectively obsolete.",
                 "answers": [
                     "Dreadnoughts",
                     "Battlecruisers",
@@ -144,11 +247,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "After the war, Tirpitz joined politics and sat in the reichstag betweeen 1924 and 1928",
+            "After the war, Tirpitz joined politics and sat in the reichstag between 1924 and 1928",
             "Tirpitz spoke fluent English, and his daughters attended school in the UK",
             "Tirpitz hoped that even a numerically smaller german navy could match the british, since Britain would have to spread its navy around it's massive empire. Instead, the german threat prompted the british to make arrangements with other powers, allowing them to concentrate their power towards Germany."
         ],
         "tags": [
+            "All",
             "Ww1",
             "German",
             "Military",
@@ -158,8 +262,8 @@ var data = {
     {
         "name": "Aragorn",
         "bio": "Isildur's heir and rightful king of Gondor and a powerful warrior in Lord of the rings.",
-        "filename": "photodir/14.jpg",
-        "croppedfilename": "photodir/14.png",
+        "filename": "photodir/20.jpg",
+        "croppedfilename": "photodir/20.png",
         "questions": [
             {
                 "question": "What was the name of Aragorn's sword?",
@@ -176,6 +280,7 @@ var data = {
             "Aragorn was also known as Elessar and Strider."
         ],
         "tags": [
+            "All",
             "Lotr",
             "Fictional",
             "King",
@@ -184,9 +289,9 @@ var data = {
     },
     {
         "name": "Aristotle",
-        "bio": "Aristotle a Greek philosopher and polymath during the Classical period in Ancient Greece.",
-        "filename": "photodir/17.jpg",
-        "croppedfilename": "photodir/17.png",
+        "bio": "Aristotle was a Greek philosopher and polymath during the Classical period in Ancient Greece.",
+        "filename": "photodir/23.jpg",
+        "croppedfilename": "photodir/23.png",
         "questions": [
             {
                 "question": "The work we call Physics is more properly described as what?",
@@ -202,6 +307,7 @@ var data = {
             "Aristotle learned from the best. When he was 17, Aristotle enrolled in Plato\u2019s Academy and spent 20 years of his life acquiring knowledge from the best teacher. Aristotle too was a gifted student for Plato."
         ],
         "tags": [
+            "All",
             "Greek",
             "Ancient",
             "Historical",
@@ -211,8 +317,8 @@ var data = {
     {
         "name": "Billy Gibbons",
         "bio": "Billy Gibbons, 1949-, is an American musician most known for his work with ZZ Top.",
-        "filename": "photodir/20.jpg",
-        "croppedfilename": "photodir/20.png",
+        "filename": "photodir/26.jpg",
+        "croppedfilename": "photodir/26.png",
         "questions": [
             {
                 "question": "When did Billy Gibbons form the band ZZ Top",
@@ -248,6 +354,7 @@ var data = {
             "The members of ZZ Top turned down a one million dollar offer from Gillette to shave their beards and moustaches for an ad."
         ],
         "tags": [
+            "All",
             "Modern",
             "Artist",
             "American",
@@ -258,11 +365,11 @@ var data = {
     {
         "name": "Blackbeard",
         "bio": "Blackbeard, was an English pirate who operated around the West Indies and the eastern coast of Britain's North American colonies.",
-        "filename": "photodir/23.jpg",
-        "croppedfilename": "photodir/23.png",
+        "filename": "photodir/29.jpg",
+        "croppedfilename": "photodir/29.png",
         "questions": [
             {
-                "question": "How did the the famous pirate die?",
+                "question": "How did the famous pirate die?",
                 "answertext": "At the request of Carolina planters, the lieutenant governor of Virginia, Alexander Spotswood, dispatched a British naval force under Lieutenant Robert Maynard, who, after a hard fight, succeeded in killing Blackbeard. The pirate\u2019s body was decapitated, and his head was affixed to the end of the bowsprit of his ship.",
                 "answers": [
                     "Died by battle",
@@ -295,19 +402,20 @@ var data = {
             "The wreckage of Queen Anne's Revenge was rediscovered in 1996. Hundreds of artifacts were recovered from the site in the following decades, including navigational devices, cannons, and a sword hilt."
         ],
         "tags": [
+            "All",
             "Historical",
             "Pre-1800s"
         ]
     },
     {
         "name": "Boromir",
-        "bio": "Boromir was part of the fellowship of the ring and played an important role in the trilogy. He was the son of Denethor the last ruling Steward of Gondor. ",
-        "filename": "photodir/26.jpg",
-        "croppedfilename": "photodir/26.png",
+        "bio": "Boromir was part of the fellowship of the ring and played an important role in the trilogy. He was the son of Denethor, the last ruling Steward of Gondor. ",
+        "filename": "photodir/32.jpg",
+        "croppedfilename": "photodir/32.png",
         "questions": [
             {
-                "question": "Who was Boromir portayed by? ",
-                "answertext": "Boromir and Ned Stark are Sean Beans most famous roles. ",
+                "question": "Who was Boromir portrayed by? ",
+                "answertext": "Boromir and Ned Stark are Sean Bean's most famous roles. ",
                 "answers": [
                     "Sean Bean",
                     "Viggo Mortensen",
@@ -324,7 +432,7 @@ var data = {
                 ]
             },
             {
-                "question": "What is Boromirs brother called?",
+                "question": "What is Boromir's brother called?",
                 "answertext": "Faramir\u00b4s deranged father plans to burn him alive when he\u00b4s gravely injured. Faramir is saved by Merry and Pippin whom Boromir gave his life to protect. ",
                 "answers": [
                     "Faramir",
@@ -334,11 +442,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "Boromir\u00b4s famous quote \u201cone does not simply walk into Mordor\u201d has become an internet meme.",
-            " The running joke that Sean Bean is killed off in every movie he stars in got big after Boromir\u00b4s death in Lord of the rings. ",
-            "Boromir\u00b4s death is by many considered the most emotional part of the trilogy."
+            "Boromir's famous quote \u201cone does not simply walk into Mordor\u201d has become an internet meme.",
+            " The running joke that Sean Bean is killed off in every movie he stars in got big after Boromir's death in Lord of the rings. ",
+            "Boromir's death is by many considered the most emotional part of the trilogy."
         ],
         "tags": [
+            "All",
             "Fictional",
             "Lotr"
         ]
@@ -346,8 +455,8 @@ var data = {
     {
         "name": "Charles Darwin",
         "bio": "Charles Darwin, 1809-1882, was a British scientist.",
-        "filename": "photodir/29.jpg",
-        "croppedfilename": "photodir/29.png",
+        "filename": "photodir/35.jpg",
+        "croppedfilename": "photodir/35.png",
         "questions": [
             {
                 "question": "What was the name of the ship Charles Darwin used for some of his travels?",
@@ -383,6 +492,7 @@ var data = {
             "As a 25th birthday present, Captain Robert FitzRoy named a mountain efter Darwin."
         ],
         "tags": [
+            "All",
             "1800s",
             "Scientist",
             "British",
@@ -392,8 +502,8 @@ var data = {
     {
         "name": "Charles XII",
         "bio": "Was the young king of Sweden during the great northern war of 1700-1721 in which Sweden lost its position as a major power in Europe",
-        "filename": "photodir/32.jpg",
-        "croppedfilename": "photodir/32.png",
+        "filename": "photodir/38.jpg",
+        "croppedfilename": "photodir/38.png",
         "questions": [
             {
                 "question": "Which nation did he not fight in the great northern war?",
@@ -407,9 +517,10 @@ var data = {
             }
         ],
         "funfacts": [
-            "Was only 18 years old when he became king over an empire"
+            "Charles XII was only 18 years old when he became king over an empire"
         ],
         "tags": [
+            "All",
             "Leader",
             "Swedish",
             "Pre-1800s",
@@ -419,14 +530,14 @@ var data = {
     {
         "name": "Chewbacca",
         "bio": "Chewbacca was a Wookie warrior and smuggler, in a galaxy far far away.",
-        "filename": "photodir/35.jpg",
-        "croppedfilename": "photodir/35.png",
+        "filename": "photodir/41.jpg",
+        "croppedfilename": "photodir/41.png",
         "questions": [
             {
                 "question": "What is the home planet of the Wookies called?",
-                "answertext": "Kashyyk is a heavily wooded planet, and was the site of the famed droid attack on the wookies.",
+                "answertext": "Kashyyyk is a heavily wooded planet, and was the site of the famed droid attack on the wookies.",
                 "answers": [
-                    "Kashyyk",
+                    "Kashyyyk",
                     "Endor",
                     "Tatooine"
                 ]
@@ -446,14 +557,15 @@ var data = {
             "During the original trilogy era, Chewbacca is over 200 years old!"
         ],
         "tags": [
+            "All",
             "Fictional"
         ]
     },
     {
         "name": "Conchita Wurst",
         "bio": "Conchita Wurst, 1988-, is an Austrian former winner of the Eurovision Song Contest.",
-        "filename": "photodir/38.jpg",
-        "croppedfilename": "photodir/38.png",
+        "filename": "photodir/44.jpg",
+        "croppedfilename": "photodir/44.png",
         "questions": [
             {
                 "question": "Who is the person behind Conchita Wurst?",
@@ -489,6 +601,7 @@ var data = {
             "Conchita Wurst has got a wax figure at Madame Tussauds museum in Vienna."
         ],
         "tags": [
+            "All",
             "Modern",
             "Artist"
         ]
@@ -496,15 +609,15 @@ var data = {
     {
         "name": "Confucius ",
         "bio": "Confucius (551-479 BC) was a Chinese philosopher, politician, and teacher whose message of knowledge, benevolence, loyalty, and virtue were the main guiding philosophy of China for thousands of years",
-        "filename": "photodir/41.jpg",
-        "croppedfilename": "photodir/41.png",
+        "filename": "photodir/47.jpg",
+        "croppedfilename": "photodir/47.png",
         "questions": [
             {
                 "question": "What is the Analetcs?  ",
-                "answertext": "The analects is an ancient book that contains Confucius saying and ideas. It is one of the most widely-read and studied books in China for the last 2000 years. ",
+                "answertext": "The analects is an ancient book that contains Confucius' saying and ideas. It is one of the most widely-read and studied books in China for the last 2000 years. ",
                 "answers": [
-                    "An ancient Chinese book composed of Confucius\u2019s  sayings and ideas believed to have been written by his followers. ",
-                    "Confucius\u00b4s students called themselves the analects. ",
+                    "An ancient Chinese book composed of Confucius\u2019  sayings and ideas believed to have been written by his followers. ",
+                    "Confucius\u00b4 students called themselves the analects. ",
                     "The Analects is a mountain range in China where Confucius spent most of his life. "
                 ]
             },
@@ -518,7 +631,7 @@ var data = {
                 ]
             },
             {
-                "question": "While most famously called Confucius that is not the philosopher\u2019s real name. What was his original name?",
+                "question": "While most famously called Confucius, that is not the philosopher\u2019s real name. What was his original name?",
                 "answertext": "The name Confucius is a Latinization of K\u00f4ng Fuz\u00ee, which means Master Kong. During the years he has been know under many different names, but his original name was K\u00f4ng Qiu ",
                 "answers": [
                     "K\u00f4ng Qiu ",
@@ -533,6 +646,7 @@ var data = {
             " At his deathbed Confucius, saddened by the death of his son, proclaimed that his teachings had not made a difference. He died unknowing of the fact that he would live on in Chinese culture and become one of the most influential persons to ever live. "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Scientist",
             "Chinese",
@@ -542,8 +656,8 @@ var data = {
     {
         "name": "Count Dooku ",
         "bio": "Count Dooku was a jedi master that turned to the dark side and became the apprentice of Darth Sidious.",
-        "filename": "photodir/44.jpg",
-        "croppedfilename": "photodir/44.png",
+        "filename": "photodir/50.jpg",
+        "croppedfilename": "photodir/50.png",
         "questions": [
             {
                 "question": "Who portrayed Count Dooku? ",
@@ -579,6 +693,7 @@ var data = {
             "Dooku was given the name Darth Tyranus when he joined the dark side but he would always be known as Count Dooku. "
         ],
         "tags": [
+            "All",
             "Fictional",
             "Star wars"
         ]
@@ -586,8 +701,8 @@ var data = {
     {
         "name": "Cyrus the Great",
         "bio": "Cyrus the Great (ca. 585-530) was the ruler of Persia. Known as the \"King of Kings\" Cyrus conquerd a lot of land and soon created a vast empire.",
-        "filename": "photodir/47.jpg",
-        "croppedfilename": "photodir/47.png",
+        "filename": "photodir/53.jpg",
+        "croppedfilename": "photodir/53.png",
         "questions": [
             {
                 "question": "What other great leader was inspired by Cyrus?",
@@ -622,6 +737,7 @@ var data = {
             "Cyrus' tomb is still intact. It\u2019s in modern day Iran and a part of an UNESCO World Heritage Site."
         ],
         "tags": [
+            "All",
             "Ancient",
             "Historical",
             "Leader"
@@ -630,8 +746,8 @@ var data = {
     {
         "name": "Danny Trejo",
         "bio": "Danny Trejo, 1944-, is an American actor.",
-        "filename": "photodir/50.jpg",
-        "croppedfilename": "photodir/50.png",
+        "filename": "photodir/56.jpg",
+        "croppedfilename": "photodir/56.png",
         "questions": [
             {
                 "question": "Where was Danny Trejo born?",
@@ -653,7 +769,7 @@ var data = {
             },
             {
                 "question": "What movie has he not acted in?",
-                "answertext": "He did not star in Quentin Tarantinos Kill Bill films.",
+                "answertext": "He did not star in Quentin Tarantino's Kill Bill films.",
                 "answers": [
                     "Kill Bill 2",
                     "From Dusk till Dawn",
@@ -667,6 +783,7 @@ var data = {
             "He has not only worked in action movies. He also starred in Spy Kids, a comedy family film series."
         ],
         "tags": [
+            "All",
             "1900s",
             "Artist",
             "American",
@@ -676,35 +793,100 @@ var data = {
     },
     {
         "name": "Davy Jones",
-        "bio": "The captain of the flying dutchman and and nefarius pirate attacking everyone",
-        "filename": "photodir/53.jpg",
-        "croppedfilename": "photodir/53.png",
+        "bio": "Davy Jones was the supernatural ruler of the Seven Seas as the condemned captain of the Flying Dutchman. A fearsome and ruthless captain, striking terror into the bravest of sailors.",
+        "filename": "photodir/59.jpg",
+        "croppedfilename": "photodir/59.png",
         "questions": [
             {
-                "question": "How many years of service does Jack owe Davy Jones?",
-                "answertext": "JAck bought back his ship the Black pearls for 100 years of service aboard the flying dutchman",
+                "question": "How many souls did Davy Jones tell Jack Sparrow to gather in three days time? ",
+                "answertext": "Jack Sparrow wouldn't offer his soul as the original payment for the Black Pearl so they made a new deal, he would gather 100 souls in three days or Davy Jones would come and take Sparrow into the crew of the Flying Dutchman.",
                 "answers": [
-                    "100 years",
-                    "50 years",
-                    "10 years",
-                    "..."
+                    "100.0",
+                    "50.0",
+                    "10.0"
+                ]
+            },
+            {
+                "question": "Who did Davy Jones fall in love with?",
+                "answertext": "He fell in love with the sea goddess Calypso. Who treated him wrong, creating the monster that Davy Jones later became.",
+                "answers": [
+                    "Calypso.",
+                    "Jack Sparrow.",
+                    "Elizabeth."
+                ]
+            },
+            {
+                "question": "How often could Davy Jones go ashore?",
+                "answertext": "Because of his love, Davy Jones agreed to set foot on land once every ten years, where Jones would be free to be with Calypso.",
+                "answers": [
+                    "Every 10 years.",
+                    "Every 5 years.",
+                    "1 time a year."
                 ]
             }
         ],
         "funfacts": [
-            "Used to be a man but had a tragic love affair turning him into a monster"
+            "He used to be a man but due to his tragic relationship with Calypso, he turned into a monster.",
+            "Davy Jones commanded the great Kraken, a giant squid that could break ships apart.",
+            "Davy Jones theme song was composed by Hans Zimmer."
         ],
         "tags": [
+            "All",
             "Fictional",
             "Evil",
             "Pirate"
         ]
     },
     {
+        "name": "Eddie Murphy",
+        "bio": "Eddie Murphy, 1961-, is an American actor.",
+        "filename": "photodir/62.jpg",
+        "croppedfilename": "photodir/62.png",
+        "questions": [
+            {
+                "question": "Eddie Murphy had the lead role in the Beverly Hills Cop movies. How many movies have been made?",
+                "answertext": "The films were released in 1984, 1987 and 1994.",
+                "answers": [
+                    "3",
+                    "2",
+                    "4"
+                ]
+            },
+            {
+                "question": "How many children do Eddie Murphy have?",
+                "answertext": "One of the children's mother is Scary Spice, Melanie Brown.",
+                "answers": [
+                    "10",
+                    "1",
+                    "15"
+                ]
+            },
+            {
+                "question": "In what movie has Eddie Murphy not starred?",
+                "answertext": "Sean Connery had the lead role in The League of Extraordinary Gentlemen.",
+                "answers": [
+                    "The League of Extraordinary Gentlemen",
+                    "Dr. Doolittle",
+                    "Tower Heist"
+                ]
+            }
+        ],
+        "funfacts": [
+            "He rose to fame thru Saturday Night Live.",
+            "The character Donkey in the Shrek movies is voiced by Eddie Murphy.",
+            "Eddie Murphy is also a musician and has released five studio albums."
+        ],
+        "tags": [
+            "All",
+            "Modern",
+            "Actor"
+        ]
+    },
+    {
         "name": "Emiliano Zapata",
         "bio": "Emiliano Zapata, 1879-1919, was a Mexican revolutionary leader. He was one of the main figures in the Mexican revolution that took place between the years 1910-1920.",
-        "filename": "photodir/56.jpg",
-        "croppedfilename": "photodir/56.png",
+        "filename": "photodir/65.jpg",
+        "croppedfilename": "photodir/65.png",
         "questions": [
             {
                 "question": "Where was Zapata born?",
@@ -740,6 +922,7 @@ var data = {
             "Zapata, who was a southern revolutionary, teamed up with the famous northern revolutionary, Francisco \"Pancho\" Villa in 1914. "
         ],
         "tags": [
+            "All",
             "1900s",
             "Military",
             "Mexican",
@@ -750,8 +933,8 @@ var data = {
     {
         "name": "Hulk Hogan",
         "bio": "Hulk Hogan, born 1953, is an american wrestler and celebrity.",
-        "filename": "photodir/59.jpg",
-        "croppedfilename": "photodir/59.png",
+        "filename": "photodir/68.jpg",
+        "croppedfilename": "photodir/68.png",
         "questions": [
             {
                 "question": "Besides wrestling, Hulk Hogan has an extensive acting career. Which of the following movies has Hulk been in?",
@@ -773,7 +956,7 @@ var data = {
             },
             {
                 "question": "True or False? Hulk Hogan's employer, WWE was previously known as WWF.",
-                "answertext": "WWE was forced to switch to it's current name after a lawsuit by the World Wildlife Fund",
+                "answertext": "WWE was forced to switch to its current name after a lawsuit by the World Wildlife Fund",
                 "answers": [
                     "True",
                     "False"
@@ -786,6 +969,7 @@ var data = {
             "According to the Wrestling figure checklist, there have been 171 registered Hulk Hogan action figures."
         ],
         "tags": [
+            "All",
             "Modern",
             "1900s",
             "American",
@@ -795,8 +979,8 @@ var data = {
     {
         "name": "Fidel Castro",
         "bio": "Fidel Castro, 1926-2016, was a Cuban revolutionist and the Prime Minister and President of Cuba.",
-        "filename": "photodir/62.jpg",
-        "croppedfilename": "photodir/62.png",
+        "filename": "photodir/71.jpg",
+        "croppedfilename": "photodir/71.png",
         "questions": [
             {
                 "question": "What did Castro study at the University of Cuba?",
@@ -828,10 +1012,11 @@ var data = {
         ],
         "funfacts": [
             "Fidel Castro was the son of a wealthy Spanish farmer.",
-            "Castro smoked cigars on daily basis from the age of 15 until he was almost 60. His favourite brand was Cohiba.",
+            "Castro smoked cigars on a daily basis from the age of 15 until he was almost 60. His favourite brand was Cohiba.",
             "Castro resigned as president in 2011. His brother, Raul, was selected as his successor."
         ],
         "tags": [
+            "All",
             "1900s",
             "Military",
             "Historical",
@@ -841,12 +1026,12 @@ var data = {
     {
         "name": "Frank Zappa",
         "bio": "Frank Zappa, 1940-1993, was an American musician and satirist.",
-        "filename": "photodir/65.jpg",
-        "croppedfilename": "photodir/65.png",
+        "filename": "photodir/74.jpg",
+        "croppedfilename": "photodir/74.png",
         "questions": [
             {
-                "question": "What is Frank Zappas oldest daughter's name?",
-                "answertext": "His other children were Dweezil, Ahmet and Diva.",
+                "question": "What is Frank Zappa's oldest daughter's name?",
+                "answertext": "His other children are Dweezil, Ahmet and Diva.",
                 "answers": [
                     "Moon Unit Zappa",
                     "Space Ship Zappa",
@@ -854,7 +1039,7 @@ var data = {
                 ]
             },
             {
-                "question": "Frank Zappas controversial song Bobby Brown from 1979 reached number one in which countries?",
+                "question": "Frank Zappa's controversial song Bobby Brown from 1979 reached number one in which countries?",
                 "answertext": "The song is about a misogynistic gay named Bobby Brown.",
                 "answers": [
                     "Norway and Sweden",
@@ -878,6 +1063,7 @@ var data = {
             "There is a fish, a jellyfish, bacteria and a spider named after Frank Zappa. The spider, Pachygnatha zappa, got its name because of its unique markings that resemble Zappa's moustache."
         ],
         "tags": [
+            "All",
             "1900s",
             "Artist",
             "American",
@@ -885,14 +1071,59 @@ var data = {
         ]
     },
     {
-        "name": "Galileo Galilei",
-        "bio": "Galileo born 1564  was an Italien scientist, astronomer and philosopher. He discovered many of Jupters moons and the rings of Saturn. His support of the heliocentric universe earned him many powerful enemies within the church.",
-        "filename": "photodir/68.jpg",
-        "croppedfilename": "photodir/68.png",
+        "name": "Franz Joseph I",
+        "bio": "Franz Joseph I, 1830-1916, was the Emperor of Austria and the Austro-Hungarian Empire.",
+        "filename": "photodir/77.jpg",
+        "croppedfilename": "photodir/77.png",
         "questions": [
             {
-                "question": "Galieo invented the telescpe. True of false? ",
-                "answertext": "The dutch eyeglass maker Hans Lippershay invented the telescope. Howewer Galileo improved the design significantely and was the first person to study the stars with it.",
+                "question": "Franz Joseph I died in 1916 and was succeeded by Charles I. How were they related?",
+                "answertext": "Charles I ruled for only a couple of years. Then the Austro-Hungarian Empire collapsed.",
+                "answers": [
+                    "Charles was Franz Josephs' grandnephew",
+                    "Charles was Franz Josephs' cousin",
+                    "Charles was Franz Josephs' brother"
+                ]
+            },
+            {
+                "question": "Franz Joseph's brother, Maximilian, was emperor of a country. Which?",
+                "answertext": "He reigned 1864-1867.",
+                "answers": [
+                    "Mexico",
+                    "Egypt",
+                    "Portugal"
+                ]
+            },
+            {
+                "question": "The Emperor Franz Joseph had different names in the different languages in the Empire. Where was he called \"I. Ferenc J\u00f3zsef\"?",
+                "answertext": "Hungary was added to the name of the Empire in 1867 to please the Hungarians.",
+                "answers": [
+                    "Hungary",
+                    "Bosnia",
+                    "Slovakia"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Franz Joseph survived an assassination attempt in 1853.",
+            "He was born and died in Sch\u00f6nbrunn Palace in Vienna. The palace has got 1441 rooms.",
+            "Franz Joseph had one son, Rudolf. He died at the age of 30. It is believed that he and his mistress committed suicide."
+        ],
+        "tags": [
+            "All",
+            "1800s",
+            "Leader"
+        ]
+    },
+    {
+        "name": "Galileo Galilei",
+        "bio": "Galileo born 1564  was an Italian scientist, astronomer and philosopher. He discovered many of Jupters moons and the rings of Saturn. His support of the heliocentric universe earned him many powerful enemies within the church.",
+        "filename": "photodir/80.jpg",
+        "croppedfilename": "photodir/80.png",
+        "questions": [
+            {
+                "question": "Galieo invented the telescope. True or false?",
+                "answertext": "The dutch eyeglass maker Hans Lippershay invented the telescope. However Galileo improved the design significantly and was the first person to study the stars with it.",
                 "answers": [
                     "False",
                     "True"
@@ -900,7 +1131,7 @@ var data = {
             },
             {
                 "question": "When did the Catholic church admit that they wrongly convicted Galileo?",
-                "answertext": "In 1979 pope John Paul II launched an investigation into the catholic churchs conviction of Galileo. In 1992 they found him not guilty. The church issued a formal apology 359 years after his trial.",
+                "answertext": "In 1979 pope John Paul II launched an investigation into the catholic church's conviction of Galileo. In 1992 they found him not guilty. The church issued a formal apology 359 years after his trial.",
                 "answers": [
                     "1992.0",
                     "1699.0",
@@ -909,7 +1140,7 @@ var data = {
             },
             {
                 "question": "What does the names Io, Ganymede, Europa and Callisto have to do with Galileo Galilei?",
-                "answertext": "Io, Ganymede, Europa and Callisto are Jupiter\u2019s fours biggest moons. Galileo discovered them in 1609 or 1610. They are therefore known as the Galilean moons. ",
+                "answertext": "Io, Ganymede, Europa and Callisto are Jupiter's four biggest moons. Galileo discovered them in 1609 or 1610. They are therefore known as the Galilean moons. ",
                 "answers": [
                     "Galilio discovered four moons orbiting Jupiter. These are their names. ",
                     "These are the names of books he wrote.",
@@ -918,11 +1149,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "Galileo had to stand trial before the church after beeing accused of heresy . There he was forced to admit that the earth was the stationary center of the universe. After this he allegedly muttered \"Eppur si muove\" (\"Yet it moves\")",
-            "Galileo\u2019s vertebra is on display at the university of Padua where he used to teach. Three of his fingers and tooth are on display in the Galileo museum of science in Florence. All of the body parts were removed from Galileo\u2019s body in 1737 when his remains was moved to a monumental tomb. The middle finger, thumb and tooth were thought to be lost but remerged at an auction in 2009.",
+            "Galileo had to stand trial before the church after being accused of heresy . There he was forced to admit that the earth was the stationary center of the universe. After this he allegedly muttered \"Eppur si muove\" (\"Yet it moves\")",
+            "Galileo's vertebra is on display at the university of Padua where he used to teach. Three of his fingers and tooth are on display in the Galileo museum of science in Florence. All of the body parts were removed from Galileo\u2019s body in 1737 when his remains was moved to a monumental tomb. The middle finger, thumb and tooth were thought to be lost but remerged at an auction in 2009.",
             "His work was very influential and he played a major role in the scientific revolution. Therefore he earned the title \"The father of modern science\" after his death. "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Scientist",
             "Italian",
@@ -931,9 +1163,9 @@ var data = {
     },
     {
         "name": "Gandalf",
-        "bio": "Gandalf the Grey later known as Gandalf the White, was one of the five wizards that arrived to Middle-earth in J. R. R. Tolkiens novels The Hobbit and The Lord of the Rings.",
-        "filename": "photodir/71.jpg",
-        "croppedfilename": "photodir/71.png",
+        "bio": "Gandalf the Grey, later known as Gandalf the White, was one of the five wizards to arrive in Middle-earth in J. R. R. Tolkien's novels The Hobbit and The Lord of the Rings.",
+        "filename": "photodir/83.jpg",
+        "croppedfilename": "photodir/83.png",
         "questions": [
             {
                 "question": "What was Gandalf originally called before he arrived to Middle-earth?",
@@ -965,18 +1197,19 @@ var data = {
         ],
         "funfacts": [
             "When Gandalf found he had been chosen to go to Middle Earth, he originally didn\u2019t want to go because he was afraid of Sauron.",
-            "Being a Maia, this means Gandalf\u2019s spirit is immortal, but his body is not. This demonstrated when he dies fighting the Balrog in Moria, but is reborn as Gandalf the White, which is the highest rank of wizards.",
+            "Being a Maia, this means Gandalf\u2019s spirit is immortal, but his body is not. This is demonstrated when he dies fighting the Balrog in Moria, but is reborn as Gandalf the White, which is the highest rank of wizards.",
             "The entire fight with the Balrog, from the bridge until the demise of the Balrog, lasted for 10 days."
         ],
         "tags": [
+            "All",
             "Fictional"
         ]
     },
     {
         "name": "Genghis Khan",
         "bio": "Genghis Khan was the first Great Khan and founder of the Mongol Empire.",
-        "filename": "photodir/74.jpg",
-        "croppedfilename": "photodir/74.png",
+        "filename": "photodir/86.jpg",
+        "croppedfilename": "photodir/86.png",
         "questions": [
             {
                 "question": "What was Genghis Khan's birth name?",
@@ -1012,6 +1245,7 @@ var data = {
             "He created one of the first international postal systems."
         ],
         "tags": [
+            "All",
             "Historical",
             "Pre-1800s",
             "Leader"
@@ -1019,13 +1253,13 @@ var data = {
     },
     {
         "name": "Gimli",
-        "bio": "A dwarf in Lord of the rings and close friend of legolas. Was part of the Fellowship of the Ring",
-        "filename": "photodir/77.jpg",
-        "croppedfilename": "photodir/77.png",
+        "bio": "Gimli was the only dwarf in the Fellowship of the Ring, in J. R. R. Tolkien's Lord of the Rings.",
+        "filename": "photodir/89.jpg",
+        "croppedfilename": "photodir/89.png",
         "questions": [
             {
                 "question": "How many Orcs did Gimli kill during the battle at Helms Deep?",
-                "answertext": "He killed 42 and won the contest against Legolas who killed 41",
+                "answertext": "He killed 42 and won the contest against Legolas who killed 41.",
                 "answers": [
                     "42.0",
                     "53.0",
@@ -1034,9 +1268,10 @@ var data = {
             }
         ],
         "funfacts": [
-            "Is the son of Gl\u00f3in who was part of Thorin Oakenshields company and fought to reclaim the old dwarven fortress of Erebor"
+            "He is the son of Gl\u00f3in whom was part of Thorin Oakenshields company and fought to reclaim the old dwarven stronghold of Erebor."
         ],
         "tags": [
+            "All",
             "Dwarf",
             "Lotr",
             "Fictional"
@@ -1045,8 +1280,8 @@ var data = {
     {
         "name": "Grigori Rasputin",
         "bio": "Grigori Rasputin, 1869-1916, was a Russian mystic and close to the tsar family.",
-        "filename": "photodir/80.jpg",
-        "croppedfilename": "photodir/80.png",
+        "filename": "photodir/92.jpg",
+        "croppedfilename": "photodir/92.png",
         "questions": [
             {
                 "question": "Who in the Russian royal family did he help?",
@@ -1077,11 +1312,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "One of Rasputin's murderers Felix Yusupov's grandfathers mother had, in the middle of the 1800's, built and owned Villa Rauhaniemi in Helsinki. It was later owned by Karl Stockmann among others. It was torn down by a new owner in 1917.",
+            "One of Rasputin's murderers Felix Yusupov's grandfather's mother had, in the middle of the 1800's, built and owned Villa Rauhaniemi in Helsinki. It was later owned by Karl Stockmann among others. It was torn down by a new owner in 1917.",
             "Though called a monk, he was not actually one.",
             "He survived an assassination attempt in 1914."
         ],
         "tags": [
+            "All",
             "1900s",
             "Historical",
             "Russian",
@@ -1090,9 +1326,9 @@ var data = {
     },
     {
         "name": "Gustaf II Adolf",
-        "bio": "King over Sweden in the mid 17th century and lead the swedish army in the 30 years war establishing Sweden as a great power in Europe",
-        "filename": "photodir/83.jpg",
-        "croppedfilename": "photodir/83.png",
+        "bio": "He was the King of Sweden in the beginning of the 17th century and he lead the Swedish army in the Thirty Years' War establishing Sweden as a great power in Europe",
+        "filename": "photodir/95.jpg",
+        "croppedfilename": "photodir/95.png",
         "questions": [
             {
                 "question": "At which famous battle did Gustaf II Adolf die aged  37 ",
@@ -1108,6 +1344,7 @@ var data = {
             "He is known as the Lion of the north and has become known under that name in songs and other pop culture/history"
         ],
         "tags": [
+            "All",
             "Swedish",
             "Leader",
             "Historical",
@@ -1116,21 +1353,21 @@ var data = {
     },
     {
         "name": "Gustav Vasa",
-        "bio": "Gustav Vasa, 1496-1560, was the King of Sweden",
-        "filename": "photodir/86.jpg",
-        "croppedfilename": "photodir/86.png",
+        "bio": "Gustav Vasa, 1496-1560, was King of Sweden during 1523\u20131560.",
+        "filename": "photodir/98.jpg",
+        "croppedfilename": "photodir/98.png",
         "questions": [
             {
                 "question": "How did Gustav Vasas father, Erik, die?",
                 "answertext": "He was executed during the Stockholm Bloodbath in 1520.",
                 "answers": [
-                    "He was executed",
-                    "He drowned",
-                    "He died of the plague"
+                    "He was executed.",
+                    "He drowned.",
+                    "He died of the plague."
                 ]
             },
             {
-                "question": "When did Gustav Vasa found Helsingfors/Helsinki?",
+                "question": "When did Gustav Vasa establish Helsingfors/Helsinki?",
                 "answertext": "Helsinki was founded about 5 kilometres north-northwest of today's city centre.",
                 "answers": [
                     "1550.0",
@@ -1142,9 +1379,9 @@ var data = {
                 "question": "After Gustav Vasas death one of his sons inherited the throne, which one?",
                 "answertext": "Erik was king 1560-68, Johan 1569-1592 and Karl 1599-1604.",
                 "answers": [
-                    "Erik",
-                    "Johan",
-                    "Karl"
+                    "Erik.",
+                    "Johan.",
+                    "Karl."
                 ]
             }
         ],
@@ -1154,6 +1391,7 @@ var data = {
             "Studies show that he was 173 cm tall, which was also about the average height at that time"
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Leader",
             "Swedish",
@@ -1161,10 +1399,43 @@ var data = {
         ]
     },
     {
+        "name": "Hagrid",
+        "bio": "Professor Rubeus Hagrid was a half giant-wizard at Hogwarts in the Harry Potter universe",
+        "filename": "photodir/101.jpg",
+        "croppedfilename": "photodir/101.png",
+        "questions": [
+            {
+                "question": "What was Hagrid's half brothers name",
+                "answertext": "They had the mother but a different father and hagrid braut Grawp back from the other giants",
+                "answers": [
+                    "Grawp",
+                    "Henry",
+                    "Grant"
+                ]
+            },
+            {
+                "question": "What animal did Hagrid have hidden in the castle and was the reason he got ezpeleld from the school?",
+                "answertext": "The giants spider was a lifelong freidn of Hagrid and he burried the spider himself after draging him out of the forest before the other spiders cought him",
+                "answers": [
+                    "Giant spider",
+                    "Basilisk",
+                    "Three headed dog"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Hagrids had a wand even tho it was forbidden for him and it was in the shape of a umbrella"
+        ],
+        "tags": [
+            "All",
+            "Fictional"
+        ]
+    },
+    {
         "name": "Heinrich Himmler",
         "bio": "Himmler was leader of the Waffen SS and one of the main perpetrastors of the holocaust.",
-        "filename": "photodir/89.jpg",
-        "croppedfilename": "photodir/89.png",
+        "filename": "photodir/104.jpg",
+        "croppedfilename": "photodir/104.png",
         "questions": [
             {
                 "question": "When did Himmler join the NSDAP?(nazi party)",
@@ -1181,6 +1452,7 @@ var data = {
             "During the war, Himmler suffered from severe back pain. Felix Kersten, his personal masseur was a Finnish citizen."
         ],
         "tags": [
+            "All",
             "Historical",
             "Ww2",
             "German",
@@ -1190,8 +1462,8 @@ var data = {
     {
         "name": "Henrik Adolf Mechelin",
         "bio": "Henrik Adolf Mechelin, 1813-1899, was a Finnish official, member of the Diet and a Senator.",
-        "filename": "photodir/92.jpg",
-        "croppedfilename": "photodir/92.png",
+        "filename": "photodir/107.jpg",
+        "croppedfilename": "photodir/107.png",
         "questions": [
             {
                 "question": "How was Henrik Adolf related to Leo Mechelin?",
@@ -1225,6 +1497,7 @@ var data = {
             "Henrik Adolf Mechelin got many honorary titles, among others hovr\u00e5d/hovineuvos in 1847, kollegier\u00e5d/kollegineuvos 1850, statsr\u00e5d/valtioneuvos 1854 and verkligt statsr\u00e5d/todellinen valtioneuvos in 1868."
         ],
         "tags": [
+            "All",
             "1800s",
             "Finnish",
             "Historical",
@@ -1233,9 +1506,9 @@ var data = {
     },
     {
         "name": "Henrik Meinander",
-        "bio": "Henrik Meinander, born 1960, is the professor in history in Swedish at the University of Helsinki since 2002.",
-        "filename": "photodir/95.jpg",
-        "croppedfilename": "photodir/95.png",
+        "bio": "Henrik Meinander, born 1960, is the professor of history in Swedish at the University of Helsinki since 2002.",
+        "filename": "photodir/110.jpg",
+        "croppedfilename": "photodir/110.png",
         "questions": [
             {
                 "question": "Henrik Meinanders father was known as well, but for what?",
@@ -1269,6 +1542,7 @@ var data = {
             "Meinander worked as the curator for the Mannerheim museum in Helsinki and published a book about Mannerheim in 2017 named Gustaf Mannerheim: Aristokrat i vadmal/Gustaf Mannerheim: Aristokraatti sarkatakissa."
         ],
         "tags": [
+            "All",
             "1900s",
             "Modern",
             "Finnish",
@@ -1279,11 +1553,11 @@ var data = {
     {
         "name": "Hide the pain Harold",
         "bio": "Hide the pain Harold, real name Andr\u00e1s Arat\u00f3 , is an internet meme, and a nickname given to a senior stock photo model whose expressions seem to convey inner suffering and discomfort.",
-        "filename": "photodir/98.jpg",
-        "croppedfilename": "photodir/98.png",
+        "filename": "photodir/113.jpg",
+        "croppedfilename": "photodir/113.png",
         "questions": [
             {
-                "question": "Where is the Harold really from?",
+                "question": "Where is Harold really from?",
                 "answertext": "Arat\u00f3 is a retired Hungarian electrical engineer, who only did stock modelling as a short-term side gig.",
                 "answers": [
                     "Hungary",
@@ -1302,7 +1576,7 @@ var data = {
             },
             {
                 "question": "Andr\u00e1s Arat\u00f3 hates being a meme. True or False?",
-                "answertext": "Arat\u00f3 himself has stated that while he originally didn't find the meme funny, and hoped it would be forgotten, has later embraced his role as a meme-celebrity. He has a homepage and has even held a TED talk about his experiences.",
+                "answertext": "Arat\u00f3 himself has stated that while originally he didn't find the meme funny, and hoped it would be forgotten, he has later embraced his role as a meme-celebrity. He has a homepage and has even held a TED talk about his experiences.",
                 "answers": [
                     "False",
                     "True"
@@ -1311,9 +1585,10 @@ var data = {
         ],
         "funfacts": [
             "Hide the pain Harold has been voted meme of the decade by imgur. According to the site: \u201cHide the Pain Harold represents a deep-seated emotion, a quiet dread, or existential anguish that resides in all of us,\u201d",
-            "Andr\u00e1s Arat\u00f3 was originally approached to do modelling due to photos he uploaded from a vacation to Turkey."
+            "Arat\u00f3 was originally approached to do modelling due to photos he uploaded from a vacation to Turkey."
         ],
         "tags": [
+            "All",
             "Fictional",
             "Modern"
         ]
@@ -1321,8 +1596,8 @@ var data = {
     {
         "name": "Ho Chi Minh",
         "bio": "Ho Chi Minh, 1890-1969, was a Vietnamese revolutionary and the president of the Democratic Republic of Vietnam (North Vietnam)",
-        "filename": "photodir/101.jpg",
-        "croppedfilename": "photodir/101.png",
+        "filename": "photodir/116.jpg",
+        "croppedfilename": "photodir/116.png",
         "questions": [
             {
                 "question": "Which city's name was changed to Ho Chi Minh City?",
@@ -1358,6 +1633,7 @@ var data = {
             "In 1919 Ho Chi Minh handed over a petition to the participants at the Versailles Peace Conference. In the petition he demanded that France would grant the same right to the people in Indochina as the rulers had. It was not successful."
         ],
         "tags": [
+            "All",
             "1900s",
             "Leader",
             "Vietnamese",
@@ -1365,13 +1641,37 @@ var data = {
         ]
     },
     {
-        "name": "Jean Sibelius",
-        "bio": "Jean Sibelius, 1865-1957, was a Finnish composer.",
-        "filename": "photodir/104.jpg",
-        "croppedfilename": "photodir/104.png",
+        "name": "Jack Sparrow",
+        "bio": "Jack Sparrow was a legendary pirate of the Seven Seas, and the irreverent trickster of the Caribbean. A captain of equally dubious morality and sobriety, a master of self-promotion and self-interest, Jack fought a constant and losing battle with his own best tendencies. Jack's first love was the sea, his second, his beloved ship the Black Pearl.",
+        "filename": "photodir/119.jpg",
+        "croppedfilename": "photodir/119.png",
         "questions": [
             {
-                "question": "What was Jean Sibelius real name?",
+                "question": "For whom did Jack Sparrow vote to become pirate king at the meeting of the Fourth Brethren Court?",
+                "answertext": "He voted for Elisabeth knowing she would want to go to war",
+                "answers": [
+                    "Elisabeth",
+                    "Himself",
+                    "Barbossa"
+                ]
+            }
+        ],
+        "funfacts": [
+            "As rumor would have it Jack escaped an deserted island by tying together a couple of sea turtles as a raft"
+        ],
+        "tags": [
+            "All",
+            "Fictional"
+        ]
+    },
+    {
+        "name": "Jean Sibelius",
+        "bio": "Jean Sibelius, 1865-1957, was a Finnish composer.",
+        "filename": "photodir/122.jpg",
+        "croppedfilename": "photodir/122.png",
+        "questions": [
+            {
+                "question": "What was Jean Sibelius' real name?",
                 "answertext": "His name was Johan, but he chose the artist name Jean because he could use his deceased uncle's business cards. His uncle had used the name Jean on his business cards.",
                 "answers": [
                     "Johan Julius Christian Sibelius",
@@ -1380,7 +1680,7 @@ var data = {
                 ]
             },
             {
-                "question": "What was Sibelius mother tongue?",
+                "question": "What was Sibelius' mother tongue?",
                 "answertext": "His mother tongue was Swedish, but he spoke fluent Finnish.",
                 "answers": [
                     "Swedish",
@@ -1392,18 +1692,19 @@ var data = {
                 "question": "How many symphonies did Sibelius publish?",
                 "answertext": "An eight symphony was composed but probably burned by Sibelius in 1945 with many of his personal papers.",
                 "answers": [
-                    "2",
-                    "7",
-                    "13"
+                    "2.0",
+                    "7.0",
+                    "13.0"
                 ]
             }
         ],
         "funfacts": [
             "At home, Sibelius was called Janne.",
-            "Aino Sibelius (n\u00e9e J\u00e4rnefelt), Jeans wife, designed much of the family's furniture.",
+            "Aino Sibelius (n\u00e9e J\u00e4rnefelt), Jean's wife, designed much of the family's furniture.",
             "Jean Sibelius' family was sometimes short on funds since Jean spent a lot of time and money at Hotel K\u00e4mp in downtown Helsinki."
         ],
         "tags": [
+            "All",
             "1900s",
             "Composer",
             "Finnish"
@@ -1412,11 +1713,11 @@ var data = {
     {
         "name": "Joseph Stalin",
         "bio": "Joseph Stalin, 1878-1953, was the ruler and dictator of the Soviet Union.",
-        "filename": "photodir/107.jpg",
-        "croppedfilename": "photodir/107.png",
+        "filename": "photodir/125.jpg",
+        "croppedfilename": "photodir/125.png",
         "questions": [
             {
-                "question": "What was Josephs real surname?",
+                "question": "What was Joseph's real surname?",
                 "answertext": "The name is written Dzhugashvili or Jughashvili",
                 "answers": [
                     "Dzhugashvili",
@@ -1445,10 +1746,11 @@ var data = {
         ],
         "funfacts": [
             "In 2017 a satire movie, The Death of Stalin, starring Steve Buscemi, Jason Isaacs, Jeffrey Tambor among others, had its premier. It was, surprise, surprise banned in Russia.",
-            "After Stalin was found unconscious, incontinent, and unresponsive it took about eight hours before medical personnel where summoned. He died a few days later.",
+            "After Stalin was found unconscious, incontinent, and unresponsive it took about eight hours before medical personnel were summoned. He died a few days later.",
             "Most sources say that Stalin was 163 cm tall. Some give him a few more cm's."
         ],
         "tags": [
+            "All",
             "1900s",
             "Leader",
             "Russian",
@@ -1458,8 +1760,8 @@ var data = {
     {
         "name": "King Theoden",
         "bio": "Theoden was the king of Rohan in Lord of the rings and died at the battle of Minas tirith",
-        "filename": "photodir/110.jpg",
-        "croppedfilename": "photodir/110.png",
+        "filename": "photodir/128.jpg",
+        "croppedfilename": "photodir/128.png",
         "questions": [
             {
                 "question": "Which hobbit did Theoden particularly like, and make his Esquire?",
@@ -1472,9 +1774,10 @@ var data = {
             }
         ],
         "funfacts": [
-            "Theodens mom was one of the Dunedain and as such one of the long lived Numenorians"
+            "Theoden's mom was one of the Dunedain and as such one of the long lived Numenorians"
         ],
         "tags": [
+            "All",
             "Fictional",
             "Lotr",
             "King",
@@ -1484,8 +1787,8 @@ var data = {
     {
         "name": "Ky\u00f6sti Kallio",
         "bio": "Ky\u00f6sti Kallio was Finland's fourth President",
-        "filename": "photodir/113.jpg",
-        "croppedfilename": "photodir/113.png",
+        "filename": "photodir/131.jpg",
+        "croppedfilename": "photodir/131.png",
         "questions": [
             {
                 "question": "How many children did Ky\u00f6sti have with his wife Kaisa? ",
@@ -1507,7 +1810,7 @@ var data = {
             },
             {
                 "question": "What is the name of his wife?",
-                "answertext": "Ky\u00f6sti married Kaisa. When Kaisa Kallio turned 60 in 1938, a civic gift collection was organized, which generated 375,000 FIM. With this amount, Kaisa Kallio founded Kaisankodi in Kauniainen in 1950 for women who \"depressed or mentally tired of life's difficulties and physical illnesses needed healing and peace of mind.\"",
+                "answertext": "Ky\u00f6sti married Kaisa. When Kaisa Kallio turned 60 in 1938, a civic gift collection was organized, which generated 375,000 FIM. With this amount, Kaisa Kallio founded Kaisankoti in Kauniainen in 1950 for women who \"depressed or mentally tired of life's difficulties and physical illnesses needed healing and peace of mind.\"",
                 "answers": [
                     "Kaisa",
                     "Katja",
@@ -1520,6 +1823,7 @@ var data = {
             "In the preparation of the parliamentary reform, Kallio defended, among other things, women's right to vote and a voting age limit of 21 years and opposed a restriction of the right to vote due to poverty."
         ],
         "tags": [
+            "All",
             "1900s",
             "Leader",
             "Finnish",
@@ -1529,8 +1833,8 @@ var data = {
     {
         "name": "Leo Mechelin",
         "bio": "Leo Mechelin, 1839-1914, was as Finnish liberal politician.",
-        "filename": "photodir/116.jpg",
-        "croppedfilename": "photodir/116.png",
+        "filename": "photodir/134.jpg",
+        "croppedfilename": "photodir/134.png",
         "questions": [
             {
                 "question": "What year did Leo Mechelin form the so called Mechelin-Senate with K.J. St\u00e5hlberg, Kasten Antell and Otto Donner among others?",
@@ -1552,7 +1856,7 @@ var data = {
             },
             {
                 "question": "Which company did Mechelin found together with his friend Fredrik Idestam?",
-                "answertext": "The old Nokia company (a pulp company) was merged with Finska Gummi (rubber products) and Finska Kabelfabriken (cabel produkts) in 1967 to form the new Nokia.",
+                "answertext": "The old Nokia company (a pulp company) was merged with Finska Gummi (rubber products) and Finska Kabelfabriken (cabel products) in 1967 to form the new Nokia.",
                 "answers": [
                     "Nokia",
                     "W\u00e4rtsil\u00e4",
@@ -1563,9 +1867,10 @@ var data = {
         "funfacts": [
             "Leo Mechelin married Alexandra Lindroos, who was the daughter of the richest merchant in Helsingfors at the time. They had only one daughter, Cely, who died childless. She left all of her fortune to Svenska litteraturs\u00e4llskapet.",
             "Leo and his wife Alexandra Mechelin lived in exile 1903-1904.",
-            "600 wreats were laid down on his grave on his funderal day."
+            "600 wreats were laid down on his grave after his funeral."
         ],
         "tags": [
+            "All",
             "1800s",
             "Leader",
             "Historical",
@@ -1574,9 +1879,9 @@ var data = {
     },
     {
         "name": "Leonardo Da Vinci",
-        "bio": "Da Vinci, born 1452, was a reneissace engineer, sculptor, inventor and artist. He is most famous for the paintings Mona Lisa and The last supper",
-        "filename": "photodir/119.jpg",
-        "croppedfilename": "photodir/119.png",
+        "bio": "Da Vinci, born 1452, was a renaissance engineer, sculptor, inventor and artist. He is most famous for the paintings Mona Lisa and The last supper.",
+        "filename": "photodir/137.jpg",
+        "croppedfilename": "photodir/137.png",
         "questions": [
             {
                 "question": "How long did it take Da Vinci to paint his famous work, The last supper?",
@@ -1589,16 +1894,16 @@ var data = {
             },
             {
                 "question": "Which one of these things didn't Da Vinci design?",
-                "answertext": "The telescope was invented by dutch spectacle maker Hans Lippershay. Da Vincis most famous invention is the flying machine which shares resemblenses to todays airplanes and helicopters. His designs were inspired by the anatomy of a bat",
+                "answertext": "The telescope was invented by dutch spectacle maker Hans Lippershay. Da Vinci's most famous invention is the flying machine which shares resemblances to today's airplanes and helicopters. His designs were inspired by the anatomy of a bat.",
                 "answers": [
                     "A telescope ",
                     "A flying machine",
-                    "An armoned car "
+                    "An armored car "
                 ]
             },
             {
                 "question": "Who stole Mona Lisa? ",
-                "answertext": "In 1911 Vinzenco Peruggia, a former employee at the Louvre museum, stole the paining by simply hiding the painting under his coat and walking out of the building. He wrongly thought that Mona Lisa has been stolen by French forces during the Napoleonic war and therefore he felt it should be returned to its homeland. He was unbeknownst of the fact that it probably was da Vinci himself whom sold the painting to French king. Peruggia kept the painting for two years and were finally caught after trying to collect the paintings finders fee. ",
+                "answertext": "In 1911 Vinzenco Peruggia, a former employee at the Louvre museum, stole the painting by simply hiding the painting under his coat and walking out of the building. He wrongly thought that Mona Lisa had been stolen by French forces during the Napoleonic war and therefore he felt it should be returned to its homeland. He was unbeknownst of the fact that it probably was da Vinci himself who sold the painting to French king. Peruggia kept the painting for two years and was finally caught after trying to collect the painting's finders fee. ",
                 "answers": [
                     "Vinzenco Peruggia ",
                     "Pablo Picasso",
@@ -1607,11 +1912,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "When Da Vinci was 24 he and four other men were charged with sodomy, in this case that ment homosexual intercourse. This crime was punishable by death.  thankfully for Da Vinci the case was dropped as no witnesses showed up to testify. ",
-            "Leonardo da Vinci was an illegitimate child. His father, Ser Piero da Vinci was a rising Florentine notary. His mother identity was long shrouded in mystery. After new research in the Vinci archives the oxford professor Martin Kamp managed the identify the mother as Caterina di Meo Lippi, an orphaned peasant living near the Vinci estate. Caterina was only 15 when she got pregnant, but it was clear that marriage was never an option. Ser Pieros family still accepted Leonardo as one of their own without denying that he was an illegitimate child. ",
-            "Bill Gates bought Codex Leicester, one of Da Vincis notebooks, for 30 million dollars in 1994 "
+            "When Da Vinci was 24 he and four other men were charged with sodomy, in this case that ment homosexual intercourse. This crime was punishable by death. Thankfully for Da Vinci the case was dropped as no witnesses showed up to testify. ",
+            "Leonardo da Vinci was an illegitimate child. His father, Ser Piero da Vinci was a rising Florentine notary. His mother's identity was long shrouded in mystery. After new research in the Vinci archives the oxford professor Martin Kamp managed to identify the mother as Caterina di Meo Lippi, an orphaned peasant living near the Vinci estate. Caterina was only 15 when she got pregnant, but it was clear that marriage was never an option. Ser Pieros' family still accepted Leonardo as one of their own without denying that he was an illegitimate child. ",
+            "Bill Gates bought Codex Leicester, one of Da Vinci's notebooks, for 30 million dollars in 1994 "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Historical",
             "Scientist",
@@ -1622,8 +1928,8 @@ var data = {
     {
         "name": "Madame Truska / Salma Hayek",
         "bio": "Madame Truska is a character from The Saga of Darren Shan. She can grow an indestructible beard at will. She was played by Salma Hayek in the movie Cirque du Freak: The Vampire's Assistant.",
-        "filename": "photodir/122.jpg",
-        "croppedfilename": "photodir/122.png",
+        "filename": "photodir/140.jpg",
+        "croppedfilename": "photodir/140.png",
         "questions": [
             {
                 "question": "The Saga of Darren Shan is a book series. How many books are there?",
@@ -1659,6 +1965,7 @@ var data = {
             "The movie's budget was 40 million dollars and Box office income 39,2 million dollars."
         ],
         "tags": [
+            "All",
             "2000s",
             "Fictional"
         ]
@@ -1666,11 +1973,11 @@ var data = {
     {
         "name": "Gustaf Mannerheim",
         "bio": "Finnish-Swedish baron, military officer and statesman. The only one who has held the title of Marshal of Finland. President of Finland between 1944-1946.",
-        "filename": "photodir/125.jpg",
-        "croppedfilename": "photodir/125.png",
+        "filename": "photodir/143.jpg",
+        "croppedfilename": "photodir/143.png",
         "questions": [
             {
-                "question": "Mannerheim gave name to the Finnish line of defense used during the winterwar, what was it called?",
+                "question": "Mannerheim gave name to the Finnish line of defense used during the Winter war, what was it called?",
                 "answertext": "The Mannerheim Line was a defensive fortification line on the Karelian Isthmus built by Finland against the Soviet Union. During the Winter War it became known as the Mannerheim Line, after Field Marshal Baron Carl Gustaf Emil Mannerheim. ",
                 "answers": [
                     "Mannerheim Line",
@@ -1688,7 +1995,7 @@ var data = {
                 ]
             },
             {
-                "question": "What is Mannerheims full name?",
+                "question": "What is Mannerheim's full name?",
                 "answertext": "His full name is Carl Gustaf Emil Mannerheim.",
                 "answers": [
                     "Carl Gustaf Emil Mannerheim",
@@ -1698,11 +2005,12 @@ var data = {
             }
         ],
         "funfacts": [
-            "To advance in his career, Mannerheim applied as a volunteer to the  russo - japanese war 1904. He proved himself a good soldier and got promoted to colonel.",
+            "To advance in his career, Mannerheim applied as a volunteer to the  Russo-Japanese war 1904. He proved himself a good soldier and got promoted to colonel.",
             "Mannerheim spent two years on an expedition in Asia. He showed evidence of considerable scientific talent through the ethnographic material he collected.",
             "Marshal Mannerheim's equestrian statue outside Kiasma in Helsinki is made by Aimo Tukiainen."
         ],
         "tags": [
+            "All",
             "Historical",
             "1900s",
             "Leader",
@@ -1712,12 +2020,12 @@ var data = {
     {
         "name": "Marco Polo ",
         "bio": "Marco Polo born 1254 was a venetian merchant and adventurer who travelled from Europe to Asia.",
-        "filename": "photodir/128.jpg",
-        "croppedfilename": "photodir/128.png",
+        "filename": "photodir/146.jpg",
+        "croppedfilename": "photodir/146.png",
         "questions": [
             {
-                "question": "What is the famous book depicting Marco Polos travels called? ",
-                "answertext": "The travels of Marco Polo or Il Milione . Marco Polo dictated his tale to the writer Rustichello when they both were imprisoned in Genoa. ",
+                "question": "What is the famous book depicting Marco Polo's travels called? ",
+                "answertext": "The travels of Marco Polo or Il Milione. Marco Polo dictated his tale to the writer Rustichello when they both were imprisoned in Genoa. ",
                 "answers": [
                     "Il Milione/The travels of Marco Polo",
                     "Decamerone",
@@ -1735,20 +2043,21 @@ var data = {
             },
             {
                 "question": "What did Marco Polo do in China?",
-                "answertext": "He earned an important position at Kublai Khans court. The emperor employed Polo as a special envoy he sent to areas in Asia no European had explored before. He later served as governor of an unnamed Chinese city and as a tax inspector for the city of Yanzhou.",
+                "answertext": "He earned an important position at Kublai Khan's court. The emperor employed Polo as a special envoy he sent to areas in Asia no European had explored before. He later served as governor of an unnamed Chinese city and as a tax inspector for the city of Yanzhou.",
                 "answers": [
-                    "He was an important person at Kublai Khans court.",
+                    "He was an important person at Kublai Khan's court.",
                     "He went to war against local tribes on behalf of Kublai Khan.",
-                    "He used Kublai Khans wealth to live an easy and extravagant life."
+                    "He used Kublai Khan's wealth to live an easy and extravagant life."
                 ]
             }
         ],
         "funfacts": [
-            "Marco wasn\u00b4t the only Polo that travelled to Asia. His father Niccolo and uncle Maffeo accompanied him on the journey.",
-            "His descriptions of the places and cultures his visited has proved to be remarkably correct. His book Il milione has therefore become an invaluable historical source.",
-            "Polos friends and family didn\u00b4t believe his tales depicted in Il Milione. On his deathbed they urged him to admit that he had made up the stories. He refused and said he had only told half of what he saw. While this is hard to prove for historians we know that a lot of the thing he described were accurate. "
+            "Marco wasn't the only Polo that travelled to Asia. His father Niccolo and uncle Maffeo accompanied him on the journey.",
+            "His descriptions of the places and cultures he visited has proved to be remarkably correct. His book Il milione has therefore become an invaluable historical source.",
+            "Polos' friends and family didn't believe his tales depicted in Il Milione. On his deathbed they urged him to admit that he had made up the stories. He refused and said he had only told half of what he saw. While this is hard to prove for historians we know that a lot of the things he described were accurate. "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Historical",
             "Italian"
@@ -1757,8 +2066,8 @@ var data = {
     {
         "name": "Michelangelo Buonarroti",
         "bio": "Michelangelo\u2019s David statue is a great artwork in both brilliance and size. But how big is the statue really? ",
-        "filename": "photodir/131.jpg",
-        "croppedfilename": "photodir/131.png",
+        "filename": "photodir/149.jpg",
+        "croppedfilename": "photodir/149.png",
         "questions": [
             {
                 "question": "Where\u2019s Michelangelo from? ",
@@ -1794,6 +2103,7 @@ var data = {
             "Michelangelo served as many as nine different Popes during his illustrious career. The first Pope to take interest in Michelangelo was Julius II and the last was Pius IV before Michelangelo died at age 88. "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Italian",
             "Historical",
@@ -1803,8 +2113,8 @@ var data = {
     {
         "name": "Napoleon III",
         "bio": "Napoleon III (1808-1873) was the first president of France, and the last French Monarch",
-        "filename": "photodir/134.jpg",
-        "croppedfilename": "photodir/134.png",
+        "filename": "photodir/152.jpg",
+        "croppedfilename": "photodir/152.png",
         "questions": [
             {
                 "question": "What was Napoleon III's relation to Napoleon Bonaparte?",
@@ -1830,6 +2140,7 @@ var data = {
             "Napoleon III only took power in France after his third attempt at a coup. In fact the usual punishment of death was commuted to prison time and exile, since he was viewed as not being much of a threat."
         ],
         "tags": [
+            "All",
             "Historical",
             "1800s",
             "French",
@@ -1839,8 +2150,8 @@ var data = {
     {
         "name": "Nikola Tesla",
         "bio": "Nikola Tesla (1856-1943) was a Serbian born inventor who later moved to the USA.",
-        "filename": "photodir/137.jpg",
-        "croppedfilename": "photodir/137.png",
+        "filename": "photodir/155.jpg",
+        "croppedfilename": "photodir/155.png",
         "questions": [
             {
                 "question": "What form of electrical transfer did Tesla endorse?",
@@ -1876,6 +2187,7 @@ var data = {
             "Tesla had a lifelong germophobia, triggered by him getting cholera as a teenager."
         ],
         "tags": [
+            "All",
             "1800s",
             "American",
             "Historical",
@@ -1885,8 +2197,8 @@ var data = {
     {
         "name": "Obi-Wan Kenobi ",
         "bio": "Obi-Wan Kenobi was a jedi knight in a galaxy far far away. He was the master of Anakin Skywalker, later Darth Vader. ",
-        "filename": "photodir/140.jpg",
-        "croppedfilename": "photodir/140.png",
+        "filename": "photodir/158.jpg",
+        "croppedfilename": "photodir/158.png",
         "questions": [
             {
                 "question": "Who is Obi-Wan Kenobi portrayed by in the prequels? ",
@@ -1922,6 +2234,7 @@ var data = {
             "Alec Guinness portrayed Obi-Wan in the original trilogy "
         ],
         "tags": [
+            "All",
             "Fictional",
             "Star wars"
         ]
@@ -1929,8 +2242,8 @@ var data = {
     {
         "name": "P. E. Svinhufvud",
         "bio": "Finnish statesman serving as the first head of state, president of Finland and the prime minister during his career",
-        "filename": "photodir/143.jpg",
-        "croppedfilename": "photodir/143.png",
+        "filename": "photodir/161.jpg",
+        "croppedfilename": "photodir/161.png",
         "questions": [
             {
                 "question": "What political party was he presenting?",
@@ -1947,6 +2260,7 @@ var data = {
             "He refused to Finnicize the name of his 500-year-old noble house."
         ],
         "tags": [
+            "All",
             "Leader",
             "Finnish",
             "1900s",
@@ -1956,8 +2270,8 @@ var data = {
     {
         "name": "Panayot Hitov",
         "bio": "Panayot Hitov (1830-1918) was a bulgarian soldier, revolutionary and warlord. He fought for Bulgarian independence.",
-        "filename": "photodir/146.jpg",
-        "croppedfilename": "photodir/146.png",
+        "filename": "photodir/164.jpg",
+        "croppedfilename": "photodir/164.png",
         "questions": [
             {
                 "question": "From which empire did Bulgaria gain its independence in 1878",
@@ -1983,6 +2297,7 @@ var data = {
             "There has long been a desire to build a Hitov museum in his hometown of Rousse"
         ],
         "tags": [
+            "All",
             "Historical",
             "1800s",
             "Leader"
@@ -1990,9 +2305,9 @@ var data = {
     },
     {
         "name": "Per Brahe",
-        "bio": "Per Brahe (1602-1680) was a Swedish statesman that served as governor of Finland twice. He became an immensely popular governor as a result of many new reforms. He also had a long and prestigious career at the Swedish royal court. ",
-        "filename": "photodir/149.jpg",
-        "croppedfilename": "photodir/149.png",
+        "bio": "Per Brahe (1602-1680) was a Swedish statesman who served as governor of Finland twice. He became an immensely popular governor as a result of many new reforms. He also had a long and prestigious career at the Swedish royal court. ",
+        "filename": "photodir/167.jpg",
+        "croppedfilename": "photodir/167.png",
         "questions": [
             {
                 "question": "Why is Per Brahe an important person in the history of Helsinki University?",
@@ -2005,7 +2320,7 @@ var data = {
             },
             {
                 "question": "What does the expression \u201cat count\u00b4s time\u201d mean in the Finnish language? ",
-                "answertext": "It means in the nick of time. The saying was introduced after Brahe\u2019s rule in Finland. It used to mean living in a good time but the meaning has changed with time. The expression still has a positive ring to it which further shows the popularity of Brahe. ",
+                "answertext": "It means in the nick of time. The saying was introduced after Brahe's rule in Finland. It used to mean living in a good time but the meaning has changed with time. The expression still has a positive ring to it which further shows the popularity of Brahe. ",
                 "answers": [
                     "\"in the nick of time\"",
                     "\u201cat the wrong time\u201d",
@@ -2016,18 +2331,19 @@ var data = {
                 "question": "Why did Brahe stop pursuing a military career? ",
                 "answertext": "Aged 26 Brahe was appointed as colonel over Sm\u00e5lands cavalry regiment. He suffered many serious illnesses during his time in the military and decided to pursue a career as a statesman instead.   ",
                 "answers": [
-                    "His health wasn\u00b4t suited to rough life of an army officer.",
+                    "His health wasn't suited to the rough life of an army officer.",
                     "He felt that the army life was beneath him. ",
-                    "He wasn\u00b4t a talented tactician"
+                    "He wasn't a talented tactician"
                 ]
             }
         ],
         "funfacts": [
             "Brahestad, a city on the Finnish west coast is named after Per Brahe. ",
-            "\u201cI was well pleased with the land and the land with me\u201d is Brahe\u00b4s most famous quote. It describes his relationship with Finland well.",
-            "The Brahe family was one the most influential noble families in Sweden. He was very proud of that heritage and spoke freely in favour the noble families\u2019 privileges. "
+            "\u201cI was well pleased with the land and the land with me\u201d is Brahe's most famous quote. It describes his relationship with Finland well.",
+            "The Brahe family was one the most influential noble families in Sweden. He was very proud of that heritage and spoke freely in favour of the noble families' privileges. "
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "Swedish",
             "Leader",
@@ -2035,10 +2351,44 @@ var data = {
         ]
     },
     {
+        "name": "Remus Lupin",
+        "bio": "Was one of Harry's fathers closests friends and a professor at Hogwarts during Harry's Third year",
+        "filename": "photodir/282.jpg",
+        "croppedfilename": "photodir/282.png",
+        "questions": [
+            {
+                "question": "What was his biggest fear?",
+                "answertext": "He feared the full moon because he knew it would turn him into a werewolf",
+                "answers": [
+                    "Full moon",
+                    "Losing a loved one",
+                    "Tight spaces"
+                ]
+            },
+            {
+                "question": "When Harry was first attacked by dementors in the train when arriving at Hogwarts, what did Lupin give him to help him recover some strength?",
+                "answertext": "The chocolate quickly helped Harry feel normal and he thought the trick to other students in the fifth year at Dumbledore's army lessons",
+                "answers": [
+                    "Chocolate",
+                    "Tea",
+                    "Lollypop"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Had the nickname of Moony because of him turning into a werewolf during full moon"
+        ],
+        "tags": [
+            "All",
+            "Fictional",
+            "Harry potter"
+        ]
+    },
+    {
         "name": "Rene Descartes 1596-1650",
         "bio": "Descartes was a French philosopher. He is seen as the founder of modern philosophy and his work has been very influential. He is probably most famed for his saying \u201ccogito ergo sum\u201d. ",
-        "filename": "photodir/252.jpg",
-        "croppedfilename": "photodir/252.png",
+        "filename": "photodir/285.jpg",
+        "croppedfilename": "photodir/285.png",
         "questions": [
             {
                 "question": "What does Rene Descartes famous saying \u201ccogito ergo sum\u201d mean? ",
@@ -2054,13 +2404,13 @@ var data = {
                 "answertext": "Descartes considered himself a devout Christian and never sought to actively challenge to catholic church. But his work could still be and was interpreted as theologically complicated. The Pope therefore put Descartes books on the list of items prohibited by the Catholic church. ",
                 "answers": [
                     "He sought to explain the world through reason, science, and mathematics. Some considered it to be anti-christian.  ",
-                    "He had an affiar with princess Elisabeth of Behemia.",
-                    "He was an very unlikable character that had little care for other peaple"
+                    "He had an affair with princess Elisabeth of Bohemia.",
+                    "He was an very unlikable character that had little care for other people."
                 ]
             },
             {
                 "question": "Why did Descarted travel to Sweden? ",
-                "answertext": "He travelled to Sweden to serve as Christina\u2019s philosophy tutor. Christina did if fact convert to Catholicism and it is believed that Descartes played a part in it. This was however not ordered by the pope ever though Christina later moved to Rome. ",
+                "answertext": "He travelled to Sweden to serve as Christina\u2019s philosophy tutor. Christina did in fact convert to Catholicism and it is believed that Descartes played a part in it. This was however not ordered by the pope even though Christina later moved to Rome.",
                 "answers": [
                     "He was invited to the Swedish court by queen Christina to serve as her philosophy tutor. ",
                     "He had to escape from France after falling out with the French king. ",
@@ -2071,19 +2421,65 @@ var data = {
         "funfacts": [
             "Descartes famously hated early mornings and he would often stay in bed until noon to think. Therefore, it did not please him when queen Christina insisted on having her philosophy lessons at 5 pm. He caught a cold during the harsh Swedish winter during his morning sessions with queen which later led to pneumonia. He unfortunately never recovered and his hatred for early mornings may after all have been justified. ",
             "He considered France to be too \u201cbustling\u201d for him to concentrate on his work, so he moved to the Netherlands in 1628. He ended up living over 20 years there.  ",
-            "Descartes and princess Elisabeth of Bohemia has an active correspondence that consisted of 58 letters. Elisabeth was well educated and an eager philosopher. They developed a fascinated intellectual collaboration in which Elisabeth struggles to understand herself and her feelings. Descartes even dedicated his book Principles of Philosophy to Elisabeth"
+            "Descartes and princess Elisabeth of Bohemia had an active correspondence that consisted of 58 letters. Elisabeth was well educated and an eager philosopher. They developed a fascinated intellectual collaboration in which Elisabeth struggles to understand herself and her feelings. Descartes even dedicated his book Principles of Philosophy to Elisabeth"
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "French",
             "Scientist"
         ]
     },
     {
+        "name": "Saddam Hussein",
+        "bio": "Saddam Hussein, 1937-2006, was a long-ruling president of Iraq.",
+        "filename": "photodir/288.jpg",
+        "croppedfilename": "photodir/288.png",
+        "questions": [
+            {
+                "question": "When did Saddam serve as the president of Iraq?",
+                "answertext": "His presidency ended when western powers invaded Iraq in 2003.",
+                "answers": [
+                    "1979-2003",
+                    "1986-2006",
+                    "1970-2006"
+                ]
+            },
+            {
+                "question": "How did Saddam Hussein die?",
+                "answertext": "He was hanged despite his wish to be executed by a firing squad.",
+                "answers": [
+                    "He was hanged",
+                    "He was shot",
+                    "He died of a heart attack while awaiting execution"
+                ]
+            },
+            {
+                "question": "What year did Iraq invade Kuwait, which led to the Gulf War?",
+                "answertext": "Iraq invaded Kuwait 1990. Operation Desert Storm, that freed Kuwait, took place in the beginning of 1991.",
+                "answers": [
+                    "1990.0",
+                    "1987.0",
+                    "1994.0"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Saddams' full name was Saddam Hussein Abd al-Majid al-Tikriti.",
+            "Saddams' father died before he was born, and his stepfather treated him badly. At the age of ten he fled to his uncle.",
+            "Saddam studied law for three years."
+        ],
+        "tags": [
+            "All",
+            "1900s",
+            "Leader"
+        ]
+    },
+    {
         "name": "Salvador Dali",
         "bio": "Salvador Dali, 1904-1989, was a surrealist artist.",
-        "filename": "photodir/255.jpg",
-        "croppedfilename": "photodir/255.png",
+        "filename": "photodir/291.jpg",
+        "croppedfilename": "photodir/291.png",
         "questions": [
             {
                 "question": "Where was Dali born?",
@@ -2117,6 +2513,7 @@ var data = {
             "Salvador Dali had an Ocelot (Leopardus pardalis) as a pet. This medium size wild cat animal is native to Central and South America."
         ],
         "tags": [
+            "All",
             "1900s",
             "Artist",
             "Historical",
@@ -2124,10 +2521,69 @@ var data = {
         ]
     },
     {
+        "name": "Saruman",
+        "bio": "Leader of the white council which consisted of al the most powerful beings opposed to Sauron, the dark lord, until Saruman himself was corrupted and turned evil ",
+        "filename": "photodir/294.jpg",
+        "croppedfilename": "photodir/294.png",
+        "questions": [
+            {
+                "question": "What was the name of the fortress did Saruman live in until his defeat",
+                "answertext": "Isengard was a powerful tower in north Rohan in which he had lived for a long time before turning evil",
+                "answers": [
+                    "Isengard",
+                    "Nurmengard",
+                    "Helms deep"
+                ]
+            }
+        ],
+        "funfacts": [
+            "In the books he invaded the Shire and ruled over it until the four hobbits came from the south and liberated it"
+        ],
+        "tags": [
+            "All",
+            "Fictional",
+            "Lotr"
+        ]
+    },
+    {
+        "name": "Sirius Black",
+        "bio": "Sirius Black was Harry's godfather and a close friend of his father James",
+        "filename": "photodir/297.jpg",
+        "croppedfilename": "photodir/297.png",
+        "questions": [
+            {
+                "question": "What did the group of friends that Sirius was part of call him at their time at Hogwarts?",
+                "answertext": "Moony and Prongs were the names they gave to James and Lupin as they could become a Stag and a werewolf respectively",
+                "answers": [
+                    "Padfoot",
+                    "Moony",
+                    "Prongs"
+                ]
+            },
+            {
+                "question": "Who was Sirius killed by?",
+                "answertext": "He was killed by his cousin Bellatrix Lestrange one of not the most notorious of all the death eaters",
+                "answers": [
+                    "Bellatrix Lestrange",
+                    "Lucius Malfoy",
+                    "Antonin Dolohov"
+                ]
+            }
+        ],
+        "funfacts": [
+            "Sirius was an animagus and could shape his form to a big black dog also known as the \"Grim\""
+        ],
+        "tags": [
+            "All",
+            "Fictional",
+            "Harry potter"
+        ]
+    },
+    {
         "name": "Stan Lee",
         "bio": "Stan Lee (1922-2018) was an American comic book writer, famous for his role in Marvel Comics",
-        "filename": "photodir/258.jpg",
-        "croppedfilename": "photodir/258.png",
+        "filename": "photodir/300.jpg",
+        "croppedfilename": "photodir/300.png",
         "questions": [
             {
                 "question": "Has Stan Lee ever made any cameos in the Marvel movies?",
@@ -2162,40 +2618,17 @@ var data = {
             "Stan Lee is a playable character in downloadable content for the 2012 video game The Amazing Spider-Man."
         ],
         "tags": [
+            "All",
             "Historical",
             "1900s",
             "Artist"
         ]
     },
     {
-        "name": "Theodore Roosevelt",
-        "bio": "USA:s 25'th president and and nobel peace prize repissient",
-        "filename": "photodir/261.jpg",
-        "croppedfilename": "photodir/261.png",
-        "questions": [
-            {
-                "question": "Why did Roosevlt get the Nobel prize?",
-                "answertext": "For his work in the Russo- Japanese peace settlement",
-                "answers": [
-                    "Peace work in the Russo- Japanese war",
-                    "Treaty of versailles",
-                    "Helped French colonies getting independence"
-                ]
-            }
-        ],
-        "funfacts": [
-            "Fun Fact text"
-        ],
-        "tags": [
-            "Leader",
-            "American"
-        ]
-    },
-    {
         "name": "Kaiser Wilhelm II",
         "bio": "Friedrich Wilhelm Viktor Albert (1859-1941) was the last german emperor, and king of Prussia.",
-        "filename": "photodir/264.jpg",
-        "croppedfilename": "photodir/264.png",
+        "filename": "photodir/306.jpg",
+        "croppedfilename": "photodir/306.png",
         "questions": [
             {
                 "question": "How long did WiIhelm reign as emperor?",
@@ -2217,7 +2650,7 @@ var data = {
             },
             {
                 "question": "Who were Germany's allies in WW1?",
-                "answertext": "Keeping frendly ties to the other large continental powers, France and Russia was an utmost priority for Bismarck. However, Wilhelm instituted a much more agressive foreing policy, resulting in many former allies being enemies in WW1.",
+                "answertext": "Keeping friendly ties to the other large continental powers, France and Russia was an utmost priority for Bismarck. However, Wilhelm instituted a much more aggressive foreing policy, resulting in many former allies being enemies in WW1.",
                 "answers": [
                     "Austria Hungary and the Ottoman Empire",
                     "France and Russia",
@@ -2239,6 +2672,7 @@ var data = {
             "Wilhelm was grandchild to queen Victoria, and first cousin to both Czar Nicholas of Russia and King George of the United Kingdom"
         ],
         "tags": [
+            "All",
             "Ww1",
             "German",
             "Leader",
@@ -2250,16 +2684,16 @@ var data = {
     {
         "name": "William Shakespeare ",
         "bio": "Shakespeare (1564-1616) was an English poet, playwright and actor. His works are famous all around the world and he is by many considered the greatest dramatist of all time. ",
-        "filename": "photodir/267.jpg",
-        "croppedfilename": "photodir/267.png",
+        "filename": "photodir/309.jpg",
+        "croppedfilename": "photodir/309.png",
         "questions": [
             {
-                "question": "What\u00b4s Shakespeare\u00b4s lost years? ",
-                "answertext": "Shakespeare complete disappeared from all records after the birth of his twins in 1585. There is wide speculation on what he was doing during the period. One theory is the he was hiding from local landlord after getting caught poaching. Another suggest that he was an assistant schoolmaster. No one can know for sure. ",
+                "question": "What's Shakespeare's lost years?",
+                "answertext": "Shakespeare completely disappeared from all records after the birth of his twins in 1585. There is wide speculation on what he was doing during the period. One theory is that he was hiding from the local landlord after getting caught poaching. Another theory suggests that he was an assistant schoolmaster. No one can know for sure.",
                 "answers": [
-                    "Seven years of Shakespeare\u00b4s life where no records of what he did exist. ",
-                    "Seven years in which Shakespeare didn\u00b4t write anything",
-                    "Shakespeare\u2019s last years in which he suffered from dementia. "
+                    "Seven years of Shakespeare's life where no records of what he did exist. ",
+                    "Seven years in which Shakespeare didn't write anything",
+                    "Shakespeare's last years in which he suffered from dementia. "
                 ]
             },
             {
@@ -2272,10 +2706,10 @@ var data = {
                 ]
             },
             {
-                "question": "Why does some people believe that Edward de Vere was the real author of Shakespeare\u00b4s work? ",
-                "answertext": "So little is known about Shakespeare outside of his work that many has expressed their doubts about whether or not he is the real author. They argue that it would be impossible for him to write such eloquent plays with such modest background and so few years in school. Therefore, some believe that the aristocratic poet de Veer is a more likely author. Modern scholars have expressed their doubts about this theory and point out that many famous playwrights came from a modest background during this time. ",
+                "question": "Why do some people believe that Edward de Vere was the real author of Shakespeare's work? ",
+                "answertext": "So little is known about Shakespeare outside of his work that many have expressed their doubts about whether or not he is the real author. They argue that it would be impossible for him to write such eloquent plays with such modest background and so few years in school. Therefore, some believe that the aristocratic poet de Veer is a more likely author. Modern scholars have expressed their doubts about this theory and point out that many famous playwrights came from a modest background during this time. ",
                 "answers": [
-                    "So much of Shakespeare\u00b4s life is shrouded in mystery.",
+                    "So much of Shakespeare's life is shrouded in mystery.",
                     "Shakespeare admits so in his will.",
                     "De Vere features in many of the sources regarding Shakespeare "
                 ]
@@ -2284,9 +2718,10 @@ var data = {
         "funfacts": [
             "No birth record of Shakespeare has survived to this day. The earliest mention of him was when he was baptised at Holy Trinity Church in Stratford-upon-Avon on April 26 1564 ",
             "At 18 years old Shakespeare married the eight years older Anne Hathaway who he had made pregnant. The wedding ceremony was hastily arranged because of this. ",
-            "Shakespeare died of unknown causes and was buried in his home Stratford. Archeologist have been keen on opening the grave to find out what killed him but that request hasn\u00b4t been granted due to Shakespeare\u00b4s wish to not be disturbed. "
+            "Shakespeare died of unknown causes and was buried in his home Stratford. Archeologists have been keen on opening the grave to find out what killed him but that request has not been granted due to Shakespeare\u2019s wish to not be disturbed."
         ],
         "tags": [
+            "All",
             "Pre-1800s",
             "British",
             "Artist",
@@ -2296,12 +2731,12 @@ var data = {
     {
         "name": "Zacharias Topelius",
         "bio": "Zacharias Topelius, 1818-1898, was a finnish editor, teacher and author.",
-        "filename": "photodir/270.jpg",
-        "croppedfilename": "photodir/270.png",
+        "filename": "photodir/312.jpg",
+        "croppedfilename": "photodir/312.png",
         "questions": [
             {
                 "question": "In 1833 Topelius began studying at the University. What did he plan to study?",
-                "answertext": "Topelius was more interested in art subjects and received his PhD in history in 1847. He became extraordinary professor in Finnsh history in 1854 and ordinary professor of Finnish, Nordic and Russian history in 1863.",
+                "answertext": "Topelius was more interested in art subjects and received his PhD in history in 1847. He became an extraordinary professor in Finnsh history in 1854 and an ordinary professor of Finnish, Nordic and Russian history in 1863.",
                 "answers": [
                     "Medicin",
                     "Archeology",
@@ -2330,9 +2765,10 @@ var data = {
         "funfacts": [
             "Topelius was Rector for the University between 1875-1878. After that he received the rare title verkligt statsr\u00e5d/todellinen valtioneuvos",
             "In 1860 Topelius wrote Simeon Levis resa till Finland \u00e5r 5870 efter verldens skapelse, efter de Kristnes tider\u00e4kning det 1900, where he predicted what the future would look like. He mentions, among other things, electric street lights, district heating and wood gas.",
-            "For one year, Johan Ludvig Runeberg, who later became Finland's national poet, was Topelius private teacher."
+            "For one year, Johan Ludvig Runeberg, who later became Finland's national poet, was Topelius' private teacher."
         ],
         "tags": [
+            "All",
             "1800s",
             "Artist",
             "Finnish",
