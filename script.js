@@ -85,10 +85,10 @@ function* game(characterSelection) {
 
 function selectCharacters(count=10, characterSelection) {
 	var characters = [];
-	while (characters.length < count) {
+	while (characters.length <= count) {
 		var character = getRandomCharacter(characterSelection);
 		if (characterSelection) {
-			if (characterSelection.length > count) {
+			if (characterSelection.length >= count) {
 				if (characters.indexOf(character) == -1) {
 					characters.push(character);
 				}
@@ -209,6 +209,7 @@ function newgame() {
 	$("#characters").empty();
 	$("#charCount").text(0)
 	myPlay()
+	points = 0;
 	Object.keys(tags).sort().forEach((tag) => {
 		if (tags[tag] > 2) {
 			var element = $(`<div class="button tag"><span class="checkbox"></span>${tag} (${tags[tag]})</div>`);
